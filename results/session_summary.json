@@ -1,0 +1,89 @@
+[
+ {
+  "agent": {
+   "api_calls": 17,
+   "cache_creation_input": 52150,
+   "cache_read_input": 4989067,
+   "input_uncached": 34,
+   "output": 31552,
+   "thinking": 11568
+  },
+  "exposed": {
+   "belebele_per_lang": 10,
+   "scala_per_lang": 8,
+   "swe_blimp": 26,
+   "swedish_idioms": 12,
+   "total_labelled_items": 140
+  },
+  "fewshot_context_examples": "12 per ScaLA language (fixed evaluation context, not edit feedback)",
+  "full_suite_candidates": 8,
+  "locked": "t1r1_dla44-47_k32_s0.5",
+  "model_forward": {
+   "forward_calls": 1557,
+   "forward_seconds": 1198.751,
+   "generated_tokens": 580,
+   "input_tokens": 338353,
+   "sequences": 5589
+  },
+  "rounds": 2,
+  "tier": 1
+ },
+ {
+  "agent": {
+   "api_calls": 15,
+   "cache_creation_input": 20885,
+   "cache_read_input": 5021608,
+   "input_uncached": 30,
+   "output": 11833,
+   "thinking": 2587
+  },
+  "exposed": {
+   "belebele_per_lang": 20,
+   "scala_per_lang": 16,
+   "swe_blimp": 52,
+   "swedish_idioms": 24,
+   "total_labelled_items": 280
+  },
+  "fewshot_context_examples": "12 per ScaLA language (fixed evaluation context, not edit feedback)",
+  "full_suite_candidates": 8,
+  "locked": "t2r1_dla40-47_K64_s0.5",
+  "model_forward": {
+   "forward_calls": 2980,
+   "forward_seconds": 2265.06,
+   "generated_tokens": 1152,
+   "input_tokens": 668281,
+   "sequences": 11178
+  },
+  "rounds": 2,
+  "tier": 2
+ },
+ {
+  "agent": {
+   "api_calls": 15,
+   "cache_creation_input": 20681,
+   "cache_read_input": 5326623,
+   "input_uncached": 30,
+   "output": 8676,
+   "thinking": 2519
+  },
+  "exposed": {
+   "belebele_per_lang": 40,
+   "scala_per_lang": 32,
+   "swe_blimp": 104,
+   "swedish_idioms": 48,
+   "total_labelled_items": 560
+  },
+  "fewshot_context_examples": "12 per ScaLA language (fixed evaluation context, not edit feedback)",
+  "full_suite_candidates": 6,
+  "locked": "t3r1_dla40-47_K64_s0.25",
+  "model_forward": {
+   "forward_calls": 5049,
+   "forward_seconds": 4948.66,
+   "generated_tokens": 1792,
+   "input_tokens": 1535953,
+   "sequences": 31572
+  },
+  "rounds": 2,
+  "tier": 3
+ }
+]

@@ -86,8 +86,10 @@ def task_stats(task, recs_by_cond, rng_seed):
                 reps = np.mean((W @ C) / np.maximum(W @ N, 1e-9), axis=1)
                 name = 'accuracy' if key == 'correct' else 'raw_accuracy'
                 out.setdefault(c, {})[name] = (float(point), reps)
-            m = np.array([r['margin'] for r in recs_by_cond[c]])
-            out[c]['mean_margin'] = (float(m.mean()), None)
+            Mg = np.zeros(len(groups)); Ng = np.zeros(len(groups))
+            for r in recs_by_cond[c]:
+                Mg[gi[r['group']]] += r['margin']; Ng[gi[r['group']]] += 1
+            out[c]['mean_margin'] = (float(Mg.sum() / Ng.sum()), (W @ Mg) / (W @ Ng))
     elif task.startswith('scala'):
         W = weights_for(groups, ['all'] * len(groups), rng)
         for c in conds:
@@ -110,6 +112,8 @@ def task_stats(task, recs_by_cond, rng_seed):
 
 
 def diff(stats, a, b, metric, scale=100):
+    if metric == 'mean_margin':
+        scale = 1   # nats/token, not pp
     pa, ra = stats[a][metric]; pb, rb = stats[b][metric]
     d = (ra - rb) * scale
     lo, hi = np.percentile(d, [2.5, 97.5])
@@ -168,7 +172,7 @@ def tables(res, conditions, comparisons, title):
             vals = [r['point'][c][m] for c in conditions]
             s = ' | '.join((f'{100 * v:.2f}' if m != 'mean_margin' else f'{v:+.4f}') for v in vals)
             L.append(f'| {t} {m} | {r["n"]} ({r["groups"]}) | {s} |')
-    L += ['', '### Paired differences, pp [95% cluster-bootstrap CI]', '',
+    L += ['', '### Paired differences, pp [95% cluster-bootstrap CI] (mean_margin: nats/token)', '',
           '| task | metric | ' + ' | '.join(f'{a} − {b}' for a, b in comparisons) + ' |',
           '|---|---|' + '---|' * len(comparisons)]
     for t, r in res.items():

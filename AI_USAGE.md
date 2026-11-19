@@ -29,3 +29,16 @@
   earlier tiers' dev findings. Tier-1 results are therefore not "clean" small-budget discoveries for later tiers, and later tiers
   are not independent replications.
 - No edited-model test score was computed before `manifests/experiment_lock.json` was written (enforced in code).
+
+## Measured agent effort in the adjustment sessions
+From `results/session_summary.md`, via the transcript's per-call usage:
+
+| tier | rounds | agent API calls | agent output tokens (thinking) |
+|---|---|---|---|
+| 1 | 2 | 17 | 31,552 (11,568) |
+| 2 | 2 | 15 | 11,833 (2,587) |
+| 3 | 2 | 15 | 8,676 (2,519) |
+
+Cache-read input is about 5M tokens per tier: each call re-reads the whole conversation context. Tier 1 includes writing the reusable
+inspection tools (direct-effect attribution, CV scripts), so later tiers mostly reused them. Implementation, the baseline and the sealed test
+evaluation took place outside these windows. Unattended GPU time: baseline ≈ 48 min; adjustment sessions ≈ 2.3 h of forward passes; sealed test ≈ 4.2 h.

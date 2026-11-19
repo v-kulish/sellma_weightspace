@@ -1,0 +1,238 @@
+{
+ "swe_blimp_sv": {
+  "unchanged correct": {
+   "count": 1618,
+   "examples": [
+    {
+     "id": "swe-0103",
+     "phenomenon": "DOUBLE DEF.",
+     "baseline_margin": 1.0633134841918945,
+     "edited_margin": 1.4498577117919922
+    },
+    {
+     "id": "swe-1303",
+     "phenomenon": "ADJ. NOUN AGR. NUM. PL.",
+     "baseline_margin": 0.9834356307983398,
+     "edited_margin": 1.1797590255737305
+    },
+    {
+     "id": "swe-0015",
+     "phenomenon": "ARG. STR.",
+     "baseline_margin": 4.5349273681640625,
+     "edited_margin": 5.701096534729004
+    },
+    {
+     "id": "swe-2403",
+     "phenomenon": "V3",
+     "baseline_margin": 0.6394529342651367,
+     "edited_margin": 0.7054023742675781
+    }
+   ]
+  },
+  "unchanged wrong": {
+   "count": 673,
+   "examples": [
+    {
+     "id": "swe-0328",
+     "phenomenon": "ART. NOUN AGR. GEN.",
+     "baseline_margin": -1.5142278671264648,
+     "edited_margin": -1.5135116577148438
+    },
+    {
+     "id": "swe-0637",
+     "phenomenon": "EMBEDDED V2 AdvP.",
+     "baseline_margin": -0.5010404586791992,
+     "edited_margin": -0.7389621734619141
+    },
+    {
+     "id": "swe-2562",
+     "phenomenon": "ELLIPSIS2",
+     "baseline_margin": -0.4923667907714844,
+     "edited_margin": -0.8315191268920898
+    },
+    {
+     "id": "swe-1701",
+     "phenomenon": "RESUMPTION 2",
+     "baseline_margin": -0.4174175262451172,
+     "edited_margin": -0.5009703636169434
+    }
+   ]
+  },
+  "newly broken": {
+   "count": 76,
+   "examples": [
+    {
+     "id": "swe-1503",
+     "phenomenon": "NO RESUMPTION",
+     "baseline_margin": 0.06386661529541016,
+     "edited_margin": -0.018660545349121094
+    },
+    {
+     "id": "swe-0278",
+     "phenomenon": "ART. NOUN AGR. INDEF.",
+     "baseline_margin": 0.2623577117919922,
+     "edited_margin": -0.2579059600830078
+    },
+    {
+     "id": "swe-2197",
+     "phenomenon": "V2 REL. CL.",
+     "baseline_margin": 0.09755134582519531,
+     "edited_margin": -0.0013580322265625
+    },
+    {
+     "id": "swe-2596",
+     "phenomenon": "ELLIPSIS2",
+     "baseline_margin": 0.0762481689453125,
+     "edited_margin": -0.019378185272216797
+    }
+   ]
+  },
+  "corrected": {
+   "count": 91,
+   "examples": [
+    {
+     "id": "swe-1152",
+     "phenomenon": "ADJ. NOUN AGR. DEF.",
+     "baseline_margin": -0.2971229553222656,
+     "edited_margin": 0.32825660705566406
+    },
+    {
+     "id": "swe-1811",
+     "phenomenon": "V3 CL.",
+     "baseline_margin": -0.17963600158691406,
+     "edited_margin": 0.17741870880126953
+    },
+    {
+     "id": "swe-0837",
+     "phenomenon": "EMBEDDED V3 OBJ.",
+     "baseline_margin": -0.06791019439697266,
+     "edited_margin": 0.1998281478881836
+    },
+    {
+     "id": "swe-0822",
+     "phenomenon": "EMBEDDED V3 OBJ.",
+     "baseline_margin": -0.05255699157714844,
+     "edited_margin": 0.059627532958984375
+    }
+   ]
+  }
+ },
+ "swedish_idioms_sv": {
+  "unchanged correct": {
+   "count": 304,
+   "examples": [
+    {
+     "id": "idiom-0318",
+     "phenomenon": "challenge",
+     "baseline_margin": 0.297640323638916,
+     "edited_margin": 0.30886125564575195
+    },
+    {
+     "id": "idiom-0377",
+     "phenomenon": "standard",
+     "baseline_margin": 0.509244441986084,
+     "edited_margin": 0.5906238555908203
+    },
+    {
+     "id": "idiom-0053",
+     "phenomenon": "challenge",
+     "baseline_margin": 0.3807258605957031,
+     "edited_margin": 0.5277571678161621
+    },
+    {
+     "id": "idiom-0425",
+     "phenomenon": "standard",
+     "baseline_margin": 1.2203474044799805,
+     "edited_margin": 1.500328540802002
+    }
+   ]
+  },
+  "corrected": {
+   "count": 13,
+   "examples": [
+    {
+     "id": "idiom-0217",
+     "phenomenon": "challenge",
+     "baseline_margin": -0.09028100967407227,
+     "edited_margin": 0.1502370834350586
+    },
+    {
+     "id": "idiom-0369",
+     "phenomenon": "standard",
+     "baseline_margin": -0.031551361083984375,
+     "edited_margin": 0.37203073501586914
+    },
+    {
+     "id": "idiom-0239",
+     "phenomenon": "challenge",
+     "baseline_margin": -0.0742034912109375,
+     "edited_margin": 0.030938148498535156
+    },
+    {
+     "id": "idiom-0160",
+     "phenomenon": "standard",
+     "baseline_margin": -0.07346868515014648,
+     "edited_margin": 0.0026330947875976562
+    }
+   ]
+  },
+  "unchanged wrong": {
+   "count": 101,
+   "examples": [
+    {
+     "id": "idiom-0291",
+     "phenomenon": "challenge",
+     "baseline_margin": -1.2325458526611328,
+     "edited_margin": -1.4609613418579102
+    },
+    {
+     "id": "idiom-0051",
+     "phenomenon": "standard",
+     "baseline_margin": -0.29635047912597656,
+     "edited_margin": -0.6757512092590332
+    },
+    {
+     "id": "idiom-0344",
+     "phenomenon": "challenge",
+     "baseline_margin": -1.2125396728515625,
+     "edited_margin": -1.326427936553955
+    },
+    {
+     "id": "idiom-0401",
+     "phenomenon": "standard",
+     "baseline_margin": -0.1505112648010254,
+     "edited_margin": -0.0938725471496582
+    }
+   ]
+  },
+  "newly broken": {
+   "count": 12,
+   "examples": [
+    {
+     "id": "idiom-0459",
+     "phenomenon": "standard",
+     "baseline_margin": 0.03044891357421875,
+     "edited_margin": -0.19594478607177734
+    },
+    {
+     "id": "idiom-0067",
+     "phenomenon": "challenge",
+     "baseline_margin": 0.11815690994262695,
+     "edited_margin": -0.07814407348632812
+    },
+    {
+     "id": "idiom-0016",
+     "phenomenon": "challenge",
+     "baseline_margin": 0.1357097625732422,
+     "edited_margin": -0.025809764862060547
+    },
+    {
+     "id": "idiom-0355",
+     "phenomenon": "standard",
+     "baseline_margin": 0.10298013687133789,
+     "edited_margin": -0.007316112518310547
+    }
+   ]
+  }
+ }
+}

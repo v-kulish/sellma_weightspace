@@ -1,0 +1,11 @@
+{
+ "accounting": {
+  "forward_calls": 3821,
+  "forward_seconds": 2439.696,
+  "generated_tokens": 2048,
+  "input_tokens": 688393,
+  "sequences": 13983
+ },
+ "seconds": 2464.773415497999,
+ "utc": "2026-11-19T18:24:54.401259+00:00"
+}
