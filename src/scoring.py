@@ -9,9 +9,9 @@ from sklearn.metrics import matthews_corrcoef, f1_score
 
 from .model import chat_prompt
 
-RAW_TEMPLATE = 'raw_bos_no_eos_mean_logp_v1'            # brief section 7 default; secondary here
+RAW_TEMPLATE = 'raw_bos_no_eos_mean_logp_v1'            # secondary protocol
 CHAT_INSTRUCTION = 'Skriv en mening på svenska.'
-CHAT_TEMPLATE = 'chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1'  # primary (DESIGN_DECISIONS #11)
+CHAT_TEMPLATE = 'chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1'  # primary protocol
 
 
 def token_logps(logits, targets, chunk=64):

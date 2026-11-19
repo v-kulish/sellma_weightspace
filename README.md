@@ -1,39 +1,44 @@
-# Agent-driven weight edits for Swedish grammatical preferences (Gemma 4 12B IT)
+# Weight-space programming for Swedish: agent-driven edits to Gemma 4 12B IT
 
-Can a coding agent that reads activations and weights (no gradient training) find small edits to Gemma 4 12B IT's MLP weights
-that improve Swedish grammatical preferences? The constraints: limited labelled feedback (three nested dev budgets), no regression
-on other languages, and the edit must beat a matched random edit on held-out data.
+Candidate assignment for SE.LLMA, by Vadym Kulish.
 
-**Result.** Agent-designed late-layer MLP neuron edits (a fixed rule picked one per tier) raise held-out Swe-BLiMP likelihood margins
-by +0.04 to +0.16 nats/token, far beyond spectrum-matched random edits. But macro accuracy moves only +0.61 pp [−0.42, +1.65] for the
-primary tier-3 edit (unchanged 69.08%), and +1.3 pp for tiers 1–2; every interval crosses zero, and none clearly beats its random control.
-There is no transfer to Idioms or ScaLA, and all seven Belebele languages are preserved within −3 pp. In-sample dev gains (+11.5 to +23 pp) were
-mostly selection noise. H1 is not supported at the pre-registered threshold.
+Can a coding agent that reads activations and weights edit Gemma 4 12B IT's MLP weights so that the model prefers grammatical Swedish? The agent may not use gradient training and gets a small labelled budget. The edit must also beat a matched random edit on held-out data and leave other languages intact.
 
-**Details:** see `reports/research_note.md` (PDF: `reports/research_note.pdf`), `results/tables.md` and `reports/baseline/BASELINE.md`.
-The agent's reasoning for every adjustment session, including token accounting, is in `reports/adjustments/`.
+**Result.** The agent's late-layer neuron edits raised held-out Swe-BLiMP likelihood margins by 0.04 to 0.16 nats per token, well beyond random edits of identical spectrum. Accuracy moved only +0.61 pp [−0.42, +1.65] for the primary tier (unchanged 69.08%) and +1.3 pp for the smaller tiers. Every interval crosses zero, and no edit clearly beats its random control. There was no transfer to idioms or acceptability judgement, and all seven Belebele languages stayed within the −3 pp tolerance. Dev gains of 11.5 to 23 pp were mostly selection noise. The hypothesis is not supported. Changing the scoring prompt of the unchanged model moved the same benchmark by +16.9 pp.
 
-## Design in one paragraph
-Model `google/gemma-4-12B-it` @ `43c9d014b231474fa7212dbb48a762566c2b255d`, float32 weights and compute, SDPA attention, no TF32,
-eager PyTorch (`src/model.py`). Four benchmarks, each with nested **adjustment tiers** held out from its test set (split seed 42,
-immutable manifests in `manifests/splits/`):
+## Where to find things
 
-| benchmark | tiers 1/2/3 (dev) | test | metric |
+| file | contents |
+|---|---|
+| [`report.pdf`](report.pdf) | full report (ACL format) |
+| [`research_note.md`](research_note.md) | two-page research note |
+| [`RESULTS.md`](RESULTS.md) | configuration, model and data revisions, seeds, outcomes, examples, compute |
+| [`reports/baseline/BASELINE.md`](reports/baseline/BASELINE.md) | unchanged-model results on all benchmarks |
+| [`reports/adjustments/`](reports/adjustments/) | pre-registered editing protocol and the agent's reasoning report for each round, with token accounting |
+| [`results/`](results/) | item-level dev and test records, candidate evaluations, tier locks, statistics (`tables.md`, `analysis.json`) |
+| [`manifests/`](manifests/) | pinned sources and checksums, split manifests, environment, experiment lock |
+| [`artifacts/specs/`](artifacts/specs/) | compact specifications of the locked edits and random controls |
+| [`AI_USAGE.md`](AI_USAGE.md) | AI tools and their contributions |
+
+## Method in brief
+
+- **Model.** `google/gemma-4-12B-it` @ `43c9d014b231474fa7212dbb48a762566c2b255d`, float32 weights and computation, SDPA attention, TF32 off.
+- **Benchmarks.** Swe-BLiMP (primary), Swedish Idioms, ScaLA sv/da/nb/en, and Belebele in seven languages. Each reserves nested dev tiers held out from its test set (split seed 42):
+
+| benchmark | dev tiers 1/2/3 | test | metric |
 |---|---|---|---|
 | Swe-BLiMP v1 | 26/52/104 pairs (1/2/4 per phenomenon) | 2,458 pairs (38 related pairs quarantined) | macro pair accuracy |
 | Swedish Idioms | 12/24/48 pairs | 430 pairs | pair accuracy |
-| ScaLA sv/da/nb/en | 8/16/32 rows per language (label-balanced) | 256 rows per language | accuracy, MCC |
-| Belebele ×7 languages | 10/20/40 questions (whole passages, aligned IDs) | 201 questions / 113 passages | accuracy |
+| ScaLA sv/da/nb/en | 8/16/32 rows per language | 256 rows per language | accuracy, MCC |
+| Belebele ×7 languages | 10/20/40 questions (whole passages) | 201 questions / 113 passages | accuracy |
 
-Minimal pairs are scored as mean token log-probability of each sentence, as the model's reply to the fixed user turn
-`Skriv en mening på svenska.` (thinking disabled). Raw BOS-only scoring is reported as a secondary protocol: this IT checkpoint's raw-text
-likelihoods are degenerate (DESIGN_DECISIONS #11). Each tier restarts from the original weights. The agent (Claude Opus 5.5) inspects
-dev behaviour, activations and weights, evaluates at most 4 rounds × 4 candidates on that tier's full dev suite, and locks by a fixed rule
-(`reports/adjustments/PROTOCOL.md`). Each locked edit gets a matched random control: same matrices and rank, identical singular values,
-random singular vectors (seed 43). Test scores of edited models were sealed in code until all three tiers were locked
-(`manifests/experiment_lock.json`).
+- **Scoring.** Minimal pairs are scored by the mean token log-probability of each sentence, as the model's reply to the user turn `Skriv en mening på svenska.` with thinking disabled. Raw scoring after `<bos>` alone is reported as a secondary protocol.
+- **Editing.** Each tier restarts from the original weights. Claude Opus 5.5 inspects dev behaviour, activations and weights, then evaluates at most 4 rounds × 4 candidate edits on the tier's full dev suite. It locks one edit by a fixed rule (`reports/adjustments/PROTOCOL.md`).
+- **Controls and sealing.** Each locked edit gets a matched random edit with the same matrices, rank and singular values but random singular vectors (seed 43). Edited test scores were sealed in code until all three tiers were locked (`manifests/experiment_lock.json`).
+- **Statistics.** 95% paired cluster-bootstrap intervals, 10,000 draws, seed 2026.
 
 ## Reproduce
+
 Hardware used: NVIDIA DGX Spark (GB10, ARM64, 121 GiB unified memory), driver 580.173.02, CUDA 13.0. Peak GPU allocation is about 56 GB.
 
 ```bash
@@ -46,7 +51,7 @@ bash scripts/fetch_data.sh                                            # pinned d
 .venv/bin/python -m src.evaluate baseline                             # ~48 min
 ```
 
-Adjustment sessions (dev only; their order and arguments are recorded in each `reports/adjustments/tier*_round*.md`):
+Adjustment sessions are dev only. Their order and arguments are recorded in each `reports/adjustments/tier*_round*.md`:
 
 ```bash
 .venv/bin/python scripts/inspect_tier.py 1 && .venv/bin/python sessions/tier1_inspect_dla.py 1
@@ -57,25 +62,37 @@ Adjustment sessions (dev only; their order and arguments are recorded in each `r
 .venv/bin/python scripts/lock.py                                      # experiment lock: unseals test evaluation
 ```
 
-The locked edits are stored as compact specs in `artifacts/specs/` (neuron indices and scales; the random-control seed). Rebuild the low-rank
-factors from the original checkpoint, checking each identity against the lock:
+The locked edits are rebuilt from the original checkpoint and their compact specs, checking each identity against the lock. Then the sealed test and the analysis run:
 
 ```bash
 .venv/bin/python scripts/edit_specs.py rebuild
 .venv/bin/python -m src.evaluate test          # ~5 h for 6 edited conditions
-.venv/bin/python -m src.analyze && .venv/bin/python -m src.figures && .venv/bin/python -m src.report
+.venv/bin/python -m src.analyze && .venv/bin/python -m src.figures && .venv/bin/python -m src.paper
 ```
 
-`src.analyze`, `src.figures` and `src.report` need only the saved item records in `results/` (CPU). Benchmark text is not committed:
-records keep ids, hashes and scores.
+`src.analyze`, `src.figures` and `src.paper` need only the saved item records in `results/` and run on CPU. `src.paper` regenerates the report's figures and LaTeX tables into `overleaf/`; the LaTeX source of `report.pdf` itself is not part of the repository. Benchmark text is not committed; records keep ids, hashes and scores.
 
 ## Layout
-`src/` library (data, model, scoring, edits, evaluate, session tools, analysis, figures, PDF). `sessions/` the agent's per-round scripts.
-`scripts/` setup, validation, locking, token accounting. `manifests/` sources, splits, environment, experiment lock. `results/` dev and test
-item records, rounds, tier locks, analysis. `reports/` baseline report, adjustment reports, research note. See `AI_USAGE.md`, `THIRD_PARTY.md`,
-`DESIGN_DECISIONS.md` and the original brief `Swedish_Weight_Editing_Codex_Brief.md`.
+
+| folder | contents |
+|---|---|
+| `src/` | library: data, model, scoring, edits, evaluate, session tools, analysis, figures, report figures and tables |
+| `sessions/` | the agent's per-round scripts |
+| `scripts/` | setup, validation, locking, token accounting |
+
+See `THIRD_PARTY.md` for licenses.
+
+## AI usage
+
+The article analysis, hypothesis, research and experiment design are the author's own. Other contributions:
+- **ChatGPT (GPT-6 Astra) and Claude (Opus 5.5):** helped find and summarise information on the web.
+- **Codex (GPT-6 Astra):** implemented a pilot run.
+- **Claude Opus 5.5 (high effort) in Claude Code:** in the main run, wrote the code after the author defined the repository structure and targets, and acted as the editing agent. Its round reports are experimental artifacts. It also assisted with writing.
+
+No AI judge evaluated any output. Details are in [`AI_USAGE.md`](AI_USAGE.md).
 
 ## Publishing
+
 No remote is configured. After review, create an empty GitHub repository and run:
 
 ```bash

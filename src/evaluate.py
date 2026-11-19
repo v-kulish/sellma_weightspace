@@ -1,6 +1,6 @@
 """Dev-tier and sealed test evaluation over the full suite, with resumable, keyed caches.
 
-Test sealing (DESIGN_DECISIONS.md #9): edited/random conditions can only be test-evaluated after
+Test sealing: edited/random conditions can only be test-evaluated after
 manifests/experiment_lock.json exists and lists the condition with the identical edit identity.
 """
 import argparse

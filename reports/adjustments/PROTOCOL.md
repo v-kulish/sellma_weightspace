@@ -1,6 +1,6 @@
 # Adjustment-session protocol (pre-registered before tier 1, 2026-11-19)
 
-This fixes the rules for the agent-driven edits (DESIGN_DECISIONS.md #5–#10) before any edit is tried.
+This fixes the rules for the agent-driven edits before any edit is tried.
 
 ## Information the agent may use
 - Unchanged-model activations, weights and dev-tier outputs of **all** benchmarks for the current tier only
@@ -27,7 +27,7 @@ This fixes the rules for the agent-driven edits (DESIGN_DECISIONS.md #5–#10) b
 
 ## Lock rule (fixed)
 Metrics are dev changes vs the unchanged model on the same tier:
-- Primary: Swe-BLiMP macro accuracy (chat-context protocol, DESIGN_DECISIONS #11).
+- Primary: Swe-BLiMP macro accuracy (chat-context protocol).
 - Swedish secondary (item-weighted pooled accuracy): Idioms, ScaLA-sv, Belebele-sv.
 - Non-Swedish guard (item-weighted pooled accuracy): ScaLA da/nb/en, Belebele dan/nob/fin/isl/eng/zho.
 

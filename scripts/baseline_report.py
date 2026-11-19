@@ -20,10 +20,10 @@ dev = load_condition('baseline', 'dev', 3)
 L = ['# Baseline: unchanged google/gemma-4-12B-it (float32)', '',
      'Model revision `43c9d014b231474fa7212dbb48a762566c2b255d`; FP32 weights and compute, SDPA, no TF32. '
      'Primary minimal-pair protocol: sentence as the reply to the user turn "Skriv en mening på svenska." '
-     '(thinking disabled; sentence tokens only; mean log-prob). Secondary: raw BOS-only (brief §7 default). '
+     '(thinking disabled; sentence tokens only; mean log-prob). Secondary: raw BOS-only. '
      'Intervals: 95% cluster bootstrap (10,000 draws, seed 2026), single condition.', '',
      '**Exposure note:** these baseline *test* numbers were computed and viewed before any adjustment session, '
-     'at the user\'s request (DESIGN_DECISIONS #4a, #9).', '']
+     'at the user\'s request.', '']
 
 # ---- headline
 L += ['## Headline (test)', '', '| benchmark | n (groups) | metric | value | 95% CI |', '|---|---|---|---|---|']

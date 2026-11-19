@@ -7,3 +7,17 @@ __pycache__/
 .pytest_cache/
 *.tmp
 artifacts/**/*.pt
+.tools/
+
+# LaTeX source of report.pdf (kept outside the repository)
+overleaf/
+
+# editor / OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+.ipynb_checkpoints/
+
+# secrets (none in the repository; defensive)
+.env

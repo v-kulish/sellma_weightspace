@@ -1,4 +1,4 @@
-"""Sum the coding agent's own API token usage between two UTC timestamps (DESIGN_DECISIONS #10).
+"""Sum the coding agent's own API token usage between two UTC timestamps.
 
 Source: the Claude Code session transcript (JSONL), whose assistant entries carry per-API-call `usage`
 (input, cache creation, cache read, output, thinking). Entries are de-duplicated by message id.
