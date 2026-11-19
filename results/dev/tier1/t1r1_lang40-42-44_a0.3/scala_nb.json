@@ -1,0 +1,233 @@
+{
+ "accounting": {
+  "forward_calls": 17,
+  "forward_seconds": 8.033000000000001,
+  "generated_tokens": 16,
+  "input_tokens": 1333,
+  "sequences": 8
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 58979319,
+   "changed_fraction": 0.9999477863311768,
+   "entries": 58982400,
+   "max_abs": 0.06377771496772766,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 1.1580296754837036,
+   "relative_fro": 0.005315144080668688
+  },
+  {
+   "changed_entries": 58978341,
+   "changed_fraction": 0.999931275844574,
+   "entries": 58982400,
+   "max_abs": 0.03219607472419739,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 0.353630393743515,
+   "relative_fro": 0.004805563949048519
+  },
+  {
+   "changed_entries": 58981493,
+   "changed_fraction": 0.9999846816062927,
+   "entries": 58982400,
+   "max_abs": 0.011988162994384766,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 1.2679314613342285,
+   "relative_fro": 0.005969690158963203
+  }
+ ],
+ "key": {
+  "condition": "t1r1_lang40-42-44_a0.3",
+  "edit": "6f2e534c90d55586",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "9784721c58d58737",
+  "tier": 1
+ },
+ "records": [
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-01293",
+   "id": "scala-nb-test-1644",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 908,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 0,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-01217",
+   "id": "scala-nb-test-1250",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 906,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00297",
+   "id": "scala-nb-test-1405",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 890,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-00504",
+   "id": "scala-nb-test-0504",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 906,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00368",
+   "id": "scala-nb-test-0368",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 892,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00226",
+   "id": "scala-nb-test-0383",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 893,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00430",
+   "id": "scala-nb-test-0962",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 918,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r1_lang40-42-44_a0.3",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00599",
+   "id": "scala-nb-test-0599",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 921,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  }
+ ],
+ "seconds": 8.136971254003583,
+ "summary": {
+  "accuracy": 0.875,
+  "invalid_rate": 0.0,
+  "macro_f1": 0.873015873015873,
+  "mcc": 0.7745966692414834,
+  "n": 8
+ },
+ "utc": "2026-11-19T12:11:34.145630+00:00"
+}

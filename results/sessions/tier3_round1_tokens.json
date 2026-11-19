@@ -1,0 +1,67 @@
+{
+ "agent": {
+  "api_calls": 10,
+  "cache_creation_input": 13209,
+  "cache_read_input": 3511182,
+  "input_uncached": 20,
+  "output": 5206,
+  "output_non_thinking": 3704,
+  "thinking": 1502,
+  "transcript": "bc06c9cb-45e1-4eb0-b985-c153463ae3c9.jsonl",
+  "window_utc": [
+   "2026-11-19T13:19:42.132005Z",
+   "2026-11-19T14:30:01.173889+00:00"
+  ]
+ },
+ "model_forward": {
+  "candidate construction (build)": {
+   "forward_calls": 0,
+   "forward_seconds": 0.0,
+   "generated_tokens": 0,
+   "input_tokens": 0,
+   "sequences": 0
+  },
+  "dev evaluation of candidates": {
+   "forward_calls": 2240,
+   "forward_seconds": 1407.726,
+   "generated_tokens": 1024,
+   "input_tokens": 376328,
+   "sequences": 4064
+  },
+  "inspection - CV across phenomena": {
+   "forward_calls": 280,
+   "forward_seconds": 861.35,
+   "generated_tokens": 0,
+   "input_tokens": 299236,
+   "sequences": 8512
+  },
+  "inspection - CV within phenomena": {
+   "forward_calls": 280,
+   "forward_seconds": 865.286,
+   "generated_tokens": 0,
+   "input_tokens": 299236,
+   "sequences": 8512
+  },
+  "inspection - direct-effect attribution": {
+   "forward_calls": 304,
+   "forward_seconds": 0.0,
+   "generated_tokens": 0,
+   "input_tokens": 10687,
+   "sequences": 304
+  },
+  "inspection - grammar+language activations": {
+   "forward_calls": 45,
+   "forward_seconds": 90.336,
+   "generated_tokens": 0,
+   "input_tokens": 33106,
+   "sequences": 444
+  },
+  "inspection - random-neuron CV": {
+   "forward_calls": 130,
+   "forward_seconds": 402.685,
+   "generated_tokens": 0,
+   "input_tokens": 138931,
+   "sequences": 3952
+  }
+ }
+}

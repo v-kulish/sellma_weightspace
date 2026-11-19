@@ -1,0 +1,247 @@
+{
+ "accounting": {
+  "forward_calls": 10,
+  "forward_seconds": 6.636000000000003,
+  "generated_tokens": 0,
+  "input_tokens": 2497,
+  "sequences": 10
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 58980036,
+   "changed_fraction": 0.9999599456787109,
+   "entries": 58982400,
+   "max_abs": 0.05366012454032898,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 0.5893839597702026,
+   "relative_fro": 0.008009272627532482
+  }
+ ],
+ "key": {
+  "condition": "t1r1_lang42_a0.5",
+  "edit": "8d5cf5f9f568da7b",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "59a50407bbdd5845",
+  "tier": 1
+ },
+ "records": [
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 13.64062213897705,
+   "group": "https://en.wikivoyage.org/wiki/Food_and_drink",
+   "id": "https://en.wikivoyage.org/wiki/Food_and_drink#1",
+   "language": "fin_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 231,
+   "scores": [
+    -1.9073486328125e-06,
+    -13.640624046325684,
+    -16.721689224243164,
+    -18.51067352294922
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 12.461555480957031,
+   "group": "https://en.wikivoyage.org/wiki/Food_and_drink",
+   "id": "https://en.wikivoyage.org/wiki/Food_and_drink#2",
+   "language": "fin_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 239,
+   "scores": [
+    -12.461559295654297,
+    -15.293105125427246,
+    -17.01592445373535,
+    -3.814697265625e-06
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 6.519081115722656,
+   "group": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto",
+   "id": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto#1",
+   "language": "fin_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 219,
+   "scores": [
+    -0.0020275115966796875,
+    -7.976213455200195,
+    -6.521108627319336,
+    -8.565826416015625
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 13.95426082611084,
+   "group": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto",
+   "id": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto#2",
+   "language": "fin_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 231,
+   "scores": [
+    -17.663631439208984,
+    0.0,
+    -13.95426082611084,
+    -18.22875213623047
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 0,
+   "gold": 1,
+   "gold_margin": -6.348627090454102,
+   "group": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix",
+   "id": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix#1",
+   "language": "fin_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 239,
+   "scores": [
+    -7.55921745300293,
+    -6.35279655456543,
+    -0.004169464111328125,
+    -6.308744430541992
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 16.781654357910156,
+   "group": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix",
+   "id": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix#2",
+   "language": "fin_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 244,
+   "scores": [
+    -18.32264518737793,
+    -16.781654357910156,
+    -20.568897247314453,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 18.126049041748047,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks#1",
+   "language": "fin_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 267,
+   "scores": [
+    -18.126049041748047,
+    0.0,
+    -21.25237464904785,
+    -20.714536666870117
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 18.687149047851562,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks#2",
+   "language": "fin_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 268,
+   "scores": [
+    -20.160554885864258,
+    -18.687149047851562,
+    0.0,
+    -18.979455947875977
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 19.20427703857422,
+   "group": "https://en.wikivoyage.org/wiki/Music_festival_circuit",
+   "id": "https://en.wikivoyage.org/wiki/Music_festival_circuit#1",
+   "language": "fin_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 273,
+   "scores": [
+    -19.20427703857422,
+    0.0,
+    -20.191200256347656,
+    -21.471508026123047
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t1r1_lang42_a0.5",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 16.978601455688477,
+   "group": "https://en.wikivoyage.org/wiki/Music_festival_circuit",
+   "id": "https://en.wikivoyage.org/wiki/Music_festival_circuit#2",
+   "language": "fin_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 286,
+   "scores": [
+    -18.3272762298584,
+    -16.978601455688477,
+    -20.701160430908203,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 1
+  }
+ ],
+ "seconds": 6.656314924999606,
+ "summary": {
+  "accuracy": 0.9,
+  "mean_gold_margin": 13.000462341308594,
+  "n": 10
+ },
+ "utc": "2026-11-19T12:10:39.969457+00:00"
+}

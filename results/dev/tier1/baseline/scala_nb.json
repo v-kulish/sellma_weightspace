@@ -1,0 +1,205 @@
+{
+ "accounting": {
+  "forward_calls": 17,
+  "forward_seconds": 7.907000000000004,
+  "generated_tokens": 16,
+  "input_tokens": 1333,
+  "sequences": 8
+ },
+ "edit_stats": [],
+ "key": {
+  "condition": "baseline",
+  "edit": null,
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "9784721c58d58737",
+  "tier": 1
+ },
+ "records": [
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-01293",
+   "id": "scala-nb-test-1644",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 908,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 0,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-01217",
+   "id": "scala-nb-test-1250",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 906,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00297",
+   "id": "scala-nb-test-1405",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 890,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-00504",
+   "id": "scala-nb-test-0504",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 906,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00368",
+   "id": "scala-nb-test-0368",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 892,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00226",
+   "id": "scala-nb-test-0383",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 893,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00430",
+   "id": "scala-nb-test-0962",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 918,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00599",
+   "id": "scala-nb-test-0599",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 921,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  }
+ ],
+ "seconds": 8.009359171999677,
+ "summary": {
+  "accuracy": 0.875,
+  "invalid_rate": 0.0,
+  "macro_f1": 0.873015873015873,
+  "mcc": 0.7745966692414834,
+  "n": 8
+ },
+ "utc": "2026-11-19T12:08:41.419363+00:00"
+}

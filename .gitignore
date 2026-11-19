@@ -6,3 +6,4 @@ results/inspect/*.pt
 __pycache__/
 .pytest_cache/
 *.tmp
+artifacts/**/*.pt

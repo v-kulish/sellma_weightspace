@@ -1,0 +1,7 @@
+{
+ "name": "t3r1_dla40-47_K64_s0.25__random43",
+ "description": "matched random control (seed 43) for t3r1_dla40-47_K64_s0.25",
+ "random_of": "t3r1_dla40-47_K64_s0.25",
+ "seed": 43,
+ "identity": "a5a57d23c10f6c55"
+}

@@ -1,0 +1,1171 @@
+{
+ "baseline": {
+  "belebele_dan_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 12.270105743408203,
+   "n": 20
+  },
+  "belebele_eng_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 13.172204494476318,
+   "n": 20
+  },
+  "belebele_fin_Latn": {
+   "accuracy": 0.95,
+   "mean_gold_margin": 12.402264928817749,
+   "n": 20
+  },
+  "belebele_isl_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 9.769615364074706,
+   "n": 20
+  },
+  "belebele_nob_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 11.35951657295227,
+   "n": 20
+  },
+  "belebele_swe_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 12.146540689468384,
+   "n": 20
+  },
+  "belebele_zho_Hans": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 13.384581279754638,
+   "n": 20
+  },
+  "scala_da": {
+   "accuracy": 0.875,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.875,
+   "mcc": 0.75,
+   "n": 16
+  },
+  "scala_en": {
+   "accuracy": 0.75,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.746031746031746,
+   "mcc": 0.5163977794943222,
+   "n": 16
+  },
+  "scala_nb": {
+   "accuracy": 0.8125,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.8056680161943319,
+   "mcc": 0.674199862463242,
+   "n": 16
+  },
+  "scala_sv": {
+   "accuracy": 0.9375,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.9372549019607843,
+   "mcc": 0.8819171036881969,
+   "n": 16
+  },
+  "swe_blimp_sv": {
+   "equal_length_accuracy": 0.6363636363636364,
+   "equal_length_n": 33,
+   "macro_accuracy": 0.6153846153846154,
+   "mean_margin": 0.34308754480802095,
+   "micro_accuracy": 0.6153846153846154,
+   "n": 52,
+   "per_phenomenon": {
+    "ADJ. NOUN AGR. DEF.": 1.0,
+    "ADJ. NOUN AGR. GEN.": 0.5,
+    "ADJ. NOUN AGR. INDEF.": 1.0,
+    "ADJ. NOUN AGR. NUM. PL.": 0.5,
+    "ADJ. NOUN AGR. NUM. SG.": 1.0,
+    "ARG. STR.": 1.0,
+    "ART. NOUN AGR. GEN.": 1.0,
+    "ART. NOUN AGR. INDEF.": 1.0,
+    "ART. NOUN AGR. PL.": 0.5,
+    "ART. NOUN AGR. SG.": 0.0,
+    "DOUBLE DEF.": 1.0,
+    "ELLIPSIS1": 1.0,
+    "ELLIPSIS2": 1.0,
+    "EMBEDDED V2 AdvP.": 0.0,
+    "EMBEDDED V3 CL.": 0.0,
+    "EMBEDDED V3 OBJ.": 0.5,
+    "NO RESUMPTION": 1.0,
+    "PARTICLE OBJ. ORDER": 0.5,
+    "RESUMPTION 1": 0.5,
+    "RESUMPTION 2": 0.0,
+    "V2 REL. CL.": 0.0,
+    "V3": 0.5,
+    "V3 CL.": 1.0,
+    "V3 COMPLEX NP": 1.0,
+    "V3 OBJ.": 0.0,
+    "V3 PP": 0.5
+   },
+   "raw_macro_accuracy": 0.5192307692307693,
+   "raw_mean_margin": 0.09253463378319374,
+   "ties": 0,
+   "total_logp_accuracy": 0.6730769230769231
+  },
+  "swedish_idioms_sv": {
+   "equal_length_accuracy": 0.7272727272727273,
+   "equal_length_n": 11,
+   "macro_accuracy": 0.675,
+   "mean_margin": 0.5900681614875793,
+   "micro_accuracy": 0.7916666666666666,
+   "n": 24,
+   "per_phenomenon": {
+    "challenge": 0.5,
+    "standard": 0.85
+   },
+   "raw_macro_accuracy": 0.4,
+   "raw_mean_margin": -0.09493366877237956,
+   "ties": 0,
+   "total_logp_accuracy": 0.7083333333333334
+  }
+ },
+ "build_accounting": {
+  "forward_calls": 0,
+  "forward_seconds": 0.0,
+  "generated_tokens": 0,
+  "input_tokens": 0,
+  "sequences": 0
+ },
+ "build_seconds": 684.5288784829972,
+ "candidates": {
+  "t2r1_dla36-46e_K64_s0.5": {
+   "accounting": {
+    "forward_calls": 284,
+    "forward_seconds": 169.08800000000002,
+    "generated_tokens": 128,
+    "input_tokens": 47615,
+    "sequences": 508
+   },
+   "artifact": "artifacts/tier2/t2r1_dla36-46e_K64_s0.5.pt",
+   "decision": {
+    "non_swedish_pp": -0.5952380952380958,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -5.000000000000004,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 11.538461538461531,
+     "swedish_idioms_sv": -8.333333333333325
+    },
+    "swe_blimp_margin": 0.20585712102743292,
+    "swe_blimp_pp": 11.538461538461531,
+    "swedish_secondary_pp": -3.3333333333333304
+   },
+   "description": "direct-effect neuron scaling on all tier-2 dev pairs: layers [36, 38, 40, 42, 44, 46], per layer 32 highest-score neurons x1.5, 32 lowest x0.5",
+   "edit_stats": [
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.05908203125,
+     "module": "model.language_model.layers.36.mlp.down_proj",
+     "realized_fro": 2.2646028995513916,
+     "relative_fro": 0.030035773292183876
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.255859375,
+     "module": "model.language_model.layers.38.mlp.down_proj",
+     "realized_fro": 6.703737258911133,
+     "relative_fro": 0.028841961175203323
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.20703125,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 6.034592151641846,
+     "relative_fro": 0.027697671204805374
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.064453125,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 2.2020552158355713,
+     "relative_fro": 0.02992422878742218
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2431640625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 6.14853048324585,
+     "relative_fro": 0.02894858457148075
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2314453125,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 5.4489264488220215,
+     "relative_fro": 0.02544727921485901
+    }
+   ],
+   "identity": "6051085a0063125e",
+   "intended": [
+    {
+     "intended_fro": 2.2646026611328125,
+     "module": "model.language_model.layers.36.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.03003576958956498
+    },
+    {
+     "intended_fro": 6.703736782073975,
+     "module": "model.language_model.layers.38.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.028841959098332495
+    },
+    {
+     "intended_fro": 6.034591197967529,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.027697667171199123
+    },
+    {
+     "intended_fro": 2.202054977416992,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02992422620498488
+    },
+    {
+     "intended_fro": 6.148530006408691,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02894858306424458
+    },
+    {
+     "intended_fro": 5.448925971984863,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02544727619274839
+    }
+   ],
+   "seconds": 171.03613411599508,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.96907320022583,
+     "n": 20
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.877023077011108,
+     "n": 20
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.95,
+     "mean_gold_margin": 12.921369695663453,
+     "n": 20
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 10.110331296920776,
+     "n": 20
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.85,
+     "mean_gold_margin": 11.731700754165649,
+     "n": 20
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.356303644180297,
+     "n": 20
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.960809469223022,
+     "n": 20
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.875,
+     "mcc": 0.75,
+     "n": 16
+    },
+    "scala_en": {
+     "accuracy": 0.75,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.746031746031746,
+     "mcc": 0.5163977794943222,
+     "n": 16
+    },
+    "scala_nb": {
+     "accuracy": 0.8125,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.8056680161943319,
+     "mcc": 0.674199862463242,
+     "n": 16
+    },
+    "scala_sv": {
+     "accuracy": 0.9375,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.9372549019607843,
+     "mcc": 0.8819171036881969,
+     "n": 16
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.696969696969697,
+     "equal_length_n": 33,
+     "macro_accuracy": 0.7307692307692307,
+     "mean_margin": 0.5489446658354539,
+     "micro_accuracy": 0.7307692307692307,
+     "n": 52,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 0.5,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 0.5,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.5,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.5,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 0.5,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.5,
+      "RESUMPTION 1": 1.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.5,
+      "V3 PP": 0.5
+     },
+     "raw_macro_accuracy": 0.46153846153846156,
+     "raw_mean_margin": 0.024572858443626992,
+     "ties": 0,
+     "total_logp_accuracy": 0.6923076923076923
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.6363636363636364,
+     "equal_length_n": 11,
+     "macro_accuracy": 0.525,
+     "mean_margin": 0.705628494421641,
+     "micro_accuracy": 0.7083333333333334,
+     "n": 24,
+     "per_phenomenon": {
+      "challenge": 0.25,
+      "standard": 0.8
+     },
+     "raw_macro_accuracy": 0.425,
+     "raw_mean_margin": -0.05726498365402222,
+     "ties": 0,
+     "total_logp_accuracy": 0.7083333333333334
+    }
+   }
+  },
+  "t2r1_dla40-47_K32_s0.5": {
+   "accounting": {
+    "forward_calls": 284,
+    "forward_seconds": 169.474,
+    "generated_tokens": 128,
+    "input_tokens": 47615,
+    "sequences": 508
+   },
+   "artifact": "artifacts/tier2/t2r1_dla40-47_K32_s0.5.pt",
+   "decision": {
+    "non_swedish_pp": -1.1904761904761916,
+    "per_task_pp": {
+     "belebele_dan_Latn": -5.000000000000004,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -5.000000000000004,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 7.692307692307687,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.3100167421194223,
+    "swe_blimp_pp": 7.692307692307687,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "direct-effect neuron scaling on all tier-2 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 16 highest-score neurons x1.5, 16 lowest x0.5",
+   "edit_stats": [
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.20703125,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 4.113280296325684,
+     "relative_fro": 0.018879203125834465
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.2490234375,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 4.195082664489746,
+     "relative_fro": 0.01925702765583992
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.064453125,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 1.5582103729248047,
+     "relative_fro": 0.021174876019358635
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.068359375,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 1.4415842294692993,
+     "relative_fro": 0.02001882717013359
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.2431640625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 4.159359931945801,
+     "relative_fro": 0.019583148881793022
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.1279296875,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 3.8968873023986816,
+     "relative_fro": 0.018326658755540848
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.2314453125,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 3.7724013328552246,
+     "relative_fro": 0.017617663368582726
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.337890625,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 3.6491987705230713,
+     "relative_fro": 0.01741120219230652
+    }
+   ],
+   "identity": "7d1d93fb3659adbc",
+   "intended": [
+    {
+     "intended_fro": 4.113280296325684,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.01887920240029706
+    },
+    {
+     "intended_fro": 4.195082664489746,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.019257028530883298
+    },
+    {
+     "intended_fro": 1.5582103729248047,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.0211748753562232
+    },
+    {
+     "intended_fro": 1.4415841102600098,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.020018825988504112
+    },
+    {
+     "intended_fro": 4.159359931945801,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.019583148550713966
+    },
+    {
+     "intended_fro": 3.8968870639801025,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.018326657617546763
+    },
+    {
+     "intended_fro": 3.7724013328552246,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.017617662475251136
+    },
+    {
+     "intended_fro": 3.649198532104492,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.01741120031299611
+    }
+   ],
+   "seconds": 171.10053903000517,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.85,
+     "mean_gold_margin": 12.963411903381347,
+     "n": 20
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.192304039001465,
+     "n": 20
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.95,
+     "mean_gold_margin": 12.89579997062683,
+     "n": 20
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 10.369680881500244,
+     "n": 20
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.85,
+     "mean_gold_margin": 11.705650281906127,
+     "n": 20
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.520747184753418,
+     "n": 20
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.736677646636963,
+     "n": 20
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.875,
+     "mcc": 0.75,
+     "n": 16
+    },
+    "scala_en": {
+     "accuracy": 0.75,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.746031746031746,
+     "mcc": 0.5163977794943222,
+     "n": 16
+    },
+    "scala_nb": {
+     "accuracy": 0.8125,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.8056680161943319,
+     "mcc": 0.674199862463242,
+     "n": 16
+    },
+    "scala_sv": {
+     "accuracy": 0.9375,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.9372549019607843,
+     "mcc": 0.8819171036881969,
+     "n": 16
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.6666666666666666,
+     "equal_length_n": 33,
+     "macro_accuracy": 0.6923076923076923,
+     "mean_margin": 0.6531042869274433,
+     "micro_accuracy": 0.6923076923076923,
+     "n": 52,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 0.5,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.5,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 0.5,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 0.5,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.5,
+      "RESUMPTION 1": 1.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.0,
+      "V3 PP": 0.5
+     },
+     "raw_macro_accuracy": 0.5,
+     "raw_mean_margin": 0.07795533767113319,
+     "ties": 0,
+     "total_logp_accuracy": 0.6730769230769231
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8181818181818182,
+     "equal_length_n": 11,
+     "macro_accuracy": 0.775,
+     "mean_margin": 0.8228030204772949,
+     "micro_accuracy": 0.7916666666666666,
+     "n": 24,
+     "per_phenomenon": {
+      "challenge": 0.75,
+      "standard": 0.8
+     },
+     "raw_macro_accuracy": 0.4,
+     "raw_mean_margin": -0.09433809916178386,
+     "ties": 0,
+     "total_logp_accuracy": 0.7916666666666666
+    }
+   }
+  },
+  "t2r1_dla40-47_K64_s0.5": {
+   "accounting": {
+    "forward_calls": 284,
+    "forward_seconds": 169.28,
+    "generated_tokens": 128,
+    "input_tokens": 47615,
+    "sequences": 508
+   },
+   "artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5.pt",
+   "decision": {
+    "non_swedish_pp": -0.5952380952380958,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -5.000000000000004,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 17.307692307692303,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.5435899129280677,
+    "swe_blimp_pp": 17.307692307692303,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "direct-effect neuron scaling on all tier-2 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 32 highest-score neurons x1.5, 32 lowest x0.5",
+   "edit_stats": [
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.20703125,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 6.034592151641846,
+     "relative_fro": 0.027697671204805374
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2490234375,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 5.927681922912598,
+     "relative_fro": 0.02721031941473484
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.064453125,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 2.2020552158355713,
+     "relative_fro": 0.02992422878742218
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.068359375,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 2.1335411071777344,
+     "relative_fro": 0.029627814888954163
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2431640625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 6.14853048324585,
+     "relative_fro": 0.02894858457148075
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.1484375,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 5.613789081573486,
+     "relative_fro": 0.02640107087790966
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2314453125,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 5.4489264488220215,
+     "relative_fro": 0.02544727921485901
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.337890625,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 5.276040077209473,
+     "relative_fro": 0.02517325058579445
+    }
+   ],
+   "identity": "08d61aaceff37e93",
+   "intended": [
+    {
+     "intended_fro": 6.034591197967529,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.027697667171199123
+    },
+    {
+     "intended_fro": 5.927680969238281,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.027210315189457587
+    },
+    {
+     "intended_fro": 2.202054977416992,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02992422620498488
+    },
+    {
+     "intended_fro": 2.1335408687591553,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.029627812270591622
+    },
+    {
+     "intended_fro": 6.148530006408691,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02894858306424458
+    },
+    {
+     "intended_fro": 5.613789081573486,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.0264010705842834
+    },
+    {
+     "intended_fro": 5.448925971984863,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02544727619274839
+    },
+    {
+     "intended_fro": 5.276039123535156,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025173246462449422
+    }
+   ],
+   "seconds": 171.23806438199972,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.99937596321106,
+     "n": 20
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.007306623458863,
+     "n": 20
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.95,
+     "mean_gold_margin": 12.970693683624267,
+     "n": 20
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 10.257696342468261,
+     "n": 20
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.85,
+     "mean_gold_margin": 11.643926048278809,
+     "n": 20
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.510017919540406,
+     "n": 20
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.493109130859375,
+     "n": 20
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.875,
+     "mcc": 0.75,
+     "n": 16
+    },
+    "scala_en": {
+     "accuracy": 0.75,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.746031746031746,
+     "mcc": 0.5163977794943222,
+     "n": 16
+    },
+    "scala_nb": {
+     "accuracy": 0.8125,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.8056680161943319,
+     "mcc": 0.674199862463242,
+     "n": 16
+    },
+    "scala_sv": {
+     "accuracy": 0.9375,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.9372549019607843,
+     "mcc": 0.8819171036881969,
+     "n": 16
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.7575757575757576,
+     "equal_length_n": 33,
+     "macro_accuracy": 0.7884615384615384,
+     "mean_margin": 0.8866774577360886,
+     "micro_accuracy": 0.7884615384615384,
+     "n": 52,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 0.5,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 1.0,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.5,
+      "EMBEDDED V3 CL.": 0.5,
+      "EMBEDDED V3 OBJ.": 0.5,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.5,
+      "RESUMPTION 1": 1.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.5,
+      "V3 PP": 0.5
+     },
+     "raw_macro_accuracy": 0.5384615384615384,
+     "raw_mean_margin": 0.10137319564819336,
+     "ties": 0,
+     "total_logp_accuracy": 0.75
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8181818181818182,
+     "equal_length_n": 11,
+     "macro_accuracy": 0.675,
+     "mean_margin": 0.9059220353762308,
+     "micro_accuracy": 0.7916666666666666,
+     "n": 24,
+     "per_phenomenon": {
+      "challenge": 0.5,
+      "standard": 0.85
+     },
+     "raw_macro_accuracy": 0.375,
+     "raw_mean_margin": -0.05999600887298584,
+     "ties": 0,
+     "total_logp_accuracy": 0.7916666666666666
+    }
+   }
+  },
+  "t2r1_dla44-47_K64_s0.5": {
+   "accounting": {
+    "forward_calls": 284,
+    "forward_seconds": 169.335,
+    "generated_tokens": 128,
+    "input_tokens": 47615,
+    "sequences": 508
+   },
+   "artifact": "artifacts/tier2/t2r1_dla44-47_K64_s0.5.pt",
+   "decision": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 7.692307692307687,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.3973911817257221,
+    "swe_blimp_pp": 7.692307692307687,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "direct-effect neuron scaling on all tier-2 dev pairs: layers [44, 45, 46, 47], per layer 32 highest-score neurons x1.5, 32 lowest x0.5",
+   "edit_stats": [
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2431640625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 6.14853048324585,
+     "relative_fro": 0.02894858457148075
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.1484375,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 5.613789081573486,
+     "relative_fro": 0.02640107087790966
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2314453125,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 5.4489264488220215,
+     "relative_fro": 0.02544727921485901
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.337890625,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 5.276040077209473,
+     "relative_fro": 0.02517325058579445
+    }
+   ],
+   "identity": "3ee6101c752a5a10",
+   "intended": [
+    {
+     "intended_fro": 6.148530006408691,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02894858306424458
+    },
+    {
+     "intended_fro": 5.613789081573486,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.0264010705842834
+    },
+    {
+     "intended_fro": 5.448925971984863,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02544727619274839
+    },
+    {
+     "intended_fro": 5.276039123535156,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025173246462449422
+    }
+   ],
+   "seconds": 170.75090602199634,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.008338499069215,
+     "n": 20
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.378001260757447,
+     "n": 20
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.95,
+     "mean_gold_margin": 12.202374601364136,
+     "n": 20
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 9.63212685585022,
+     "n": 20
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 11.28431224822998,
+     "n": 20
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 11.680516242980957,
+     "n": 20
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.59439926147461,
+     "n": 20
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.875,
+     "mcc": 0.75,
+     "n": 16
+    },
+    "scala_en": {
+     "accuracy": 0.75,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.746031746031746,
+     "mcc": 0.5163977794943222,
+     "n": 16
+    },
+    "scala_nb": {
+     "accuracy": 0.8125,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.8056680161943319,
+     "mcc": 0.674199862463242,
+     "n": 16
+    },
+    "scala_sv": {
+     "accuracy": 0.9375,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.9372549019607843,
+     "mcc": 0.8819171036881969,
+     "n": 16
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.6666666666666666,
+     "equal_length_n": 33,
+     "macro_accuracy": 0.6923076923076923,
+     "mean_margin": 0.740478726533743,
+     "micro_accuracy": 0.6923076923076923,
+     "n": 52,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 0.5,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.5,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 0.5,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.5,
+      "RESUMPTION 1": 0.5,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.0,
+      "V3 PP": 0.5
+     },
+     "raw_macro_accuracy": 0.5384615384615384,
+     "raw_mean_margin": 0.07148551940917969,
+     "ties": 0,
+     "total_logp_accuracy": 0.6923076923076923
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8181818181818182,
+     "equal_length_n": 11,
+     "macro_accuracy": 0.775,
+     "mean_margin": 0.8357266386349996,
+     "micro_accuracy": 0.7916666666666666,
+     "n": 24,
+     "per_phenomenon": {
+      "challenge": 0.75,
+      "standard": 0.8
+     },
+     "raw_macro_accuracy": 0.375,
+     "raw_mean_margin": -0.06358540058135986,
+     "ties": 0,
+     "total_logp_accuracy": 0.7916666666666666
+    }
+   }
+  }
+ },
+ "eval_accounting": {
+  "forward_calls": 1136,
+  "forward_seconds": 677.177,
+  "generated_tokens": 512,
+  "input_tokens": 190460,
+  "sequences": 2032
+ },
+ "per_task": "| candidate | blimp | idioms | scala_sv | scala_da | scala_nb | scala_en | bel_swe_Latn | bel_dan_Latn | bel_nob_Latn | bel_fin_Latn | bel_isl_Latn | bel_eng_Latn | bel_zho_Hans |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| baseline (abs) | 61.5 | 79.2 | 93.8 | 87.5 | 81.2 | 75.0 | 90.0 | 90.0 | 90.0 | 95.0 | 90.0 | 90.0 | 90.0 |\n| t2r1_dla44-47_K64_s0.5 (Δpp) | +7.7 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t2r1_dla40-47_K64_s0.5 (Δpp) | +17.3 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -5.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t2r1_dla40-47_K32_s0.5 (Δpp) | +7.7 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -5.0 | -5.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t2r1_dla36-46e_K64_s0.5 (Δpp) | +11.5 | -8.3 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -5.0 | +0.0 | +0.0 | +0.0 | +0.0 |",
+ "round": 1,
+ "table": "| candidate | Swe-BLiMP Δpp | Swe-BLiMP Δmargin | Swedish secondary Δpp | non-Swedish Δpp | eligible | rel. norm |\n|---|---|---|---|---|---|---|\n| t2r1_dla44-47_K64_s0.5 | +7.69 | +0.3974 | +0.00 | +0.00 | yes | 0.0289, 0.0264, 0.0254, 0.0252 |\n| t2r1_dla40-47_K64_s0.5 | +17.31 | +0.5436 | +0.00 | -0.60 | yes | 0.0277, 0.0272, 0.0299, 0.0296, 0.0289, 0.0264, 0.0254, 0.0252 |\n| t2r1_dla40-47_K32_s0.5 | +7.69 | +0.3100 | +0.00 | -1.19 | yes | 0.0189, 0.0193, 0.0212, 0.0200, 0.0196, 0.0183, 0.0176, 0.0174 |\n| t2r1_dla36-46e_K64_s0.5 | +11.54 | +0.2059 | -3.33 | -0.60 | no | 0.0300, 0.0288, 0.0277, 0.0299, 0.0289, 0.0254 |",
+ "tier": 2,
+ "utc": "2026-11-19T12:58:53.756046+00:00"
+}

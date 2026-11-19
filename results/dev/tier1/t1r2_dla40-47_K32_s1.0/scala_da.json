@@ -1,0 +1,278 @@
+{
+ "accounting": {
+  "forward_calls": 17,
+  "forward_seconds": 8.614000000000004,
+  "generated_tokens": 16,
+  "input_tokens": 1506,
+  "sequences": 8
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.4140625,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 8.308588027954102,
+   "relative_fro": 0.038134895265102386
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.498046875,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "realized_fro": 7.982121467590332,
+   "relative_fro": 0.03664097934961319
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.12890625,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 3.0685343742370605,
+   "relative_fro": 0.041699010878801346
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.123046875,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "realized_fro": 3.0697391033172607,
+   "relative_fro": 0.04262850433588028
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.419921875,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 8.268041610717773,
+   "relative_fro": 0.03892769291996956
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.462890625,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 7.6534423828125,
+   "relative_fro": 0.03599334880709648
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.388671875,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 7.618786334991455,
+   "relative_fro": 0.0355808399617672
+  },
+  {
+   "changed_entries": 122880,
+   "changed_fraction": 0.0020833334419876337,
+   "entries": 58982400,
+   "max_abs": 0.67578125,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 7.182888031005859,
+   "relative_fro": 0.03427128121256828
+  }
+ ],
+ "key": {
+  "condition": "t1r2_dla40-47_K32_s1.0",
+  "edit": "f3e9034e9640ba6f",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "9784721c58d58737",
+  "tier": 1
+ },
+ "records": [
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "da-00121",
+   "id": "scala-da-test-0121",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1079,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 0,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "da-00212",
+   "id": "scala-da-test-1933",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1053,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "da-00914",
+   "id": "scala-da-test-2018",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1045,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "da-01460",
+   "id": "scala-da-test-1460",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1045,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "da-00096",
+   "id": "scala-da-test-0096",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1045,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "da-00128",
+   "id": "scala-da-test-0507",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1039,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "da-01234",
+   "id": "scala-da-test-1546",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1039,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla40-47_K32_s1.0",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "da-01016",
+   "id": "scala-da-test-1567",
+   "invalid": false,
+   "language": "da",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1056,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  }
+ ],
+ "seconds": 8.723815428995294,
+ "summary": {
+  "accuracy": 0.875,
+  "invalid_rate": 0.0,
+  "macro_f1": 0.873015873015873,
+  "mcc": 0.7745966692414834,
+  "n": 8
+ },
+ "utc": "2026-11-19T12:26:34.347219+00:00"
+}

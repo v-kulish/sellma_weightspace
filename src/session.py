@@ -200,3 +200,73 @@ def run_round(tier, rnd, build):
     write(f'results/rounds/tier{tier}_round{rnd}.json', rec)
     print(rec['table']); print(rec['per_task'])
     return rec
+
+
+# ------------------------------------------------------------------ direct-effect neuron attribution
+@torch.inference_mode()
+def dla_neuron_scores(scorer, rows, layers):
+    """First-order DIRECT effect of scaling each MLP neuron on the pair margin (mean log p good - bad),
+    computed from one forward pass per sentence (primary chat context). The readout is linearised analytically
+    (post-FFN RMSNorm and final RMSNorm at their observed scales, layer_scalar products, tied unembedding,
+    30*tanh softcap, softmax); there is NO backpropagation through any later layer, so indirect effects via
+    attention/MLPs downstream are ignored. Returns {layer: (pairs x neurons) tensor of per-pair scores}."""
+    model, tok = scorer.model, scorer.tok
+    lm = model.model.language_model
+    U = model.get_output_embeddings().weight            # vocab x d (tied)
+    gF = lm.norm.weight.float()
+    scal = torch.tensor([float(lm.layers[j].layer_scalar) for j in range(len(lm.layers))], device=U.device)
+    cache = {}
+    hs = []
+    for l in layers:
+        mlp = lm.layers[l].mlp.down_proj
+        hs.append(mlp.register_forward_hook(lambda m, i, o, l=l: cache.__setitem__(l, (i[0][0].float(), o[0].float()))))
+    hs.append(lm.norm.register_forward_hook(lambda m, i, o: cache.__setitem__('final', i[0][0].float())))
+    pre = scorer.chat_prefix()
+    out = {l: [] for l in layers}
+    try:
+        for r in rows:
+            per = {}
+            for side in ('good', 'bad'):
+                ids = pre + tok.encode(r[side], add_special_tokens=False)
+                x = torch.tensor([ids], device='cuda')
+                logits = model(input_ids=x, use_cache=False).logits[0].float()
+                scorer.calls += 1; scorer.sequences += 1; scorer.tokens += len(ids)
+                P = list(range(len(pre) - 1, len(ids) - 1))          # positions predicting sentence tokens
+                y = torch.tensor(ids[len(pre):], device='cuda')
+                h = cache['final'][P]                                 # pre-final-norm residual
+                lg = logits[P]
+                raw = 30 * torch.atanh(torch.clamp(lg / 30, -0.999999, 0.999999))
+                p = torch.softmax(lg, -1)
+                w = -p * (1 - torch.tanh(raw / 30) ** 2)              # d logp(y)/d raw_v
+                w[torch.arange(len(P)), y] += (1 - torch.tanh(raw[torch.arange(len(P)), y] / 30) ** 2)
+                c = w @ U.float()                                     # positions x d   (normed space)
+                D = h.shape[1]
+                rms = h.norm(dim=1, keepdim=True) / D ** 0.5
+                e = gF * c
+                e = (e - h * ((h * e).sum(1, keepdim=True) / (h * h).sum(1, keepdim=True))) / rms
+                for l in layers:
+                    a, z = cache[l]
+                    a, z = a[P], z[P]
+                    gP = lm.layers[l].post_feedforward_layernorm.weight.float()
+                    S = torch.prod(scal[l:])
+                    q = gP * e * S
+                    rz = z.norm(dim=1, keepdim=True) / D ** 0.5
+                    q = (q - z * ((z * q).sum(1, keepdim=True) / (z * z).sum(1, keepdim=True))) / rz
+                    Wd = lm.layers[l].mlp.down_proj.weight.float()
+                    eff = a * (q @ Wd)                                # positions x neurons: d logp / d log-scale
+                    per.setdefault(side, {})[l] = eff.mean(0).cpu()
+            for l in layers:
+                out[l].append(per['good'][l] - per['bad'][l])
+    finally:
+        for h_ in hs:
+            h_.remove()
+    return {l: torch.stack(v) for l, v in out.items()}
+
+
+def language_direction(store, layer, model, target='swe_Latn', others=('dan_Latn', 'nob_Latn')):
+    """Output-space (down_proj) direction separating mean Swedish from mean Danish/Norwegian passage activations."""
+    W = get_module(model, f'model.language_model.layers.{layer}.mlp.down_proj').weight.float()
+    m = store['language'][layer]
+    zs = W @ m[target].cuda()
+    zo = torch.stack([W @ m[o].cuda() for o in others]).mean(0)
+    return (zs - zo), float((zs - zo).norm() / zs.norm())

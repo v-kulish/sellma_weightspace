@@ -1,0 +1,520 @@
+{
+ "accounting": {
+  "forward_calls": 20,
+  "forward_seconds": 11.677999999999997,
+  "generated_tokens": 0,
+  "input_tokens": 3639,
+  "sequences": 20
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 58982348,
+   "changed_fraction": 0.9999991655349731,
+   "entries": 58982400,
+   "max_abs": 0.005173873156309128,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 6.034592151641846,
+   "relative_fro": 0.027697671204805374
+  },
+  {
+   "changed_entries": 58982324,
+   "changed_fraction": 0.9999987483024597,
+   "entries": 58982400,
+   "max_abs": 0.005128450226038694,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "realized_fro": 5.927681922912598,
+   "relative_fro": 0.02721031941473484
+  },
+  {
+   "changed_entries": 58982350,
+   "changed_fraction": 0.9999992251396179,
+   "entries": 58982400,
+   "max_abs": 0.001706484705209732,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 2.2020552158355713,
+   "relative_fro": 0.02992422878742218
+  },
+  {
+   "changed_entries": 58982331,
+   "changed_fraction": 0.9999988675117493,
+   "entries": 58982400,
+   "max_abs": 0.0018491570372134447,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "realized_fro": 2.1335411071777344,
+   "relative_fro": 0.029627814888954163
+  },
+  {
+   "changed_entries": 58982339,
+   "changed_fraction": 0.999998927116394,
+   "entries": 58982400,
+   "max_abs": 0.005108325742185116,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 6.14853048324585,
+   "relative_fro": 0.02894858457148075
+  },
+  {
+   "changed_entries": 58982340,
+   "changed_fraction": 0.9999989867210388,
+   "entries": 58982400,
+   "max_abs": 0.004558540880680084,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 5.6137895584106445,
+   "relative_fro": 0.02640107274055481
+  },
+  {
+   "changed_entries": 58982330,
+   "changed_fraction": 0.9999988079071045,
+   "entries": 58982400,
+   "max_abs": 0.0047135669738054276,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 5.4489264488220215,
+   "relative_fro": 0.02544727921485901
+  },
+  {
+   "changed_entries": 58982329,
+   "changed_fraction": 0.9999988079071045,
+   "entries": 58982400,
+   "max_abs": 0.005478855222463608,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 5.276040077209473,
+   "relative_fro": 0.02517325058579445
+  }
+ ],
+ "key": {
+  "condition": "tier2_random",
+  "edit": "deef4989cea376d1",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "59a50407bbdd5845",
+  "tier": 2
+ },
+ "records": [
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 19.48178482055664,
+   "group": "https://en.wikivoyage.org/wiki/Food_and_drink",
+   "id": "https://en.wikivoyage.org/wiki/Food_and_drink#1",
+   "language": "zho_Hans",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 140,
+   "scores": [
+    0.0,
+    -19.48178482055664,
+    -22.19673728942871,
+    -23.085569381713867
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 10.830330848693848,
+   "group": "https://en.wikivoyage.org/wiki/Food_and_drink",
+   "id": "https://en.wikivoyage.org/wiki/Food_and_drink#2",
+   "language": "zho_Hans",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 143,
+   "scores": [
+    -10.830353736877441,
+    -14.070693969726562,
+    -15.234715461730957,
+    -2.288818359375e-05
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 0,
+   "gold": 0,
+   "gold_margin": -3.520742416381836,
+   "group": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto",
+   "id": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto#1",
+   "language": "zho_Hans",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 140,
+   "scores": [
+    -3.5502490997314453,
+    -8.604950904846191,
+    -0.029506683349609375,
+    -8.865118026733398
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 19.548986434936523,
+   "group": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto",
+   "id": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto#2",
+   "language": "zho_Hans",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 151,
+   "scores": [
+    -20.834009170532227,
+    0.0,
+    -19.548986434936523,
+    -21.625091552734375
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 1.1471986770629883,
+   "group": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix",
+   "id": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix#1",
+   "language": "zho_Hans",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 192,
+   "scores": [
+    -1.4241743087768555,
+    -0.2769756317138672,
+    -6.833851337432861,
+    -8.953043937683105
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 17.965076446533203,
+   "group": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix",
+   "id": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix#2",
+   "language": "zho_Hans",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 189,
+   "scores": [
+    -19.042747497558594,
+    -17.965076446533203,
+    -20.89892578125,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 19.736135482788086,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks#1",
+   "language": "zho_Hans",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 179,
+   "scores": [
+    -19.736135482788086,
+    0.0,
+    -21.121034622192383,
+    -22.015586853027344
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 19.225072860717773,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks#2",
+   "language": "zho_Hans",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 199,
+   "scores": [
+    -20.241201400756836,
+    -19.225072860717773,
+    0.0,
+    -19.4791259765625
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 20.526716232299805,
+   "group": "https://en.wikivoyage.org/wiki/Music_festival_circuit",
+   "id": "https://en.wikivoyage.org/wiki/Music_festival_circuit#1",
+   "language": "zho_Hans",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 167,
+   "scores": [
+    -20.526716232299805,
+    0.0,
+    -22.31847381591797,
+    -25.292043685913086
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 16.614187240600586,
+   "group": "https://en.wikivoyage.org/wiki/Music_festival_circuit",
+   "id": "https://en.wikivoyage.org/wiki/Music_festival_circuit#2",
+   "language": "zho_Hans",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 180,
+   "scores": [
+    -16.614187240600586,
+    -19.03468894958496,
+    -19.217540740966797,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 20.829448699951172,
+   "group": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode",
+   "id": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode#1",
+   "language": "zho_Hans",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 184,
+   "scores": [
+    0.0,
+    -20.829448699951172,
+    -22.930631637573242,
+    -24.47554588317871
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 9.988176345825195,
+   "group": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode",
+   "id": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode#2",
+   "language": "zho_Hans",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 174,
+   "scores": [
+    -10.511819839477539,
+    -7.43865966796875e-05,
+    -9.988250732421875,
+    -14.615849494934082
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 14.057113647460938,
+   "group": "https://en.wikivoyage.org/wiki/Izmir",
+   "id": "https://en.wikivoyage.org/wiki/Izmir#1",
+   "language": "zho_Hans",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 219,
+   "scores": [
+    -14.05711555480957,
+    -16.176437377929688,
+    -15.136951446533203,
+    -1.9073486328125e-06
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 16.745975494384766,
+   "group": "https://en.wikivoyage.org/wiki/Izmir",
+   "id": "https://en.wikivoyage.org/wiki/Izmir#2",
+   "language": "zho_Hans",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 235,
+   "scores": [
+    -16.745975494384766,
+    0.0,
+    -19.09839630126953,
+    -19.863405227661133
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 0,
+   "gold": 2,
+   "gold_margin": -8.230023384094238,
+   "group": "https://en.wikivoyage.org/wiki/War_zone_safety",
+   "id": "https://en.wikivoyage.org/wiki/War_zone_safety#1",
+   "language": "zho_Hans",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 189,
+   "scores": [
+    -0.0005054473876953125,
+    -8.651409149169922,
+    -8.230528831481934,
+    -9.786995887756348
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 12.266070365905762,
+   "group": "https://en.wikivoyage.org/wiki/War_zone_safety",
+   "id": "https://en.wikivoyage.org/wiki/War_zone_safety#2",
+   "language": "zho_Hans",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 183,
+   "scores": [
+    -5.7220458984375e-06,
+    -12.26607608795166,
+    -14.911510467529297,
+    -15.23929214477539
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 18.37580108642578,
+   "group": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad",
+   "id": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad#1",
+   "language": "zho_Hans",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 232,
+   "scores": [
+    -18.37580108642578,
+    -19.08646011352539,
+    -20.74366569519043,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 18.73769760131836,
+   "group": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad",
+   "id": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad#2",
+   "language": "zho_Hans",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 234,
+   "scores": [
+    0.0,
+    -18.73769760131836,
+    -20.85814666748047,
+    -22.772266387939453
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 7.316061973571777,
+   "group": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant",
+   "id": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant#1",
+   "language": "zho_Hans",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 151,
+   "scores": [
+    -0.0006847381591796875,
+    -7.316746711730957,
+    -11.967695236206055,
+    -11.819478988647461
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "tier2_random",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 12.277904510498047,
+   "group": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant",
+   "id": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant#2",
+   "language": "zho_Hans",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 158,
+   "scores": [
+    -12.277910232543945,
+    -15.193450927734375,
+    -5.7220458984375e-06,
+    -15.428658485412598
+   ],
+   "split": "dev",
+   "tier": 2
+  }
+ ],
+ "seconds": 11.70719261100021,
+ "summary": {
+  "accuracy": 0.9,
+  "mean_gold_margin": 13.19594864845276,
+  "n": 20
+ },
+ "utc": "2026-11-19T13:19:10.577661+00:00"
+}

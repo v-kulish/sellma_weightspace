@@ -1,0 +1,904 @@
+{
+ "accounting": {
+  "forward_calls": 40,
+  "forward_seconds": 26.649,
+  "generated_tokens": 0,
+  "input_tokens": 9673,
+  "sequences": 40
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.1181640625,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 6.880198001861572,
+   "relative_fro": 0.032393429428339005
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.0849609375,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 6.7921061515808105,
+   "relative_fro": 0.03194257244467735
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.1943359375,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 6.789060592651367,
+   "relative_fro": 0.03170590102672577
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.337890625,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 5.852778911590576,
+   "relative_fro": 0.02792501077055931
+  }
+ ],
+ "key": {
+  "condition": "t3r2_dla44-47_K64_s0.5_t",
+  "edit": "0eee2ea508d1fc41",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "59a50407bbdd5845",
+  "tier": 3
+ },
+ "records": [
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 18.702720642089844,
+   "group": "https://en.wikivoyage.org/wiki/Food_and_drink",
+   "id": "https://en.wikivoyage.org/wiki/Food_and_drink#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 224,
+   "scores": [
+    0.0,
+    -18.702720642089844,
+    -22.014745712280273,
+    -22.205364227294922
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 12.494409561157227,
+   "group": "https://en.wikivoyage.org/wiki/Food_and_drink",
+   "id": "https://en.wikivoyage.org/wiki/Food_and_drink#2",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 232,
+   "scores": [
+    -12.494413375854492,
+    -14.403155326843262,
+    -17.19104766845703,
+    -3.814697265625e-06
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 7.333181381225586,
+   "group": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto",
+   "id": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 180,
+   "scores": [
+    -0.00125885009765625,
+    -8.10418701171875,
+    -7.334440231323242,
+    -8.179462432861328
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 11.75232982635498,
+   "group": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto",
+   "id": "https://en.wikinews.org/wiki/New_Australian_Prime_Minister_signs_Kyoto#2",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 180,
+   "scores": [
+    -19.106685638427734,
+    -7.62939453125e-06,
+    -11.752337455749512,
+    -18.34893798828125
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 0,
+   "gold": 1,
+   "gold_margin": -5.231054306030273,
+   "group": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix",
+   "id": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix#1",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 202,
+   "scores": [
+    -7.478440284729004,
+    -5.249855041503906,
+    -0.018800735473632812,
+    -4.363407135009766
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 16.09284210205078,
+   "group": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix",
+   "id": "https://en.wikinews.org/wiki/Jenson_Button_wins_2006_Hungarian_Grand_Prix#2",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 207,
+   "scores": [
+    -18.099292755126953,
+    -16.09284210205078,
+    -18.522411346435547,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 18.18976402282715,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks#1",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 211,
+   "scores": [
+    -18.18976402282715,
+    0.0,
+    -22.432342529296875,
+    -21.187301635742188
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 18.17764663696289,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Ancient_Civilizations/Greeks#2",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 218,
+   "scores": [
+    -19.51952362060547,
+    -18.17764663696289,
+    0.0,
+    -19.65189552307129
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 20.838356018066406,
+   "group": "https://en.wikivoyage.org/wiki/Music_festival_circuit",
+   "id": "https://en.wikivoyage.org/wiki/Music_festival_circuit#1",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 231,
+   "scores": [
+    -20.838356018066406,
+    0.0,
+    -22.67678451538086,
+    -22.118629455566406
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 18.19925308227539,
+   "group": "https://en.wikivoyage.org/wiki/Music_festival_circuit",
+   "id": "https://en.wikivoyage.org/wiki/Music_festival_circuit#2",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 235,
+   "scores": [
+    -19.804607391357422,
+    -18.19925308227539,
+    -21.55214500427246,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 16.915149688720703,
+   "group": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode",
+   "id": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 210,
+   "scores": [
+    0.0,
+    -16.915149688720703,
+    -20.035310745239258,
+    -19.83742904663086
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 16.708026885986328,
+   "group": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode",
+   "id": "https://en.wikinews.org/wiki/Modern_radio_drama_Paranoria,_TX_releases_100th_episode#2",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 206,
+   "scores": [
+    -17.057920455932617,
+    0.0,
+    -16.708026885986328,
+    -16.923358917236328
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 13.197086334228516,
+   "group": "https://en.wikivoyage.org/wiki/Izmir",
+   "id": "https://en.wikivoyage.org/wiki/Izmir#1",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 266,
+   "scores": [
+    -13.197090148925781,
+    -14.573989868164062,
+    -15.383282661437988,
+    -3.814697265625e-06
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 19.804561614990234,
+   "group": "https://en.wikivoyage.org/wiki/Izmir",
+   "id": "https://en.wikivoyage.org/wiki/Izmir#2",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 293,
+   "scores": [
+    -19.804561614990234,
+    0.0,
+    -20.90996742248535,
+    -19.938095092773438
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 0,
+   "gold": 2,
+   "gold_margin": -4.410594940185547,
+   "group": "https://en.wikivoyage.org/wiki/War_zone_safety",
+   "id": "https://en.wikivoyage.org/wiki/War_zone_safety#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 293,
+   "scores": [
+    -0.018678665161132812,
+    -6.28363037109375,
+    -4.42927360534668,
+    -5.3976898193359375
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 11.051204681396484,
+   "group": "https://en.wikivoyage.org/wiki/War_zone_safety",
+   "id": "https://en.wikivoyage.org/wiki/War_zone_safety#2",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 281,
+   "scores": [
+    -3.0517578125e-05,
+    -11.05123519897461,
+    -13.909027099609375,
+    -11.205456733703613
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 13.914804458618164,
+   "group": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad",
+   "id": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad#1",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 276,
+   "scores": [
+    -15.629124641418457,
+    -13.914806365966797,
+    -15.547290802001953,
+    -1.9073486328125e-06
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 17.138580322265625,
+   "group": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad",
+   "id": "https://en.wikinews.org/wiki/Effect_of_sanctions_%27like_war%27_says_Iran%27s_Ahmadinejad#2",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 277,
+   "scores": [
+    0.0,
+    -17.138580322265625,
+    -18.875200271606445,
+    -18.828956604003906
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 0.4153099060058594,
+   "group": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant",
+   "id": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 223,
+   "scores": [
+    -0.5090541839599609,
+    -0.9243640899658203,
+    -9.000882148742676,
+    -6.2712860107421875
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 11.532188415527344,
+   "group": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant",
+   "id": "https://en.wikinews.org/wiki/Explosion_at_earthquake-damaged_Fukushima_nuclear_power_plant#2",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 243,
+   "scores": [
+    -11.532207489013672,
+    -12.902274131774902,
+    -1.9073486328125e-05,
+    -12.122228622436523
+   ],
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 18.020872116088867,
+   "group": "https://en.wikivoyage.org/wiki/Goma",
+   "id": "https://en.wikivoyage.org/wiki/Goma#1",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 287,
+   "scores": [
+    -19.35325050354004,
+    0.0,
+    -18.99691390991211,
+    -18.020872116088867
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 17.08612823486328,
+   "group": "https://en.wikivoyage.org/wiki/Goma",
+   "id": "https://en.wikivoyage.org/wiki/Goma#2",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 315,
+   "scores": [
+    0.0,
+    -17.08612823486328,
+    -20.241100311279297,
+    -18.877412796020508
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 10.158431053161621,
+   "group": "https://en.wikivoyage.org/wiki/Auckland",
+   "id": "https://en.wikivoyage.org/wiki/Auckland#1",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 247,
+   "scores": [
+    -10.158509254455566,
+    -10.969681739807129,
+    -7.82012939453125e-05,
+    -11.25455379486084
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 0,
+   "gold": 2,
+   "gold_margin": -8.705299377441406,
+   "group": "https://en.wikivoyage.org/wiki/Auckland",
+   "id": "https://en.wikivoyage.org/wiki/Auckland#2",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 251,
+   "scores": [
+    -8.338159561157227,
+    -0.000579833984375,
+    -8.705879211425781,
+    -9.571157455444336
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 17.314470291137695,
+   "group": "https://en.wikivoyage.org/wiki/Eye_care",
+   "id": "https://en.wikivoyage.org/wiki/Eye_care#1",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 224,
+   "scores": [
+    -18.73765754699707,
+    0.0,
+    -18.677988052368164,
+    -17.314470291137695
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 18.086360931396484,
+   "group": "https://en.wikivoyage.org/wiki/Eye_care",
+   "id": "https://en.wikivoyage.org/wiki/Eye_care#2",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 246,
+   "scores": [
+    -18.67490005493164,
+    -18.086360931396484,
+    0.0,
+    -20.191341400146484
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 19.302799224853516,
+   "group": "https://en.wikinews.org/wiki/Romanian_artists_auction_off_their_works_for_tsunami_victims",
+   "id": "https://en.wikinews.org/wiki/Romanian_artists_auction_off_their_works_for_tsunami_victims#1",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 183,
+   "scores": [
+    -19.40648651123047,
+    0.0,
+    -19.302799224853516,
+    -20.027236938476562
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 16.315662384033203,
+   "group": "https://en.wikinews.org/wiki/Romanian_artists_auction_off_their_works_for_tsunami_victims",
+   "id": "https://en.wikinews.org/wiki/Romanian_artists_auction_off_their_works_for_tsunami_victims#2",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 228,
+   "scores": [
+    -17.840835571289062,
+    -16.315662384033203,
+    -18.934484481811523,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 10.721773147583008,
+   "group": "https://en.wikinews.org/wiki/Hurricane_Fred_churns_the_Atlantic",
+   "id": "https://en.wikinews.org/wiki/Hurricane_Fred_churns_the_Atlantic#1",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 223,
+   "scores": [
+    -12.810660362243652,
+    -10.721817016601562,
+    -4.38690185546875e-05,
+    -10.885991096496582
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 16.28572654724121,
+   "group": "https://en.wikinews.org/wiki/Hurricane_Fred_churns_the_Atlantic",
+   "id": "https://en.wikinews.org/wiki/Hurricane_Fred_churns_the_Atlantic#2",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 227,
+   "scores": [
+    -18.13243865966797,
+    -16.28572654724121,
+    -20.194089889526367,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 13.51566219329834,
+   "group": "https://en.wikinews.org/wiki/China%27s_economy_surpasses_Japan%27s_in_second_quarter",
+   "id": "https://en.wikinews.org/wiki/China%27s_economy_surpasses_Japan%27s_in_second_quarter#1",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 246,
+   "scores": [
+    -15.769963264465332,
+    -13.515664100646973,
+    -17.34347915649414,
+    -1.9073486328125e-06
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 1,
+   "gold_margin": 19.308170318603516,
+   "group": "https://en.wikinews.org/wiki/China%27s_economy_surpasses_Japan%27s_in_second_quarter",
+   "id": "https://en.wikinews.org/wiki/China%27s_economy_surpasses_Japan%27s_in_second_quarter#2",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 224,
+   "scores": [
+    -21.887571334838867,
+    0.0,
+    -22.801509857177734,
+    -19.308170318603516
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 10.871246337890625,
+   "group": "https://en.wikivoyage.org/wiki/Snow_safety",
+   "id": "https://en.wikivoyage.org/wiki/Snow_safety#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 210,
+   "scores": [
+    -4.1961669921875e-05,
+    -11.141036987304688,
+    -10.871288299560547,
+    -12.40607738494873
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 19.3055362701416,
+   "group": "https://en.wikivoyage.org/wiki/Snow_safety",
+   "id": "https://en.wikivoyage.org/wiki/Snow_safety#2",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 244,
+   "scores": [
+    -19.3055362701416,
+    -20.040170669555664,
+    0.0,
+    -19.6557559967041
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 18.33551788330078,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Turkey",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Turkey#1",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 337,
+   "scores": [
+    -18.681493759155273,
+    -18.33551788330078,
+    -21.260326385498047,
+    0.0
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 3,
+   "gold_margin": 13.879425048828125,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Turkey",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Europe/Turkey#2",
+   "language": "dan_Latn",
+   "prediction": 3,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 331,
+   "scores": [
+    -13.879426956176758,
+    -15.311858177185059,
+    -16.347545623779297,
+    -1.9073486328125e-06
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 0,
+   "gold": 0,
+   "gold_margin": -8.142841339111328,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Asia/Bhutan",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Asia/Bhutan#1",
+   "language": "dan_Latn",
+   "prediction": 1,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 284,
+   "scores": [
+    -8.76043701171875,
+    -0.6175956726074219,
+    -9.299165725708008,
+    -6.437541961669922
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 0,
+   "gold": 2,
+   "gold_margin": -11.243277549743652,
+   "group": "https://en.wikibooks.org/wiki/Wikijunior:Asia/Bhutan",
+   "id": "https://en.wikibooks.org/wiki/Wikijunior:Asia/Bhutan#2",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 299,
+   "scores": [
+    -7.62939453125e-05,
+    -10.99406909942627,
+    -11.243353843688965,
+    -10.188349723815918
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 0,
+   "gold_margin": 16.945104598999023,
+   "group": "https://en.wikivoyage.org/wiki/Japan%27s_Top_100_Cherry_Blossom_Spots",
+   "id": "https://en.wikivoyage.org/wiki/Japan%27s_Top_100_Cherry_Blossom_Spots#1",
+   "language": "dan_Latn",
+   "prediction": 0,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 185,
+   "scores": [
+    0.0,
+    -16.945104598999023,
+    -18.203582763671875,
+    -18.31544303894043
+   ],
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "benchmark": "belebele",
+   "condition": "t3r2_dla44-47_K64_s0.5_t",
+   "correct": 1,
+   "gold": 2,
+   "gold_margin": 18.15607452392578,
+   "group": "https://en.wikivoyage.org/wiki/Japan%27s_Top_100_Cherry_Blossom_Spots",
+   "id": "https://en.wikivoyage.org/wiki/Japan%27s_Top_100_Cherry_Blossom_Spots#2",
+   "language": "dan_Latn",
+   "prediction": 2,
+   "prompt_template": "belebele_native_instruction_chat_nothink_label_logp_v1",
+   "prompt_tokens": 194,
+   "scores": [
+    -19.2419490814209,
+    -18.15607452392578,
+    0.0,
+    -19.78498649597168
+   ],
+   "split": "dev",
+   "tier": 3
+  }
+ ],
+ "seconds": 26.72244493800099,
+ "summary": {
+  "accuracy": 0.875,
+  "mean_gold_margin": 12.458332729339599,
+  "n": 40
+ },
+ "utc": "2026-11-19T14:44:40.199894+00:00"
+}

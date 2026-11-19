@@ -1,0 +1,46 @@
+{
+ "agent": {
+  "api_calls": 11,
+  "cache_creation_input": 35517,
+  "cache_read_input": 3130975,
+  "input_uncached": 22,
+  "output": 20466,
+  "output_non_thinking": 11113,
+  "thinking": 9353,
+  "transcript": "bc06c9cb-45e1-4eb0-b985-c153463ae3c9.jsonl",
+  "window_utc": [
+   "2026-11-19T12:04:05.786844Z",
+   "2026-11-19T12:16:35.521629+00:00"
+  ]
+ },
+ "model_forward": {
+  "candidate construction (build)": {
+   "forward_calls": 0,
+   "forward_seconds": 0.0,
+   "generated_tokens": 0,
+   "input_tokens": 0,
+   "sequences": 0
+  },
+  "dev evaluation of candidates": {
+   "forward_calls": 576,
+   "forward_seconds": 343.341,
+   "generated_tokens": 256,
+   "input_tokens": 97248,
+   "sequences": 1016
+  },
+  "inspection - direct-effect attribution": {
+   "forward_calls": 76,
+   "forward_seconds": 0.0,
+   "generated_tokens": 0,
+   "input_tokens": 2666,
+   "sequences": 76
+  },
+  "inspection - grammar+language activations (inspect_tier.py)": {
+   "forward_calls": 17,
+   "forward_seconds": 23.067,
+   "generated_tokens": 0,
+   "input_tokens": 7573,
+   "sequences": 111
+  }
+ }
+}

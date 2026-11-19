@@ -1,0 +1,1935 @@
+{
+ "accounting": {
+  "forward_calls": 6,
+  "forward_seconds": 19.356,
+  "generated_tokens": 0,
+  "input_tokens": 6180,
+  "sequences": 192
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.193359375,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 6.923888683319092,
+   "relative_fro": 0.03177937865257263
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.23046875,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "realized_fro": 6.823421478271484,
+   "relative_fro": 0.03132210671901703
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.0419921875,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 2.3472740650177,
+   "relative_fro": 0.031897641718387604
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.053955078125,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "realized_fro": 2.3207738399505615,
+   "relative_fro": 0.032227858901023865
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.1181640625,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 6.880198001861572,
+   "relative_fro": 0.032393429428339005
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.0849609375,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 6.7921061515808105,
+   "relative_fro": 0.03194257244467735
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.1943359375,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 6.789060592651367,
+   "relative_fro": 0.03170590102672577
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.337890625,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 5.852778911590576,
+   "relative_fro": 0.02792501077055931
+  }
+ ],
+ "key": {
+  "condition": "t3r2_dla40-47_K64_s0.5_t",
+  "edit": "652c4ed98e4da96c",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "f3dbd82ffd9ea7ec",
+  "tier": 3
+ },
+ "records": [
+  {
+   "bad": {
+    "mean_logp": -5.755720138549805,
+    "sum_logp": -195.69448852539062,
+    "tokens": 34
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.816926956176758,
+    "sum_logp": -163.7755126953125,
+    "tokens": 34
+   },
+   "group": "g0021",
+   "id": "idiom-0021",
+   "language": "sv",
+   "margin": 0.9387931823730469,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -8.799973487854004,
+    "sum_logp": -299.1990966796875,
+    "tokens": 34
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -8.792662620544434,
+    "sum_logp": -298.9505310058594,
+    "tokens": 34
+   },
+   "raw_margin": 0.0073108673095703125,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 31.918975830078125
+  },
+  {
+   "bad": {
+    "mean_logp": -7.318269729614258,
+    "sum_logp": -161.00193786621094,
+    "tokens": 22
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -7.403542518615723,
+    "sum_logp": -155.47439575195312,
+    "tokens": 21
+   },
+   "group": "g0041",
+   "id": "idiom-0041",
+   "language": "sv",
+   "margin": -0.08527278900146484,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.094329833984375,
+    "sum_logp": -222.07525634765625,
+    "tokens": 22
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -10.109532356262207,
+    "sum_logp": -212.30018615722656,
+    "tokens": 21
+   },
+   "raw_margin": -0.015202522277832031,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 5.5275421142578125
+  },
+  {
+   "bad": {
+    "mean_logp": -6.559777736663818,
+    "sum_logp": -177.11399841308594,
+    "tokens": 27
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -6.715451240539551,
+    "sum_logp": -188.0326385498047,
+    "tokens": 28
+   },
+   "group": "g0045",
+   "id": "idiom-0045",
+   "language": "sv",
+   "margin": -0.15567350387573242,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.510906219482422,
+    "sum_logp": -256.7944641113281,
+    "tokens": 27
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -9.82594108581543,
+    "sum_logp": -275.1263427734375,
+    "tokens": 28
+   },
+   "raw_margin": -0.3150348663330078,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": -10.91864013671875
+  },
+  {
+   "bad": {
+    "mean_logp": -6.806803226470947,
+    "sum_logp": -115.71565246582031,
+    "tokens": 17
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -7.494656085968018,
+    "sum_logp": -119.91449737548828,
+    "tokens": 16
+   },
+   "group": "g0050",
+   "id": "idiom-0050",
+   "language": "sv",
+   "margin": -0.6878528594970703,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.275296211242676,
+    "sum_logp": -157.68003845214844,
+    "tokens": 17
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -9.791770935058594,
+    "sum_logp": -156.6683349609375,
+    "tokens": 16
+   },
+   "raw_margin": -0.516474723815918,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -4.198844909667969
+  },
+  {
+   "bad": {
+    "mean_logp": -9.692718505859375,
+    "sum_logp": -145.39077758789062,
+    "tokens": 15
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.434300422668457,
+    "sum_logp": -102.94880676269531,
+    "tokens": 16
+   },
+   "group": "g0059",
+   "id": "idiom-0059",
+   "language": "sv",
+   "margin": 3.258418083190918,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -14.921951293945312,
+    "sum_logp": -223.8292694091797,
+    "tokens": 15
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -14.574065208435059,
+    "sum_logp": -233.18504333496094,
+    "tokens": 16
+   },
+   "raw_margin": 0.3478860855102539,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 42.44197082519531
+  },
+  {
+   "bad": {
+    "mean_logp": -5.9675445556640625,
+    "sum_logp": -95.480712890625,
+    "tokens": 16
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.457415580749512,
+    "sum_logp": -71.31864929199219,
+    "tokens": 16
+   },
+   "group": "g0074",
+   "id": "idiom-0074",
+   "language": "sv",
+   "margin": 1.5101289749145508,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.653708457946777,
+    "sum_logp": -154.45933532714844,
+    "tokens": 16
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -10.057975769042969,
+    "sum_logp": -160.9276123046875,
+    "tokens": 16
+   },
+   "raw_margin": -0.4042673110961914,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 24.162063598632812
+  },
+  {
+   "bad": {
+    "mean_logp": -5.280656337738037,
+    "sum_logp": -126.73575592041016,
+    "tokens": 24
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.328251361846924,
+    "sum_logp": -103.87803649902344,
+    "tokens": 24
+   },
+   "group": "g0088",
+   "id": "idiom-0088",
+   "language": "sv",
+   "margin": 0.9524049758911133,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.99575424194336,
+    "sum_logp": -287.8981018066406,
+    "tokens": 24
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -12.002192497253418,
+    "sum_logp": -288.0526123046875,
+    "tokens": 24
+   },
+   "raw_margin": -0.006438255310058594,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 22.85771942138672
+  },
+  {
+   "bad": {
+    "mean_logp": -7.204627513885498,
+    "sum_logp": -122.47866821289062,
+    "tokens": 17
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -7.631100654602051,
+    "sum_logp": -122.09761047363281,
+    "tokens": 16
+   },
+   "group": "g0093",
+   "id": "idiom-0093",
+   "language": "sv",
+   "margin": -0.42647314071655273,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.669654846191406,
+    "sum_logp": -198.38412475585938,
+    "tokens": 17
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -12.535894393920898,
+    "sum_logp": -200.57431030273438,
+    "tokens": 16
+   },
+   "raw_margin": -0.8662395477294922,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 0.3810577392578125
+  },
+  {
+   "bad": {
+    "mean_logp": -5.66172981262207,
+    "sum_logp": -124.55805206298828,
+    "tokens": 22
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.840362071990967,
+    "sum_logp": -116.16868591308594,
+    "tokens": 24
+   },
+   "group": "g0095",
+   "id": "idiom-0095",
+   "language": "sv",
+   "margin": 0.8213677406311035,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -8.778428077697754,
+    "sum_logp": -193.12542724609375,
+    "tokens": 22
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -8.817173957824707,
+    "sum_logp": -211.61216735839844,
+    "tokens": 24
+   },
+   "raw_margin": -0.038745880126953125,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 8.389366149902344
+  },
+  {
+   "bad": {
+    "mean_logp": -6.419781684875488,
+    "sum_logp": -141.23519897460938,
+    "tokens": 22
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.66037130355835,
+    "sum_logp": -124.52816772460938,
+    "tokens": 22
+   },
+   "group": "g0106",
+   "id": "idiom-0106",
+   "language": "sv",
+   "margin": 0.7594103813171387,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.195804595947266,
+    "sum_logp": -224.30770874023438,
+    "tokens": 22
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -10.958613395690918,
+    "sum_logp": -241.08949279785156,
+    "tokens": 22
+   },
+   "raw_margin": -0.7628087997436523,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 16.70703125
+  },
+  {
+   "bad": {
+    "mean_logp": -5.219540596008301,
+    "sum_logp": -120.0494384765625,
+    "tokens": 23
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.190873622894287,
+    "sum_logp": -100.58096313476562,
+    "tokens": 24
+   },
+   "group": "g0129",
+   "id": "idiom-0129",
+   "language": "sv",
+   "margin": 1.0286669731140137,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.51870346069336,
+    "sum_logp": -287.93017578125,
+    "tokens": 23
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -12.109694480895996,
+    "sum_logp": -290.6326599121094,
+    "tokens": 24
+   },
+   "raw_margin": 0.4090089797973633,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 19.468475341796875
+  },
+  {
+   "bad": {
+    "mean_logp": -6.862467288970947,
+    "sum_logp": -164.69921875,
+    "tokens": 24
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -7.009416103363037,
+    "sum_logp": -168.22598266601562,
+    "tokens": 24
+   },
+   "group": "g0132",
+   "id": "idiom-0132",
+   "language": "sv",
+   "margin": -0.14694881439208984,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.432988166809082,
+    "sum_logp": -250.39170837402344,
+    "tokens": 24
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -10.830863952636719,
+    "sum_logp": -259.94073486328125,
+    "tokens": 24
+   },
+   "raw_margin": -0.3978757858276367,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": -3.526763916015625
+  },
+  {
+   "bad": {
+    "mean_logp": -6.5334930419921875,
+    "sum_logp": -124.13636779785156,
+    "tokens": 19
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.319129467010498,
+    "sum_logp": -101.06346130371094,
+    "tokens": 19
+   },
+   "group": "g0139",
+   "id": "idiom-0139",
+   "language": "sv",
+   "margin": 1.2143635749816895,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.471087455749512,
+    "sum_logp": -179.95065307617188,
+    "tokens": 19
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -9.880267143249512,
+    "sum_logp": -187.72506713867188,
+    "tokens": 19
+   },
+   "raw_margin": -0.4091796875,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 23.072906494140625
+  },
+  {
+   "bad": {
+    "mean_logp": -7.473669528961182,
+    "sum_logp": -171.89439392089844,
+    "tokens": 23
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.550863265991211,
+    "sum_logp": -144.11898803710938,
+    "tokens": 22
+   },
+   "group": "g0141",
+   "id": "idiom-0141",
+   "language": "sv",
+   "margin": 0.9228062629699707,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.814709663391113,
+    "sum_logp": -271.7383117675781,
+    "tokens": 23
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -11.83730411529541,
+    "sum_logp": -260.4206848144531,
+    "tokens": 22
+   },
+   "raw_margin": -0.022594451904296875,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 27.775405883789062
+  },
+  {
+   "bad": {
+    "mean_logp": -7.030537128448486,
+    "sum_logp": -154.67181396484375,
+    "tokens": 22
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.184001445770264,
+    "sum_logp": -129.86402893066406,
+    "tokens": 21
+   },
+   "group": "g0143",
+   "id": "idiom-0143",
+   "language": "sv",
+   "margin": 0.8465356826782227,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.551837921142578,
+    "sum_logp": -254.14044189453125,
+    "tokens": 22
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -11.624107360839844,
+    "sum_logp": -244.10626220703125,
+    "tokens": 21
+   },
+   "raw_margin": -0.07226943969726562,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 24.807785034179688
+  },
+  {
+   "bad": {
+    "mean_logp": -6.829994201660156,
+    "sum_logp": -150.25987243652344,
+    "tokens": 22
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.53888463973999,
+    "sum_logp": -127.39434814453125,
+    "tokens": 23
+   },
+   "group": "g0158",
+   "id": "idiom-0158",
+   "language": "sv",
+   "margin": 1.291109561920166,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.002246856689453,
+    "sum_logp": -264.0494384765625,
+    "tokens": 22
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -10.89742374420166,
+    "sum_logp": -250.6407470703125,
+    "tokens": 23
+   },
+   "raw_margin": 1.104823112487793,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 22.865524291992188
+  },
+  {
+   "bad": {
+    "mean_logp": -8.065580368041992,
+    "sum_logp": -120.98370361328125,
+    "tokens": 15
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -7.729280471801758,
+    "sum_logp": -131.39776611328125,
+    "tokens": 17
+   },
+   "group": "g0162",
+   "id": "idiom-0162",
+   "language": "sv",
+   "margin": 0.3362998962402344,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.019683837890625,
+    "sum_logp": -180.29525756835938,
+    "tokens": 15
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -11.872674942016602,
+    "sum_logp": -201.83547973632812,
+    "tokens": 17
+   },
+   "raw_margin": 0.14700889587402344,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": -10.4140625
+  },
+  {
+   "bad": {
+    "mean_logp": -7.4108405113220215,
+    "sum_logp": -148.21681213378906,
+    "tokens": 20
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.135571479797363,
+    "sum_logp": -122.71142578125,
+    "tokens": 20
+   },
+   "group": "g0163",
+   "id": "idiom-0163",
+   "language": "sv",
+   "margin": 1.2752690315246582,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.491340637207031,
+    "sum_logp": -209.82681274414062,
+    "tokens": 20
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -10.648371696472168,
+    "sum_logp": -212.96743774414062,
+    "tokens": 20
+   },
+   "raw_margin": -0.15703105926513672,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 25.505386352539062
+  },
+  {
+   "bad": {
+    "mean_logp": -4.988753318786621,
+    "sum_logp": -149.66259765625,
+    "tokens": 30
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.411852836608887,
+    "sum_logp": -132.3555908203125,
+    "tokens": 30
+   },
+   "group": "g0164",
+   "id": "idiom-0164",
+   "language": "sv",
+   "margin": 0.5769004821777344,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.383200645446777,
+    "sum_logp": -311.49603271484375,
+    "tokens": 30
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -10.062176704406738,
+    "sum_logp": -301.86529541015625,
+    "tokens": 30
+   },
+   "raw_margin": 0.32102394104003906,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 17.3070068359375
+  },
+  {
+   "bad": {
+    "mean_logp": -8.65109920501709,
+    "sum_logp": -121.11538696289062,
+    "tokens": 14
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -9.215048789978027,
+    "sum_logp": -129.01068115234375,
+    "tokens": 14
+   },
+   "group": "g0169",
+   "id": "idiom-0169",
+   "language": "sv",
+   "margin": -0.5639495849609375,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -13.933220863342285,
+    "sum_logp": -195.06509399414062,
+    "tokens": 14
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -13.996110916137695,
+    "sum_logp": -195.945556640625,
+    "tokens": 14
+   },
+   "raw_margin": -0.06289005279541016,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -7.895294189453125
+  },
+  {
+   "bad": {
+    "mean_logp": -6.5124831199646,
+    "sum_logp": -123.7371826171875,
+    "tokens": 19
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.429933071136475,
+    "sum_logp": -122.16873168945312,
+    "tokens": 19
+   },
+   "group": "g0170",
+   "id": "idiom-0170",
+   "language": "sv",
+   "margin": 0.082550048828125,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.8866605758667,
+    "sum_logp": -206.8465576171875,
+    "tokens": 19
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -11.225496292114258,
+    "sum_logp": -213.284423828125,
+    "tokens": 19
+   },
+   "raw_margin": -0.3388357162475586,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 1.568450927734375
+  },
+  {
+   "bad": {
+    "mean_logp": -6.9784932136535645,
+    "sum_logp": -146.54835510253906,
+    "tokens": 21
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.602075576782227,
+    "sum_logp": -138.64358520507812,
+    "tokens": 21
+   },
+   "group": "g0179",
+   "id": "idiom-0179",
+   "language": "sv",
+   "margin": 0.3764176368713379,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.181916236877441,
+    "sum_logp": -192.8202362060547,
+    "tokens": 21
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -9.142011642456055,
+    "sum_logp": -191.9822540283203,
+    "tokens": 21
+   },
+   "raw_margin": 0.03990459442138672,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 7.9047698974609375
+  },
+  {
+   "bad": {
+    "mean_logp": -7.7527923583984375,
+    "sum_logp": -124.044677734375,
+    "tokens": 16
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -7.382479667663574,
+    "sum_logp": -110.73719787597656,
+    "tokens": 15
+   },
+   "group": "g0187",
+   "id": "idiom-0187",
+   "language": "sv",
+   "margin": 0.3703126907348633,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.703914642333984,
+    "sum_logp": -203.26263427734375,
+    "tokens": 16
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -13.263463973999023,
+    "sum_logp": -198.95196533203125,
+    "tokens": 15
+   },
+   "raw_margin": -0.5595493316650391,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 13.307479858398438
+  },
+  {
+   "bad": {
+    "mean_logp": -7.0640459060668945,
+    "sum_logp": -141.28091430664062,
+    "tokens": 20
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.751324653625488,
+    "sum_logp": -135.0264892578125,
+    "tokens": 20
+   },
+   "group": "g0190",
+   "id": "idiom-0190",
+   "language": "sv",
+   "margin": 0.31272125244140625,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.976579666137695,
+    "sum_logp": -199.53158569335938,
+    "tokens": 20
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -9.466644287109375,
+    "sum_logp": -189.3328857421875,
+    "tokens": 20
+   },
+   "raw_margin": 0.5099353790283203,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 6.254425048828125
+  },
+  {
+   "bad": {
+    "mean_logp": -7.160894393920898,
+    "sum_logp": -136.05699157714844,
+    "tokens": 19
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -7.115688800811768,
+    "sum_logp": -120.96671295166016,
+    "tokens": 17
+   },
+   "group": "g0196",
+   "id": "idiom-0196",
+   "language": "sv",
+   "margin": 0.04520559310913086,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.633207321166992,
+    "sum_logp": -221.03094482421875,
+    "tokens": 19
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -11.944250106811523,
+    "sum_logp": -203.05224609375,
+    "tokens": 17
+   },
+   "raw_margin": -0.31104278564453125,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 15.090278625488281
+  },
+  {
+   "bad": {
+    "mean_logp": -6.65855073928833,
+    "sum_logp": -153.14666748046875,
+    "tokens": 23
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -6.755117416381836,
+    "sum_logp": -162.12281799316406,
+    "tokens": 24
+   },
+   "group": "g0199",
+   "id": "idiom-0199",
+   "language": "sv",
+   "margin": -0.09656667709350586,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.531157493591309,
+    "sum_logp": -219.2166290283203,
+    "tokens": 23
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -9.965917587280273,
+    "sum_logp": -239.18202209472656,
+    "tokens": 24
+   },
+   "raw_margin": -0.43476009368896484,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -8.976150512695312
+  },
+  {
+   "bad": {
+    "mean_logp": -7.989921569824219,
+    "sum_logp": -159.79843139648438,
+    "tokens": 20
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.757205009460449,
+    "sum_logp": -141.90130615234375,
+    "tokens": 21
+   },
+   "group": "g0211",
+   "id": "idiom-0211",
+   "language": "sv",
+   "margin": 1.2327165603637695,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.610923767089844,
+    "sum_logp": -252.21847534179688,
+    "tokens": 20
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -12.891229629516602,
+    "sum_logp": -270.7158203125,
+    "tokens": 21
+   },
+   "raw_margin": -0.2803058624267578,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 17.897125244140625
+  },
+  {
+   "bad": {
+    "mean_logp": -5.319904327392578,
+    "sum_logp": -170.2369384765625,
+    "tokens": 32
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -5.496377468109131,
+    "sum_logp": -175.8840789794922,
+    "tokens": 32
+   },
+   "group": "g0221",
+   "id": "idiom-0221",
+   "language": "sv",
+   "margin": -0.17647314071655273,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.448734283447266,
+    "sum_logp": -366.3594970703125,
+    "tokens": 32
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -11.16500473022461,
+    "sum_logp": -357.2801513671875,
+    "tokens": 32
+   },
+   "raw_margin": 0.28372955322265625,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -5.6471405029296875
+  },
+  {
+   "bad": {
+    "mean_logp": -4.99702787399292,
+    "sum_logp": -104.93758392333984,
+    "tokens": 21
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -5.731492042541504,
+    "sum_logp": -114.62984466552734,
+    "tokens": 20
+   },
+   "group": "g0226",
+   "id": "idiom-0226",
+   "language": "sv",
+   "margin": -0.734464168548584,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.284706115722656,
+    "sum_logp": -236.97882080078125,
+    "tokens": 21
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -11.596193313598633,
+    "sum_logp": -231.9238739013672,
+    "tokens": 20
+   },
+   "raw_margin": -0.31148719787597656,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -9.6922607421875
+  },
+  {
+   "bad": {
+    "mean_logp": -6.726945877075195,
+    "sum_logp": -114.35807800292969,
+    "tokens": 17
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -8.233678817749023,
+    "sum_logp": -139.9725341796875,
+    "tokens": 17
+   },
+   "group": "g0228",
+   "id": "idiom-0228",
+   "language": "sv",
+   "margin": -1.5067329406738281,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -13.165608406066895,
+    "sum_logp": -223.81533813476562,
+    "tokens": 17
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -14.579221725463867,
+    "sum_logp": -247.84677124023438,
+    "tokens": 17
+   },
+   "raw_margin": -1.4136133193969727,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": -25.614456176757812
+  },
+  {
+   "bad": {
+    "mean_logp": -8.33457088470459,
+    "sum_logp": -175.02598571777344,
+    "tokens": 21
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -7.054664134979248,
+    "sum_logp": -134.0386199951172,
+    "tokens": 19
+   },
+   "group": "g0242",
+   "id": "idiom-0242",
+   "language": "sv",
+   "margin": 1.2799067497253418,
+   "phenomenon": "challenge",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.088581085205078,
+    "sum_logp": -253.86019897460938,
+    "tokens": 21
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -11.952317237854004,
+    "sum_logp": -227.09402465820312,
+    "tokens": 19
+   },
+   "raw_margin": 0.13626384735107422,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 40.98736572265625
+  },
+  {
+   "bad": {
+    "mean_logp": -5.757296562194824,
+    "sum_logp": -132.41781616210938,
+    "tokens": 23
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.658514499664307,
+    "sum_logp": -130.1458282470703,
+    "tokens": 23
+   },
+   "group": "g0284",
+   "id": "idiom-0284",
+   "language": "sv",
+   "margin": 0.09878206253051758,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.645907402038574,
+    "sum_logp": -221.8558807373047,
+    "tokens": 23
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -9.023036003112793,
+    "sum_logp": -207.5298309326172,
+    "tokens": 23
+   },
+   "raw_margin": 0.6228713989257812,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 2.2719879150390625
+  },
+  {
+   "bad": {
+    "mean_logp": -6.1800432205200195,
+    "sum_logp": -135.96095275878906,
+    "tokens": 22
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.802261829376221,
+    "sum_logp": -127.6497573852539,
+    "tokens": 22
+   },
+   "group": "g0288",
+   "id": "idiom-0288",
+   "language": "sv",
+   "margin": 0.37778139114379883,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -13.874695777893066,
+    "sum_logp": -305.2433166503906,
+    "tokens": 22
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -14.474689483642578,
+    "sum_logp": -318.44317626953125,
+    "tokens": 22
+   },
+   "raw_margin": -0.5999937057495117,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 8.311195373535156
+  },
+  {
+   "bad": {
+    "mean_logp": -6.273830890655518,
+    "sum_logp": -150.5719451904297,
+    "tokens": 24
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.79094123840332,
+    "sum_logp": -133.191650390625,
+    "tokens": 23
+   },
+   "group": "g0294",
+   "id": "idiom-0294",
+   "language": "sv",
+   "margin": 0.48288965225219727,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -11.832050323486328,
+    "sum_logp": -283.9692077636719,
+    "tokens": 24
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -12.260008811950684,
+    "sum_logp": -281.9801940917969,
+    "tokens": 23
+   },
+   "raw_margin": -0.42795848846435547,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 17.380294799804688
+  },
+  {
+   "bad": {
+    "mean_logp": -5.273319721221924,
+    "sum_logp": -147.6529541015625,
+    "tokens": 28
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.6273603439331055,
+    "sum_logp": -134.19345092773438,
+    "tokens": 29
+   },
+   "group": "g0312",
+   "id": "idiom-0312",
+   "language": "sv",
+   "margin": 0.6459593772888184,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -8.429162979125977,
+    "sum_logp": -236.01657104492188,
+    "tokens": 28
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -7.936563014984131,
+    "sum_logp": -230.1603240966797,
+    "tokens": 29
+   },
+   "raw_margin": 0.4925999641418457,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 13.459503173828125
+  },
+  {
+   "bad": {
+    "mean_logp": -6.920792102813721,
+    "sum_logp": -110.73267364501953,
+    "tokens": 16
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.486783981323242,
+    "sum_logp": -82.3017578125,
+    "tokens": 15
+   },
+   "group": "g0313",
+   "id": "idiom-0313",
+   "language": "sv",
+   "margin": 1.4340081214904785,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -13.866815567016602,
+    "sum_logp": -221.86904907226562,
+    "tokens": 16
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -13.384779930114746,
+    "sum_logp": -200.77169799804688,
+    "tokens": 15
+   },
+   "raw_margin": 0.48203563690185547,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 28.43091583251953
+  },
+  {
+   "bad": {
+    "mean_logp": -6.766601085662842,
+    "sum_logp": -87.96581268310547,
+    "tokens": 13
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -7.337551593780518,
+    "sum_logp": -95.38816833496094,
+    "tokens": 13
+   },
+   "group": "g0328",
+   "id": "idiom-0328",
+   "language": "sv",
+   "margin": -0.5709505081176758,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.258393287658691,
+    "sum_logp": -133.35911560058594,
+    "tokens": 13
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -11.970077514648438,
+    "sum_logp": -155.6110076904297,
+    "tokens": 13
+   },
+   "raw_margin": -1.711684226989746,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -7.422355651855469
+  },
+  {
+   "bad": {
+    "mean_logp": -5.43202018737793,
+    "sum_logp": -124.93646240234375,
+    "tokens": 23
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.121238708496094,
+    "sum_logp": -103.03096771240234,
+    "tokens": 25
+   },
+   "group": "g0351",
+   "id": "idiom-0351",
+   "language": "sv",
+   "margin": 1.310781478881836,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.721260070800781,
+    "sum_logp": -223.58897399902344,
+    "tokens": 23
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -9.232187271118164,
+    "sum_logp": -230.8046875,
+    "tokens": 25
+   },
+   "raw_margin": 0.4890727996826172,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 21.905494689941406
+  },
+  {
+   "bad": {
+    "mean_logp": -5.139418601989746,
+    "sum_logp": -185.01907348632812,
+    "tokens": 36
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -5.3233513832092285,
+    "sum_logp": -191.64065551757812,
+    "tokens": 36
+   },
+   "group": "g0364",
+   "id": "idiom-0364",
+   "language": "sv",
+   "margin": -0.18393278121948242,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.188081741333008,
+    "sum_logp": -330.77093505859375,
+    "tokens": 36
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -9.41275405883789,
+    "sum_logp": -338.859130859375,
+    "tokens": 36
+   },
+   "raw_margin": -0.2246723175048828,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": -6.62158203125
+  },
+  {
+   "bad": {
+    "mean_logp": -6.686451435089111,
+    "sum_logp": -207.27999877929688,
+    "tokens": 31
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.608204364776611,
+    "sum_logp": -204.85433959960938,
+    "tokens": 31
+   },
+   "group": "g0375",
+   "id": "idiom-0375",
+   "language": "sv",
+   "margin": 0.0782470703125,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.35124397277832,
+    "sum_logp": -382.8885498046875,
+    "tokens": 31
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -12.225221633911133,
+    "sum_logp": -378.98187255859375,
+    "tokens": 31
+   },
+   "raw_margin": 0.1260223388671875,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 2.4256591796875
+  },
+  {
+   "bad": {
+    "mean_logp": -5.4995245933532715,
+    "sum_logp": -148.48716735839844,
+    "tokens": 27
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 0,
+   "good": {
+    "mean_logp": -6.0968122482299805,
+    "sum_logp": -158.51712036132812,
+    "tokens": 26
+   },
+   "group": "g0378",
+   "id": "idiom-0378",
+   "language": "sv",
+   "margin": -0.597287654876709,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -8.035380363464355,
+    "sum_logp": -216.9552764892578,
+    "tokens": 27
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -8.64814567565918,
+    "sum_logp": -224.85177612304688,
+    "tokens": 26
+   },
+   "raw_margin": -0.6127653121948242,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": -10.029953002929688
+  },
+  {
+   "bad": {
+    "mean_logp": -7.250411033630371,
+    "sum_logp": -123.25698852539062,
+    "tokens": 17
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.587971210479736,
+    "sum_logp": -100.58348083496094,
+    "tokens": 18
+   },
+   "group": "g0383",
+   "id": "idiom-0383",
+   "language": "sv",
+   "margin": 1.6624398231506348,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.673343658447266,
+    "sum_logp": -164.44683837890625,
+    "tokens": 17
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -9.525596618652344,
+    "sum_logp": -171.4607391357422,
+    "tokens": 18
+   },
+   "raw_margin": 0.14774703979492188,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 2,
+   "total_margin": 22.673507690429688
+  },
+  {
+   "bad": {
+    "mean_logp": -6.093456268310547,
+    "sum_logp": -121.86912536621094,
+    "tokens": 20
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -5.666684150695801,
+    "sum_logp": -113.33367919921875,
+    "tokens": 20
+   },
+   "group": "g0386",
+   "id": "idiom-0386",
+   "language": "sv",
+   "margin": 0.4267721176147461,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -13.035748481750488,
+    "sum_logp": -260.7149658203125,
+    "tokens": 20
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -14.213552474975586,
+    "sum_logp": -284.27105712890625,
+    "tokens": 20
+   },
+   "raw_margin": -1.1778039932250977,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 8.535446166992188
+  },
+  {
+   "bad": {
+    "mean_logp": -7.364705562591553,
+    "sum_logp": -125.19999694824219,
+    "tokens": 17
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.695706367492676,
+    "sum_logp": -113.82701110839844,
+    "tokens": 17
+   },
+   "group": "g0389",
+   "id": "idiom-0389",
+   "language": "sv",
+   "margin": 0.668999195098877,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.984782218933105,
+    "sum_logp": -186.74130249023438,
+    "tokens": 17
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -10.89666748046875,
+    "sum_logp": -185.24334716796875,
+    "tokens": 17
+   },
+   "raw_margin": 0.08811473846435547,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 11.37298583984375
+  },
+  {
+   "bad": {
+    "mean_logp": -6.108129978179932,
+    "sum_logp": -146.59512329101562,
+    "tokens": 24
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.044215202331543,
+    "sum_logp": -151.10537719726562,
+    "tokens": 25
+   },
+   "group": "g0396",
+   "id": "idiom-0396",
+   "language": "sv",
+   "margin": 0.06391477584838867,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -10.048190116882324,
+    "sum_logp": -241.15655517578125,
+    "tokens": 24
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -9.953680038452148,
+    "sum_logp": -248.8419952392578,
+    "tokens": 25
+   },
+   "raw_margin": 0.09451007843017578,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": -4.51025390625
+  },
+  {
+   "bad": {
+    "mean_logp": -6.419914245605469,
+    "sum_logp": -128.39828491210938,
+    "tokens": 20
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.305230617523193,
+    "sum_logp": -119.79937744140625,
+    "tokens": 19
+   },
+   "group": "g0406",
+   "id": "idiom-0406",
+   "language": "sv",
+   "margin": 0.11468362808227539,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.030797958374023,
+    "sum_logp": -180.61595153808594,
+    "tokens": 20
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -8.985201835632324,
+    "sum_logp": -170.71884155273438,
+    "tokens": 19
+   },
+   "raw_margin": 0.04559612274169922,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 8.598907470703125
+  },
+  {
+   "bad": {
+    "mean_logp": -5.2213263511657715,
+    "sum_logp": -161.86111450195312,
+    "tokens": 31
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -4.397425174713135,
+    "sum_logp": -131.92276000976562,
+    "tokens": 30
+   },
+   "group": "g0419",
+   "id": "idiom-0419",
+   "language": "sv",
+   "margin": 0.8239011764526367,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -9.042387962341309,
+    "sum_logp": -280.31402587890625,
+    "tokens": 31
+   },
+   "raw_correct": 0,
+   "raw_good": {
+    "mean_logp": -9.252886772155762,
+    "sum_logp": -277.58660888671875,
+    "tokens": 30
+   },
+   "raw_margin": -0.21049880981445312,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 3,
+   "total_margin": 29.9383544921875
+  },
+  {
+   "bad": {
+    "mean_logp": -9.79687213897705,
+    "sum_logp": -117.56246948242188,
+    "tokens": 12
+   },
+   "benchmark": "swedish_idioms",
+   "condition": "t3r2_dla40-47_K64_s0.5_t",
+   "correct": 1,
+   "good": {
+    "mean_logp": -6.153852462768555,
+    "sum_logp": -80.00008392333984,
+    "tokens": 13
+   },
+   "group": "g0422",
+   "id": "idiom-0422",
+   "language": "sv",
+   "margin": 3.643019676208496,
+   "phenomenon": "standard",
+   "prompt_template": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+   "raw_bad": {
+    "mean_logp": -12.565384864807129,
+    "sum_logp": -150.7846221923828,
+    "tokens": 12
+   },
+   "raw_correct": 1,
+   "raw_good": {
+    "mean_logp": -11.671515464782715,
+    "sum_logp": -151.72970581054688,
+    "tokens": 13
+   },
+   "raw_margin": 0.8938694000244141,
+   "raw_template": "raw_bos_no_eos_mean_logp_v1",
+   "split": "dev",
+   "tie": false,
+   "tier": 1,
+   "total_margin": 37.56238555908203
+  }
+ ],
+ "seconds": 19.39967567900021,
+ "summary": {
+  "equal_length_accuracy": 0.7142857142857143,
+  "equal_length_n": 21,
+  "macro_accuracy": 0.6375,
+  "mean_margin": 0.5277480483055115,
+  "micro_accuracy": 0.7291666666666666,
+  "n": 48,
+  "per_phenomenon": {
+   "challenge": 0.5,
+   "standard": 0.775
+  },
+  "raw_macro_accuracy": 0.4,
+  "raw_mean_margin": -0.12234768271446228,
+  "ties": 0,
+  "total_logp_accuracy": 0.7291666666666666
+ },
+ "utc": "2026-11-19T14:36:15.882483+00:00"
+}

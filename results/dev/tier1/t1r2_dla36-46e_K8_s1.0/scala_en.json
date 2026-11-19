@@ -1,0 +1,260 @@
+{
+ "accounting": {
+  "forward_calls": 17,
+  "forward_seconds": 8.288000000000011,
+  "generated_tokens": 16,
+  "input_tokens": 1275,
+  "sequences": 8
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 30720,
+   "changed_fraction": 0.0005208333604969084,
+   "entries": 58982400,
+   "max_abs": 0.11669921875,
+   "module": "model.language_model.layers.36.mlp.down_proj",
+   "realized_fro": 1.6468815803527832,
+   "relative_fro": 0.021842841058969498
+  },
+  {
+   "changed_entries": 30720,
+   "changed_fraction": 0.0005208333604969084,
+   "entries": 58982400,
+   "max_abs": 0.388671875,
+   "module": "model.language_model.layers.38.mlp.down_proj",
+   "realized_fro": 4.705038547515869,
+   "relative_fro": 0.02024281956255436
+  },
+  {
+   "changed_entries": 30720,
+   "changed_fraction": 0.0005208333604969084,
+   "entries": 58982400,
+   "max_abs": 0.2060546875,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 4.188316345214844,
+   "relative_fro": 0.01922360435128212
+  },
+  {
+   "changed_entries": 30720,
+   "changed_fraction": 0.0005208333604969084,
+   "entries": 58982400,
+   "max_abs": 0.1005859375,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 1.5779869556427002,
+   "relative_fro": 0.021443624049425125
+  },
+  {
+   "changed_entries": 30720,
+   "changed_fraction": 0.0005208333604969084,
+   "entries": 58982400,
+   "max_abs": 0.244140625,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 3.743041515350342,
+   "relative_fro": 0.01762303337454796
+  },
+  {
+   "changed_entries": 30720,
+   "changed_fraction": 0.0005208333604969084,
+   "entries": 58982400,
+   "max_abs": 0.38671875,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 3.60062313079834,
+   "relative_fro": 0.016815433278679848
+  }
+ ],
+ "key": {
+  "condition": "t1r2_dla36-46e_K8_s1.0",
+  "edit": "d3ecf38b37bc8cbc",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "9784721c58d58737",
+  "tier": 1
+ },
+ "records": [
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "en-00107",
+   "id": "scala-en-test-1374",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    4443,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 898,
+   "raw_output": "yes",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "en-01356",
+   "id": "scala-en-test-1356",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    1904,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 903,
+   "raw_output": "no",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "en-01138",
+   "id": "scala-en-test-1692",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    4443,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 892,
+   "raw_output": "yes",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 0,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "en-01101",
+   "id": "scala-en-test-1101",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    4443,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 880,
+   "raw_output": "yes",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 0,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "en-01317",
+   "id": "scala-en-test-1669",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    1904,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 897,
+   "raw_output": "no",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "en-00052",
+   "id": "scala-en-test-1987",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    1904,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 893,
+   "raw_output": "no",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 0,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "en-00723",
+   "id": "scala-en-test-0723",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    1904,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 884,
+   "raw_output": "no",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t1r2_dla36-46e_K8_s1.0",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "en-00931",
+   "id": "scala-en-test-0931",
+   "invalid": false,
+   "language": "en",
+   "output_ids": [
+    1904,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 922,
+   "raw_output": "no",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  }
+ ],
+ "seconds": 8.394292764998681,
+ "summary": {
+  "accuracy": 0.625,
+  "invalid_rate": 0.0,
+  "macro_f1": 0.6190476190476191,
+  "mcc": 0.2581988897471611,
+  "n": 8
+ },
+ "utc": "2026-11-19T12:29:56.363844+00:00"
+}

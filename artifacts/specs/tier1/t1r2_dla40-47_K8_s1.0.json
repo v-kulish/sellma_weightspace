@@ -1,0 +1,199 @@
+{
+ "name": "t1r2_dla40-47_K8_s1.0",
+ "description": "direct-effect neuron scaling on all tier-1 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 4 highest-score neurons x2.0, 4 lowest x0.0",
+ "identity": "03e3bf0815f1765b",
+ "ops": [
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "neurons": [
+    86,
+    13890,
+    14198,
+    10110,
+    13991,
+    1761,
+    4565,
+    4483
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "neurons": [
+    11731,
+    10896,
+    13331,
+    14373,
+    328,
+    5228,
+    654,
+    3295
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "neurons": [
+    10922,
+    12942,
+    6661,
+    9086,
+    4568,
+    2845,
+    4459,
+    2684
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "neurons": [
+    12563,
+    9447,
+    14314,
+    3994,
+    5534,
+    13456,
+    2780,
+    13963
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "neurons": [
+    14067,
+    14160,
+    2794,
+    15288,
+    11475,
+    5313,
+    12871,
+    14481
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "neurons": [
+    3332,
+    3246,
+    594,
+    2740,
+    12419,
+    7296,
+    2439,
+    4655
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "neurons": [
+    6696,
+    2091,
+    9271,
+    8684,
+    13667,
+    8021,
+    2652,
+    7040
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "type": "neuron_scaling",
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "neurons": [
+    2227,
+    650,
+    10116,
+    5977,
+    3675,
+    9037,
+    14808,
+    12844
+   ],
+   "scales": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ]
+}

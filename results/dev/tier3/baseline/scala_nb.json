@@ -1,7 +1,7 @@
 {
  "accounting": {
   "forward_calls": 65,
-  "forward_seconds": 27.607,
+  "forward_seconds": 26.093000000000004,
   "generated_tokens": 64,
   "input_tokens": 2849,
   "sequences": 32
@@ -10,7 +10,7 @@
  "key": {
   "condition": "baseline",
   "edit": null,
-  "source": "6a5eacfaf65d3e02a4ea1444dda862aa63310a7f89cfa3ade2a9e7a8dc98b10d",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
   "split": "dev",
   "split_hash": "9784721c58d58737",
   "tier": 3
@@ -721,7 +721,7 @@
    "truncated": false
   }
  ],
- "seconds": 27.94656740500068,
+ "seconds": 26.41067177199875,
  "summary": {
   "accuracy": 0.8125,
   "invalid_rate": 0.0,
@@ -729,5 +729,5 @@
   "mcc": 0.629940788348712,
   "n": 32
  },
- "utc": "2026-11-19T11:13:17.213179+00:00"
+ "utc": "2026-11-19T14:03:02.697348+00:00"
 }

@@ -1,0 +1,1231 @@
+{
+ "baseline": {
+  "belebele_dan_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 13.243763542175293,
+   "n": 10
+  },
+  "belebele_eng_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 13.594293689727783,
+   "n": 10
+  },
+  "belebele_fin_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 12.999158668518067,
+   "n": 10
+  },
+  "belebele_isl_Latn": {
+   "accuracy": 0.8,
+   "mean_gold_margin": 9.487916660308837,
+   "n": 10
+  },
+  "belebele_nob_Latn": {
+   "accuracy": 1.0,
+   "mean_gold_margin": 13.908444213867188,
+   "n": 10
+  },
+  "belebele_swe_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 12.847967338562011,
+   "n": 10
+  },
+  "belebele_zho_Hans": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 14.366756629943847,
+   "n": 10
+  },
+  "scala_da": {
+   "accuracy": 0.875,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.873015873015873,
+   "mcc": 0.7745966692414834,
+   "n": 8
+  },
+  "scala_en": {
+   "accuracy": 0.625,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.6190476190476191,
+   "mcc": 0.2581988897471611,
+   "n": 8
+  },
+  "scala_nb": {
+   "accuracy": 0.875,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.873015873015873,
+   "mcc": 0.7745966692414834,
+   "n": 8
+  },
+  "scala_sv": {
+   "accuracy": 1.0,
+   "invalid_rate": 0.0,
+   "macro_f1": 1.0,
+   "mcc": 1.0,
+   "n": 8
+  },
+  "swe_blimp_sv": {
+   "equal_length_accuracy": 0.625,
+   "equal_length_n": 16,
+   "macro_accuracy": 0.5384615384615384,
+   "mean_margin": 0.21549472442040077,
+   "micro_accuracy": 0.5384615384615384,
+   "n": 26,
+   "per_phenomenon": {
+    "ADJ. NOUN AGR. DEF.": 1.0,
+    "ADJ. NOUN AGR. GEN.": 0.0,
+    "ADJ. NOUN AGR. INDEF.": 1.0,
+    "ADJ. NOUN AGR. NUM. PL.": 1.0,
+    "ADJ. NOUN AGR. NUM. SG.": 1.0,
+    "ARG. STR.": 1.0,
+    "ART. NOUN AGR. GEN.": 1.0,
+    "ART. NOUN AGR. INDEF.": 1.0,
+    "ART. NOUN AGR. PL.": 0.0,
+    "ART. NOUN AGR. SG.": 0.0,
+    "DOUBLE DEF.": 1.0,
+    "ELLIPSIS1": 1.0,
+    "ELLIPSIS2": 1.0,
+    "EMBEDDED V2 AdvP.": 0.0,
+    "EMBEDDED V3 CL.": 0.0,
+    "EMBEDDED V3 OBJ.": 1.0,
+    "NO RESUMPTION": 1.0,
+    "PARTICLE OBJ. ORDER": 0.0,
+    "RESUMPTION 1": 0.0,
+    "RESUMPTION 2": 0.0,
+    "V2 REL. CL.": 0.0,
+    "V3": 0.0,
+    "V3 CL.": 1.0,
+    "V3 COMPLEX NP": 1.0,
+    "V3 OBJ.": 0.0,
+    "V3 PP": 0.0
+   },
+   "raw_macro_accuracy": 0.46153846153846156,
+   "raw_mean_margin": 0.06074450566218449,
+   "ties": 0,
+   "total_logp_accuracy": 0.6923076923076923
+  },
+  "swedish_idioms_sv": {
+   "equal_length_accuracy": 0.8,
+   "equal_length_n": 5,
+   "macro_accuracy": 0.5,
+   "mean_margin": 1.0133127172787983,
+   "micro_accuracy": 0.9166666666666666,
+   "n": 12,
+   "per_phenomenon": {
+    "challenge": 0.0,
+    "standard": 1.0
+   },
+   "raw_macro_accuracy": 0.3181818181818182,
+   "raw_mean_margin": 0.006833871205647786,
+   "ties": 0,
+   "total_logp_accuracy": 0.8333333333333334
+  }
+ },
+ "build_accounting": {
+  "forward_calls": 0,
+  "forward_seconds": 0.0,
+  "generated_tokens": 0,
+  "input_tokens": 0,
+  "sequences": 0
+ },
+ "build_seconds": 364.3550763000021,
+ "candidates": {
+  "t1r2_dla36-46e_K8_s1.0": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 91.24099999999999,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r2_dla36-46e_K8_s1.0.pt",
+   "decision": {
+    "non_swedish_pp": -2.3809523809523805,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -9.999999999999998,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": -9.999999999999998,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 7.692307692307699,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.0751506365262545,
+    "swe_blimp_pp": 7.692307692307699,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "direct-effect neuron scaling on all tier-1 dev pairs: layers [36, 38, 40, 42, 44, 46], per layer 4 highest-score neurons x2.0, 4 lowest x0.0",
+   "edit_stats": [
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.11669921875,
+     "module": "model.language_model.layers.36.mlp.down_proj",
+     "realized_fro": 1.6468815803527832,
+     "relative_fro": 0.021842841058969498
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.388671875,
+     "module": "model.language_model.layers.38.mlp.down_proj",
+     "realized_fro": 4.705038547515869,
+     "relative_fro": 0.02024281956255436
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.2060546875,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 4.188316345214844,
+     "relative_fro": 0.01922360435128212
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.1005859375,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 1.5779869556427002,
+     "relative_fro": 0.021443624049425125
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.244140625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 3.743041515350342,
+     "relative_fro": 0.01762303337454796
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.38671875,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 3.60062313079834,
+     "relative_fro": 0.016815433278679848
+    }
+   ],
+   "identity": "d3ecf38b37bc8cbc",
+   "intended": [
+    {
+     "intended_fro": 1.6468815803527832,
+     "module": "model.language_model.layers.36.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.02184284092646566
+    },
+    {
+     "intended_fro": 4.705039024353027,
+     "module": "model.language_model.layers.38.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.020242820908380765
+    },
+    {
+     "intended_fro": 4.188316345214844,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.019223604107023073
+    },
+    {
+     "intended_fro": 1.5779869556427002,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.02144362383929063
+    },
+    {
+     "intended_fro": 3.7430412769317627,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.01762303204265323
+    },
+    {
+     "intended_fro": 3.6006228923797607,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.01681543219331791
+    }
+   ],
+   "seconds": 92.23183500099549,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.636334419250488,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.553360557556152,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.136075878143311,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 9.34281587600708,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.809342956542968,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.102610683441162,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 14.491959953308106,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.625,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.6153846153846154,
+     "mean_margin": 0.2906453609466553,
+     "micro_accuracy": 0.6153846153846154,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 0.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 0.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.0,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 0.0,
+      "EMBEDDED V2 AdvP.": 1.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 0.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 1.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.5,
+     "raw_mean_margin": -0.005714966700627253,
+     "ties": 0,
+     "total_logp_accuracy": 0.6538461538461539
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.5,
+     "mean_margin": 1.1256911754608154,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 0.0,
+      "standard": 1.0
+     },
+     "raw_macro_accuracy": 0.3181818181818182,
+     "raw_mean_margin": 0.034149726231892906,
+     "ties": 0,
+     "total_logp_accuracy": 0.8333333333333334
+    }
+   }
+  },
+  "t1r2_dla40-47_K32_s0.5": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 86.405,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r2_dla40-47_K32_s0.5.pt",
+   "decision": {
+    "non_swedish_pp": -1.1904761904761902,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -9.999999999999998,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 15.384615384615385,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.3783803536341741,
+    "swe_blimp_pp": 15.384615384615385,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "direct-effect neuron scaling on all tier-1 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 16 highest-score neurons x1.5, 16 lowest x0.5",
+   "edit_stats": [
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.20703125,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 4.154294013977051,
+     "relative_fro": 0.019067447632551193
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.2490234375,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 3.991060733795166,
+     "relative_fro": 0.018320489674806595
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.064453125,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 1.5342671871185303,
+     "relative_fro": 0.020849505439400673
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.0615234375,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 1.5348695516586304,
+     "relative_fro": 0.02131425216794014
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.2099609375,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 4.134020805358887,
+     "relative_fro": 0.01946384645998478
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.2314453125,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 3.82672119140625,
+     "relative_fro": 0.01799667440354824
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.1943359375,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 3.8093931674957275,
+     "relative_fro": 0.0177904199808836
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.337890625,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 3.5914440155029297,
+     "relative_fro": 0.01713564060628414
+    }
+   ],
+   "identity": "b2687e2839078cc3",
+   "intended": [
+    {
+     "intended_fro": 4.154294490814209,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.019067450033147585
+    },
+    {
+     "intended_fro": 3.991060733795166,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.018320490098978695
+    },
+    {
+     "intended_fro": 1.5342671871185303,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.02084950595560298
+    },
+    {
+     "intended_fro": 1.5348695516586304,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.021314251628484954
+    },
+    {
+     "intended_fro": 4.1340203285217285,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.019463844324537596
+    },
+    {
+     "intended_fro": 3.82672119140625,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.017996674761491388
+    },
+    {
+     "intended_fro": 3.8093931674957275,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.017790419719121427
+    },
+    {
+     "intended_fro": 3.5914440155029297,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.017135639679974002
+    }
+   ],
+   "seconds": 87.84908837400144,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.199629211425782,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.92081708908081,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.692883777618409,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 9.111386013031005,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.56259081363678,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.518720436096192,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 14.246389198303223,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.75,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.6923076923076923,
+     "mean_margin": 0.5938750780545748,
+     "micro_accuracy": 0.6923076923076923,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.0,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 0.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 1.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 1.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.5,
+     "raw_mean_margin": 0.15310217784001276,
+     "ties": 0,
+     "total_logp_accuracy": 0.7692307692307693
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 1.0,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.9545454545454546,
+     "mean_margin": 1.393168608347575,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 1.0,
+      "standard": 0.9090909090909091
+     },
+     "raw_macro_accuracy": 0.2727272727272727,
+     "raw_mean_margin": 0.051447788874308266,
+     "ties": 0,
+     "total_logp_accuracy": 0.9166666666666666
+    }
+   }
+  },
+  "t1r2_dla40-47_K32_s1.0": {
+   "accounting": {
+    "forward_calls": 148,
+    "forward_seconds": 90.512,
+    "generated_tokens": 68,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r2_dla40-47_K32_s1.0.pt",
+   "decision": {
+    "non_swedish_pp": -1.1904761904761905,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": -12.5,
+     "scala_sv": -12.5,
+     "swe_blimp_sv": 15.384615384615385,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.49619870919447684,
+    "swe_blimp_pp": 15.384615384615385,
+    "swedish_secondary_pp": -3.3333333333333335
+   },
+   "description": "direct-effect neuron scaling on all tier-1 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 16 highest-score neurons x2.0, 16 lowest x0.0",
+   "edit_stats": [
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.4140625,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 8.308588027954102,
+     "relative_fro": 0.038134895265102386
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.498046875,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 7.982121467590332,
+     "relative_fro": 0.03664097934961319
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.12890625,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 3.0685343742370605,
+     "relative_fro": 0.041699010878801346
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.123046875,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 3.0697391033172607,
+     "relative_fro": 0.04262850433588028
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.419921875,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 8.268041610717773,
+     "relative_fro": 0.03892769291996956
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.462890625,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 7.6534423828125,
+     "relative_fro": 0.03599334880709648
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.388671875,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 7.618786334991455,
+     "relative_fro": 0.0355808399617672
+    },
+    {
+     "changed_entries": 122880,
+     "changed_fraction": 0.0020833334419876337,
+     "entries": 58982400,
+     "max_abs": 0.67578125,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 7.182888031005859,
+     "relative_fro": 0.03427128121256828
+    }
+   ],
+   "identity": "f3e9034e9640ba6f",
+   "intended": [
+    {
+     "intended_fro": 8.308588981628418,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.03813490006629517
+    },
+    {
+     "intended_fro": 7.982121467590332,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.03664098019795739
+    },
+    {
+     "intended_fro": 3.0685343742370605,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.04169901191120596
+    },
+    {
+     "intended_fro": 3.0697391033172607,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.04262850325696991
+    },
+    {
+     "intended_fro": 8.268040657043457,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.03892768864907519
+    },
+    {
+     "intended_fro": 7.6534423828125,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.035993349522982776
+    },
+    {
+     "intended_fro": 7.618786334991455,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.035580839438242855
+    },
+    {
+     "intended_fro": 7.182888031005859,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 32,
+     "relative_fro": 0.034271279359948004
+    }
+   ],
+   "seconds": 91.64352590699855,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.636453628540039,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.131606674194336,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.682061576843262,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 8.954019927978516,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 1.0,
+     "mean_gold_margin": 13.779568791389465,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.153700351715088,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.974907207489014,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.75,
+     "invalid_rate": 0.125,
+     "macro_f1": 0.8035714285714286,
+     "mcc": 0.5735393346764044,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.6875,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.6923076923076923,
+     "mean_margin": 0.7116934336148776,
+     "micro_accuracy": 0.6923076923076923,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 0.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 0.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 1.0,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 0.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.0,
+      "EMBEDDED V3 CL.": 1.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 1.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 1.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.5,
+     "raw_mean_margin": 0.09352170504056491,
+     "ties": 0,
+     "total_logp_accuracy": 0.7307692307692307
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 1.0,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.9545454545454546,
+     "mean_margin": 1.3916650613149006,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 1.0,
+      "standard": 0.9090909090909091
+     },
+     "raw_macro_accuracy": 0.3181818181818182,
+     "raw_mean_margin": 0.17787941296895346,
+     "ties": 0,
+     "total_logp_accuracy": 0.9166666666666666
+    }
+   }
+  },
+  "t1r2_dla40-47_K8_s1.0": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 91.26500000000001,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r2_dla40-47_K8_s1.0.pt",
+   "decision": {
+    "non_swedish_pp": -1.1904761904761902,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -9.999999999999998,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 19.23076923076923,
+     "swedish_idioms_sv": -8.333333333333325
+    },
+    "swe_blimp_margin": 0.22107153672438404,
+    "swe_blimp_pp": 19.23076923076923,
+    "swedish_secondary_pp": -3.3333333333333304
+   },
+   "description": "direct-effect neuron scaling on all tier-1 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 4 highest-score neurons x2.0, 4 lowest x0.0",
+   "edit_stats": [
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.2060546875,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 4.188316345214844,
+     "relative_fro": 0.01922360435128212
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.4609375,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 4.533642292022705,
+     "relative_fro": 0.02081114612519741
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.1005859375,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 1.5779869556427002,
+     "relative_fro": 0.021443624049425125
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.06689453125,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 1.538042426109314,
+     "relative_fro": 0.021358313038945198
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.244140625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 3.743041515350342,
+     "relative_fro": 0.01762303337454796
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.2001953125,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 3.5244593620300293,
+     "relative_fro": 0.016575168818235397
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.38671875,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 3.60062313079834,
+     "relative_fro": 0.016815433278679848
+    },
+    {
+     "changed_entries": 30720,
+     "changed_fraction": 0.0005208333604969084,
+     "entries": 58982400,
+     "max_abs": 0.67578125,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 4.077368259429932,
+     "relative_fro": 0.019454101100564003
+    }
+   ],
+   "identity": "03e3bf0815f1765b",
+   "intended": [
+    {
+     "intended_fro": 4.188316345214844,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.019223604107023073
+    },
+    {
+     "intended_fro": 4.533642292022705,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.02081114627497319
+    },
+    {
+     "intended_fro": 1.5779869556427002,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.02144362383929063
+    },
+    {
+     "intended_fro": 1.5380421876907349,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.021358309029089976
+    },
+    {
+     "intended_fro": 3.7430412769317627,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.01762303204265323
+    },
+    {
+     "intended_fro": 3.5244593620300293,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.01657516857799589
+    },
+    {
+     "intended_fro": 3.6006228923797607,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.01681543219331791
+    },
+    {
+     "intended_fro": 4.077368259429932,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 8,
+     "relative_fro": 0.01945410064435322
+    }
+   ],
+   "seconds": 92.3272954349959,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.214256191253662,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.621776008605957,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.88616132736206,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 8.911627864837646,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.733302021026612,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.058458232879639,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 14.743002033233642,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.875,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.7307692307692307,
+     "mean_margin": 0.4365662611447848,
+     "micro_accuracy": 0.7307692307692307,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 0.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.0,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 0.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 1.0,
+      "EMBEDDED V3 CL.": 1.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 1.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 1.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.46153846153846156,
+     "raw_mean_margin": 0.10174674254197341,
+     "ties": 0,
+     "total_logp_accuracy": 0.8461538461538461
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.45454545454545453,
+     "mean_margin": 1.2937908569971721,
+     "micro_accuracy": 0.8333333333333334,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 0.0,
+      "standard": 0.9090909090909091
+     },
+     "raw_macro_accuracy": 0.7272727272727273,
+     "raw_mean_margin": 0.03307843208312988,
+     "ties": 0,
+     "total_logp_accuracy": 0.8333333333333334
+    }
+   }
+  }
+ },
+ "eval_accounting": {
+  "forward_calls": 580,
+  "forward_seconds": 359.423,
+  "generated_tokens": 260,
+  "input_tokens": 97248,
+  "sequences": 1016
+ },
+ "per_task": "| candidate | blimp | idioms | scala_sv | scala_da | scala_nb | scala_en | bel_swe_Latn | bel_dan_Latn | bel_nob_Latn | bel_fin_Latn | bel_isl_Latn | bel_eng_Latn | bel_zho_Hans |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| baseline (abs) | 53.8 | 91.7 | 100.0 | 87.5 | 87.5 | 62.5 | 90.0 | 90.0 | 100.0 | 90.0 | 80.0 | 90.0 | 90.0 |\n| t1r2_dla40-47_K32_s0.5 (Δpp) | +15.4 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -10.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t1r2_dla40-47_K32_s1.0 (Δpp) | +15.4 | +0.0 | -12.5 | +0.0 | -12.5 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t1r2_dla40-47_K8_s1.0 (Δpp) | +19.2 | -8.3 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -10.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t1r2_dla36-46e_K8_s1.0 (Δpp) | +7.7 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -10.0 | +0.0 | +0.0 | +0.0 | -10.0 |",
+ "round": 2,
+ "table": "| candidate | Swe-BLiMP Δpp | Swe-BLiMP Δmargin | Swedish secondary Δpp | non-Swedish Δpp | eligible | rel. norm |\n|---|---|---|---|---|---|---|\n| t1r2_dla40-47_K32_s0.5 | +15.38 | +0.3784 | +0.00 | -1.19 | yes | 0.0191, 0.0183, 0.0208, 0.0213, 0.0195, 0.0180, 0.0178, 0.0171 |\n| t1r2_dla40-47_K32_s1.0 | +15.38 | +0.4962 | -3.33 | -1.19 | no | 0.0381, 0.0366, 0.0417, 0.0426, 0.0389, 0.0360, 0.0356, 0.0343 |\n| t1r2_dla40-47_K8_s1.0 | +19.23 | +0.2211 | -3.33 | -1.19 | no | 0.0192, 0.0208, 0.0214, 0.0214, 0.0176, 0.0166, 0.0168, 0.0195 |\n| t1r2_dla36-46e_K8_s1.0 | +7.69 | +0.0752 | +0.00 | -2.38 | no | 0.0218, 0.0202, 0.0192, 0.0214, 0.0176, 0.0168 |",
+ "tier": 1,
+ "utc": "2026-11-19T12:30:42.469227+00:00"
+}

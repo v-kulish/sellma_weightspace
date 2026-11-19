@@ -1,0 +1,712 @@
+{
+ "conditions": {
+  "tier1_edit": {
+   "artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5.pt",
+   "artifact_sha256": "c50cff270e3ff9a3d5c2c7f63952c71bcdcd884c6815342c5d66b2a2f20db48e",
+   "candidate": "t1r1_dla44-47_k32_s0.5",
+   "description": "per layer 44-47: 32 neurons with highest mean direct-effect pair score x1.5, 32 lowest x0.5",
+   "edit_identity": "6041f4158d93a712"
+  },
+  "tier1_random": {
+   "artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5__random43.pt",
+   "artifact_sha256": "37f1cdfdc7de46ccefae53d1806489a79d75361c4d375ce4be515e3288f75e89",
+   "candidate": "t1r1_dla44-47_k32_s0.5",
+   "description": "matched random control (seed 43) for t1r1_dla44-47_k32_s0.5",
+   "edit_identity": "081cce6494ba8ea4"
+  },
+  "tier2_edit": {
+   "artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5.pt",
+   "artifact_sha256": "375eda236975613181c93671cb4c1292caa68cd594f0e15970a27ee8fe47ab33",
+   "candidate": "t2r1_dla40-47_K64_s0.5",
+   "description": "direct-effect neuron scaling on all tier-2 dev pairs: layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 32 highest-score neurons x1.5, 32 lowest x0.5",
+   "edit_identity": "08d61aaceff37e93"
+  },
+  "tier2_random": {
+   "artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5__random43.pt",
+   "artifact_sha256": "fa78d1f492b94aa51d5fbfb42e0dc5bc8f0bf80ea7cbf8754bb0a846ac732313",
+   "candidate": "t2r1_dla40-47_K64_s0.5",
+   "description": "matched random control (seed 43) for t2r1_dla40-47_K64_s0.5",
+   "edit_identity": "deef4989cea376d1"
+  },
+  "tier3_edit": {
+   "artifact": "artifacts/tier3/t3r1_dla40-47_K64_s0.25.pt",
+   "artifact_sha256": "eb6113873e691a4bce4816bf2fabe38b2edcfb0efd115ca2a47e63f93ccfd2da",
+   "candidate": "t3r1_dla40-47_K64_s0.25",
+   "description": "direct-effect neuron scaling on tier-3 dev pairs (all): layers [40, 41, 42, 43, 44, 45, 46, 47], per layer 32 highest-score neurons x1.25, 32 lowest x0.75",
+   "edit_identity": "e271b10b8a05472e"
+  },
+  "tier3_random": {
+   "artifact": "artifacts/tier3/t3r1_dla40-47_K64_s0.25__random43.pt",
+   "artifact_sha256": "7ecfeb55666e7591e0bd9537037a95433fcac85ecae78c25818a32755a5a5d28",
+   "candidate": "t3r1_dla40-47_K64_s0.25",
+   "description": "matched random control (seed 43) for t3r1_dla40-47_K64_s0.25",
+   "edit_identity": "a5a57d23c10f6c55"
+  }
+ },
+ "decision_rules": {
+  "belebele_tolerable_loss_pp": -3.0,
+  "bootstrap": 10000,
+  "primary_gain_pp": 2.0,
+  "seed": 2026
+ },
+ "planned_comparisons": [
+  "tier3_edit vs baseline on Swe-BLiMP test macro accuracy (primary)",
+  "tierN_edit vs tierN_random (direction added value), N=1,2,3",
+  "tierN_edit vs baseline on every task (transfer and regression), N=1,2,3",
+  "tierN_random vs baseline on every task"
+ ],
+ "protocol_file_sha256": "8fc3c7c49f7cb07a7745a85a67f5da600bd7fe1955e4f0dd1619ec51000d621f",
+ "protocols": {
+  "belebele": "belebele_native_instruction_chat_nothink_label_logp_v1",
+  "belebele_instructions": {
+   "dan_Latn": "Læs teksten og besvar spørgsmålet. Svar kun med bogstavet A, B, C eller D.",
+   "eng_Latn": "Read the passage and answer the question. Reply only with the letter A, B, C, or D.",
+   "fin_Latn": "Lue teksti ja vastaa kysymykseen. Vastaa vain kirjaimella A, B, C tai D.",
+   "isl_Latn": "Lestu textann og svaraðu spurningunni. Svaraðu aðeins með bókstafnum A, B, C eða D.",
+   "nob_Latn": "Les teksten og svar på spørsmålet. Svar bare med bokstaven A, B, C eller D.",
+   "swe_Latn": "Läs texten och besvara frågan. Svara endast med bokstaven A, B, C eller D.",
+   "zho_Hans": "阅读短文并回答问题。只回答字母 A、B、C 或 D。"
+  },
+  "chat_instruction": "Skriv en mening på svenska.",
+  "pairs_primary": "chat_user_skriv_en_mening_pa_svenska_nothink_mean_logp_v1",
+  "pairs_secondary": "raw_bos_no_eos_mean_logp_v1",
+  "scala": "scala_euroeval_wording_12shot_greedy_strict_v1"
+ },
+ "source_hash": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+ "split_hashes": {
+  "belebele": "59a50407bbdd58454b4f5176e9789d2969c70a5cdcdf2d181c2ec03946b26a6a",
+  "scala": "9784721c58d587378e6950417621aec684d654461301010105ce92866f19ee9e",
+  "swe_blimp": "0c19576d69394a92338d58df3e5cc116a8632fff1b5e97243ff3484d07bc5068",
+  "swedish_idioms": "f3dbd82ffd9ea7ec2a0d79c7697d4e538bc6a52f4a33226dde920dd39ae89095"
+ },
+ "tier_locks": {
+  "1": {
+   "candidate": "t1r1_dla44-47_k32_s0.5",
+   "edit_artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5.pt",
+   "edit_dev": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 23.076923076923084,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.42187338608961844,
+    "swe_blimp_pp": 23.076923076923084,
+    "swedish_secondary_pp": 0.0
+   },
+   "edit_identity": "6041f4158d93a712",
+   "edit_intended": [
+    {
+     "intended_fro": 6.105701923370361,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02874693936761706
+    },
+    {
+     "intended_fro": 5.572678565979004,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.026207732072950872
+    },
+    {
+     "intended_fro": 5.495223522186279,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025663492480706863
+    },
+    {
+     "intended_fro": 5.300140857696533,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025288241609378932
+    }
+   ],
+   "n_candidates_evaluated": 8,
+   "random_artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5__random43.pt",
+   "random_dev": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 7.692307692307699,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.011201014885535598,
+    "swe_blimp_pp": 7.692307692307699,
+    "swedish_secondary_pp": 0.0
+   },
+   "random_eval_accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 91.136,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "random_identity": "081cce6494ba8ea4",
+   "random_intended": [
+    {
+     "intended_fro": 6.105702877044678,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02874694385771797
+    },
+    {
+     "intended_fro": 5.572679042816162,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02620773431546681
+    },
+    {
+     "intended_fro": 5.4952239990234375,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02566349470760569
+    },
+    {
+     "intended_fro": 5.300141334533691,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025288243884483235
+    }
+   ],
+   "random_realized": [
+    {
+     "changed_entries": 58982347,
+     "changed_fraction": 0.9999990463256836,
+     "entries": 58982400,
+     "max_abs": 0.005122592207044363,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 6.1057024002075195,
+     "relative_fro": 0.028746942058205605
+    },
+    {
+     "changed_entries": 58982344,
+     "changed_fraction": 0.9999990463256836,
+     "entries": 58982400,
+     "max_abs": 0.0047259642742574215,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 5.572679042816162,
+     "relative_fro": 0.026207733899354935
+    },
+    {
+     "changed_entries": 58982336,
+     "changed_fraction": 0.999998927116394,
+     "entries": 58982400,
+     "max_abs": 0.0049025919288396835,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 5.4952239990234375,
+     "relative_fro": 0.02566349506378174
+    },
+    {
+     "changed_entries": 58982342,
+     "changed_fraction": 0.9999990463256836,
+     "entries": 58982400,
+     "max_abs": 0.005615785717964172,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 5.300141334533691,
+     "relative_fro": 0.02528824470937252
+    }
+   ],
+   "rounds": [
+    "tier1_round1.json",
+    "tier1_round2.json"
+   ],
+   "tier": 1,
+   "utc": "2026-11-19T12:33:03.848545+00:00"
+  },
+  "2": {
+   "candidate": "t2r1_dla40-47_K64_s0.5",
+   "edit_artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5.pt",
+   "edit_dev": {
+    "non_swedish_pp": -0.5952380952380958,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -5.000000000000004,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 17.307692307692303,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.5435899129280677,
+    "swe_blimp_pp": 17.307692307692303,
+    "swedish_secondary_pp": 0.0
+   },
+   "edit_identity": "08d61aaceff37e93",
+   "edit_intended": [
+    {
+     "intended_fro": 6.034591197967529,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.027697667171199123
+    },
+    {
+     "intended_fro": 5.927680969238281,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.027210315189457587
+    },
+    {
+     "intended_fro": 2.202054977416992,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02992422620498488
+    },
+    {
+     "intended_fro": 2.1335408687591553,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.029627812270591622
+    },
+    {
+     "intended_fro": 6.148530006408691,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02894858306424458
+    },
+    {
+     "intended_fro": 5.613789081573486,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.0264010705842834
+    },
+    {
+     "intended_fro": 5.448925971984863,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02544727619274839
+    },
+    {
+     "intended_fro": 5.276039123535156,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025173246462449422
+    }
+   ],
+   "n_candidates_evaluated": 8,
+   "random_artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5__random43.pt",
+   "random_dev": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 5.769230769230771,
+     "swedish_idioms_sv": -4.1666666666666625
+    },
+    "swe_blimp_margin": 0.00746114437396711,
+    "swe_blimp_pp": 5.769230769230771,
+    "swedish_secondary_pp": -1.6666666666666652
+   },
+   "random_eval_accounting": {
+    "forward_calls": 284,
+    "forward_seconds": 171.06,
+    "generated_tokens": 128,
+    "input_tokens": 47615,
+    "sequences": 508
+   },
+   "random_identity": "deef4989cea376d1",
+   "random_intended": [
+    {
+     "intended_fro": 6.034592151641846,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.027697671548389383
+    },
+    {
+     "intended_fro": 5.927681922912598,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02721031956718623
+    },
+    {
+     "intended_fro": 2.2020552158355713,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.029924229444909207
+    },
+    {
+     "intended_fro": 2.1335411071777344,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.029627815581435585
+    },
+    {
+     "intended_fro": 6.148530960083008,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.028948587554345487
+    },
+    {
+     "intended_fro": 5.6137895584106445,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.026401072826799335
+    },
+    {
+     "intended_fro": 5.4489264488220215,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02544727841964722
+    },
+    {
+     "intended_fro": 5.276040077209473,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025173251012658025
+    }
+   ],
+   "random_realized": [
+    {
+     "changed_entries": 58982348,
+     "changed_fraction": 0.9999991655349731,
+     "entries": 58982400,
+     "max_abs": 0.005173873156309128,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 6.034592151641846,
+     "relative_fro": 0.027697671204805374
+    },
+    {
+     "changed_entries": 58982324,
+     "changed_fraction": 0.9999987483024597,
+     "entries": 58982400,
+     "max_abs": 0.005128450226038694,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 5.927681922912598,
+     "relative_fro": 0.02721031941473484
+    },
+    {
+     "changed_entries": 58982350,
+     "changed_fraction": 0.9999992251396179,
+     "entries": 58982400,
+     "max_abs": 0.001706484705209732,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 2.2020552158355713,
+     "relative_fro": 0.02992422878742218
+    },
+    {
+     "changed_entries": 58982331,
+     "changed_fraction": 0.9999988675117493,
+     "entries": 58982400,
+     "max_abs": 0.0018491570372134447,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 2.1335411071777344,
+     "relative_fro": 0.029627814888954163
+    },
+    {
+     "changed_entries": 58982339,
+     "changed_fraction": 0.999998927116394,
+     "entries": 58982400,
+     "max_abs": 0.005108325742185116,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 6.14853048324585,
+     "relative_fro": 0.02894858457148075
+    },
+    {
+     "changed_entries": 58982340,
+     "changed_fraction": 0.9999989867210388,
+     "entries": 58982400,
+     "max_abs": 0.004558540880680084,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 5.6137895584106445,
+     "relative_fro": 0.02640107274055481
+    },
+    {
+     "changed_entries": 58982330,
+     "changed_fraction": 0.9999988079071045,
+     "entries": 58982400,
+     "max_abs": 0.0047135669738054276,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 5.4489264488220215,
+     "relative_fro": 0.02544727921485901
+    },
+    {
+     "changed_entries": 58982329,
+     "changed_fraction": 0.9999988079071045,
+     "entries": 58982400,
+     "max_abs": 0.005478855222463608,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 5.276040077209473,
+     "relative_fro": 0.02517325058579445
+    }
+   ],
+   "rounds": [
+    "tier2_round1.json",
+    "tier2_round2.json"
+   ],
+   "tier": 2,
+   "utc": "2026-11-19T13:19:10.745141+00:00"
+  },
+  "3": {
+   "candidate": "t3r1_dla40-47_K64_s0.25",
+   "edit_artifact": "artifacts/tier3/t3r1_dla40-47_K64_s0.25.pt",
+   "edit_dev": {
+    "non_swedish_pp": -0.8928571428571432,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -2.500000000000002,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": -6.25,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 11.538461538461542,
+     "swedish_idioms_sv": 2.083333333333326
+    },
+    "swe_blimp_margin": 0.21020294152773344,
+    "swe_blimp_pp": 11.538461538461542,
+    "swedish_secondary_pp": 0.8333333333333304
+   },
+   "edit_identity": "e271b10b8a05472e",
+   "edit_intended": [
+    {
+     "intended_fro": 3.0303592681884766,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.013908793432057533
+    },
+    {
+     "intended_fro": 2.959723949432373,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.013586261129061744
+    },
+    {
+     "intended_fro": 1.0965397357940674,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.014901128006870091
+    },
+    {
+     "intended_fro": 1.0859827995300293,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.015080702218879947
+    },
+    {
+     "intended_fro": 3.130622386932373,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.01473963404528134
+    },
+    {
+     "intended_fro": 2.7615110874176025,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.012987101595516002
+    },
+    {
+     "intended_fro": 2.723088264465332,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.012717217947051543
+    },
+    {
+     "intended_fro": 2.512777805328369,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.01198906481127846
+    }
+   ],
+   "n_candidates_evaluated": 6,
+   "random_artifact": "artifacts/tier3/t3r1_dla40-47_K64_s0.25__random43.pt",
+   "random_dev": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 2.8846153846153855,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": -0.0007654657730689629,
+    "swe_blimp_pp": 2.8846153846153855,
+    "swedish_secondary_pp": 0.0
+   },
+   "random_eval_accounting": {
+    "forward_calls": 560,
+    "forward_seconds": 351.05,
+    "generated_tokens": 256,
+    "input_tokens": 94082,
+    "sequences": 1016
+   },
+   "random_identity": "a5a57d23c10f6c55",
+   "random_intended": [
+    {
+     "intended_fro": 3.0303597450256348,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.013908795620652663
+    },
+    {
+     "intended_fro": 2.959724187850952,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.013586262223493904
+    },
+    {
+     "intended_fro": 1.0965399742126465,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.01490113124679442
+    },
+    {
+     "intended_fro": 1.0859829187393188,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.015080703874301929
+    },
+    {
+     "intended_fro": 3.130622625350952,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.014739635167806566
+    },
+    {
+     "intended_fro": 2.7615115642547607,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.012987103838031937
+    },
+    {
+     "intended_fro": 2.723088502883911,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.012717219060500957
+    },
+    {
+     "intended_fro": 2.5127782821655273,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.011989067086382761
+    }
+   ],
+   "random_realized": [
+    {
+     "changed_entries": 58982298,
+     "changed_fraction": 0.9999983310699463,
+     "entries": 58982400,
+     "max_abs": 0.0025947419926524162,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 3.0303595066070557,
+     "relative_fro": 0.013908794149756432
+    },
+    {
+     "changed_entries": 58982304,
+     "changed_fraction": 0.9999983906745911,
+     "entries": 58982400,
+     "max_abs": 0.002508527599275112,
+     "module": "model.language_model.layers.41.mlp.down_proj",
+     "realized_fro": 2.959724187850952,
+     "relative_fro": 0.013586262241005898
+    },
+    {
+     "changed_entries": 58982281,
+     "changed_fraction": 0.9999979734420776,
+     "entries": 58982400,
+     "max_abs": 0.0008454807102680206,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 1.0965399742126465,
+     "relative_fro": 0.014901131391525269
+    },
+    {
+     "changed_entries": 58982292,
+     "changed_fraction": 0.9999982118606567,
+     "entries": 58982400,
+     "max_abs": 0.0009399987757205963,
+     "module": "model.language_model.layers.43.mlp.down_proj",
+     "realized_fro": 1.0859829187393188,
+     "relative_fro": 0.015080703422427177
+    },
+    {
+     "changed_entries": 58982286,
+     "changed_fraction": 0.999998152256012,
+     "entries": 58982400,
+     "max_abs": 0.0026069171726703644,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 3.1306228637695312,
+     "relative_fro": 0.014739636331796646
+    },
+    {
+     "changed_entries": 58982260,
+     "changed_fraction": 0.9999976754188538,
+     "entries": 58982400,
+     "max_abs": 0.002256292849779129,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 2.7615115642547607,
+     "relative_fro": 0.012987104244530201
+    },
+    {
+     "changed_entries": 58982289,
+     "changed_fraction": 0.999998152256012,
+     "entries": 58982400,
+     "max_abs": 0.0023776832967996597,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 2.723088502883911,
+     "relative_fro": 0.012717219069600105
+    },
+    {
+     "changed_entries": 58982261,
+     "changed_fraction": 0.9999977350234985,
+     "entries": 58982400,
+     "max_abs": 0.0025905631482601166,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 2.5127782821655273,
+     "relative_fro": 0.011989067308604717
+    }
+   ],
+   "rounds": [
+    "tier3_round1.json",
+    "tier3_round2.json"
+   ],
+   "tier": 3,
+   "utc": "2026-11-19T14:53:27.719409+00:00"
+  }
+ },
+ "utc": "2026-11-19T14:53:52.017145+00:00"
+}

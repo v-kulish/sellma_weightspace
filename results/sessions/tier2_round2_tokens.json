@@ -1,0 +1,46 @@
+{
+ "agent": {
+  "api_calls": 7,
+  "cache_creation_input": 8536,
+  "cache_read_input": 2380394,
+  "input_uncached": 14,
+  "output": 4301,
+  "output_non_thinking": 3762,
+  "thinking": 539,
+  "transcript": "bc06c9cb-45e1-4eb0-b985-c153463ae3c9.jsonl",
+  "window_utc": [
+   "2026-11-19T12:59:46.821777Z",
+   "2026-11-19T13:19:34.371373+00:00"
+  ]
+ },
+ "model_forward": {
+  "candidate construction (build)": {
+   "forward_calls": 0,
+   "forward_seconds": 0.0,
+   "generated_tokens": 0,
+   "input_tokens": 0,
+   "sequences": 0
+  },
+  "dev evaluation of candidates": {
+   "forward_calls": 1136,
+   "forward_seconds": 717.457,
+   "generated_tokens": 512,
+   "input_tokens": 190460,
+   "sequences": 2032
+  },
+  "inspection - random-neuron CV comparison": {
+   "forward_calls": 78,
+   "forward_seconds": 206.275,
+   "generated_tokens": 0,
+   "input_tokens": 69199,
+   "sequences": 1976
+  },
+  "lock - random control dev evaluation": {
+   "forward_calls": 284,
+   "forward_seconds": 171.06,
+   "generated_tokens": 128,
+   "input_tokens": 47615,
+   "sequences": 508
+  }
+ }
+}

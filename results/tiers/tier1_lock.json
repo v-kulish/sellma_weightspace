@@ -1,0 +1,153 @@
+{
+ "candidate": "t1r1_dla44-47_k32_s0.5",
+ "edit_artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5.pt",
+ "edit_dev": {
+  "non_swedish_pp": 0.0,
+  "per_task_pp": {
+   "belebele_dan_Latn": 0.0,
+   "belebele_eng_Latn": 0.0,
+   "belebele_fin_Latn": 0.0,
+   "belebele_isl_Latn": 0.0,
+   "belebele_nob_Latn": 0.0,
+   "belebele_swe_Latn": 0.0,
+   "belebele_zho_Hans": 0.0,
+   "scala_da": 0.0,
+   "scala_en": 0.0,
+   "scala_nb": 0.0,
+   "scala_sv": 0.0,
+   "swe_blimp_sv": 23.076923076923084,
+   "swedish_idioms_sv": 0.0
+  },
+  "swe_blimp_margin": 0.42187338608961844,
+  "swe_blimp_pp": 23.076923076923084,
+  "swedish_secondary_pp": 0.0
+ },
+ "edit_identity": "6041f4158d93a712",
+ "edit_intended": [
+  {
+   "intended_fro": 6.105701923370361,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02874693936761706
+  },
+  {
+   "intended_fro": 5.572678565979004,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.026207732072950872
+  },
+  {
+   "intended_fro": 5.495223522186279,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.025663492480706863
+  },
+  {
+   "intended_fro": 5.300140857696533,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.025288241609378932
+  }
+ ],
+ "n_candidates_evaluated": 8,
+ "random_artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5__random43.pt",
+ "random_dev": {
+  "non_swedish_pp": 0.0,
+  "per_task_pp": {
+   "belebele_dan_Latn": 0.0,
+   "belebele_eng_Latn": 0.0,
+   "belebele_fin_Latn": 0.0,
+   "belebele_isl_Latn": 0.0,
+   "belebele_nob_Latn": 0.0,
+   "belebele_swe_Latn": 0.0,
+   "belebele_zho_Hans": 0.0,
+   "scala_da": 0.0,
+   "scala_en": 0.0,
+   "scala_nb": 0.0,
+   "scala_sv": 0.0,
+   "swe_blimp_sv": 7.692307692307699,
+   "swedish_idioms_sv": 0.0
+  },
+  "swe_blimp_margin": 0.011201014885535598,
+  "swe_blimp_pp": 7.692307692307699,
+  "swedish_secondary_pp": 0.0
+ },
+ "random_eval_accounting": {
+  "forward_calls": 144,
+  "forward_seconds": 91.136,
+  "generated_tokens": 64,
+  "input_tokens": 24312,
+  "sequences": 254
+ },
+ "random_identity": "081cce6494ba8ea4",
+ "random_intended": [
+  {
+   "intended_fro": 6.105702877044678,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02874694385771797
+  },
+  {
+   "intended_fro": 5.572679042816162,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02620773431546681
+  },
+  {
+   "intended_fro": 5.4952239990234375,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02566349470760569
+  },
+  {
+   "intended_fro": 5.300141334533691,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.025288243884483235
+  }
+ ],
+ "random_realized": [
+  {
+   "changed_entries": 58982347,
+   "changed_fraction": 0.9999990463256836,
+   "entries": 58982400,
+   "max_abs": 0.005122592207044363,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 6.1057024002075195,
+   "relative_fro": 0.028746942058205605
+  },
+  {
+   "changed_entries": 58982344,
+   "changed_fraction": 0.9999990463256836,
+   "entries": 58982400,
+   "max_abs": 0.0047259642742574215,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 5.572679042816162,
+   "relative_fro": 0.026207733899354935
+  },
+  {
+   "changed_entries": 58982336,
+   "changed_fraction": 0.999998927116394,
+   "entries": 58982400,
+   "max_abs": 0.0049025919288396835,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 5.4952239990234375,
+   "relative_fro": 0.02566349506378174
+  },
+  {
+   "changed_entries": 58982342,
+   "changed_fraction": 0.9999990463256836,
+   "entries": 58982400,
+   "max_abs": 0.005615785717964172,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 5.300141334533691,
+   "relative_fro": 0.02528824470937252
+  }
+ ],
+ "rounds": [
+  "tier1_round1.json",
+  "tier1_round2.json"
+ ],
+ "tier": 1,
+ "utc": "2026-11-19T12:33:03.848545+00:00"
+}

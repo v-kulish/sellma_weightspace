@@ -1,0 +1,454 @@
+{
+ "accounting": {
+  "forward_calls": 33,
+  "forward_seconds": 14.00800000000001,
+  "generated_tokens": 32,
+  "input_tokens": 1806,
+  "sequences": 16
+ },
+ "edit_stats": [
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.20703125,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 6.034592151641846,
+   "relative_fro": 0.027697671204805374
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.2490234375,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "realized_fro": 5.927681922912598,
+   "relative_fro": 0.02721031941473484
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.064453125,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 2.2020552158355713,
+   "relative_fro": 0.02992422878742218
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.068359375,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "realized_fro": 2.1335411071777344,
+   "relative_fro": 0.029627814888954163
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.2431640625,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 6.14853048324585,
+   "relative_fro": 0.02894858457148075
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.1484375,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 5.613789081573486,
+   "relative_fro": 0.02640107087790966
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.2314453125,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 5.4489264488220215,
+   "relative_fro": 0.02544727921485901
+  },
+  {
+   "changed_entries": 245760,
+   "changed_fraction": 0.004166666883975267,
+   "entries": 58982400,
+   "max_abs": 0.337890625,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 5.276040077209473,
+   "relative_fro": 0.02517325058579445
+  }
+ ],
+ "key": {
+  "condition": "t2r1_dla40-47_K64_s0.5",
+  "edit": "08d61aaceff37e93",
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "9784721c58d58737",
+  "tier": 2
+ },
+ "records": [
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-01293",
+   "id": "scala-nb-test-1644",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 908,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 0,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-01217",
+   "id": "scala-nb-test-1250",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 906,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00297",
+   "id": "scala-nb-test-1405",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 890,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-00504",
+   "id": "scala-nb-test-0504",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 906,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00368",
+   "id": "scala-nb-test-0368",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 892,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00226",
+   "id": "scala-nb-test-0383",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 893,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00430",
+   "id": "scala-nb-test-0962",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 918,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00599",
+   "id": "scala-nb-test-0599",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 921,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00471",
+   "id": "scala-nb-test-0471",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 914,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-01968",
+   "id": "scala-nb-test-2037",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 895,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00869",
+   "id": "scala-nb-test-0983",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 892,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 0,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "nb-01268",
+   "id": "scala-nb-test-1631",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 900,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00603",
+   "id": "scala-nb-test-0603",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 907,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00562",
+   "id": "scala-nb-test-1080",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    119572,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 904,
+   "raw_output": "nei",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "nb-00415",
+   "id": "scala-nb-test-0415",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 912,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "t2r1_dla40-47_K64_s0.5",
+   "correct": 0,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "nb-00188",
+   "id": "scala-nb-test-0188",
+   "invalid": false,
+   "language": "nb",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 893,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  }
+ ],
+ "seconds": 14.182016735998332,
+ "summary": {
+  "accuracy": 0.8125,
+  "invalid_rate": 0.0,
+  "macro_f1": 0.8056680161943319,
+  "mcc": 0.674199862463242,
+  "n": 16
+ },
+ "utc": "2026-11-19T12:51:25.904174+00:00"
+}

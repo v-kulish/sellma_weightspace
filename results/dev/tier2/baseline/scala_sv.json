@@ -1,0 +1,381 @@
+{
+ "accounting": {
+  "forward_calls": 33,
+  "forward_seconds": 14.921,
+  "generated_tokens": 32,
+  "input_tokens": 1928,
+  "sequences": 16
+ },
+ "edit_stats": [],
+ "key": {
+  "condition": "baseline",
+  "edit": null,
+  "source": "c6c2be2c662304c83f7a1a0b00b439d2b3ff4f4343ee48850b97f458e674f3bd",
+  "split": "dev",
+  "split_hash": "9784721c58d58737",
+  "tier": 2
+ },
+ "records": [
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00051",
+   "id": "scala-sv-test-0051",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 978,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "sv-00220",
+   "id": "scala-sv-test-1940",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 978,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00252",
+   "id": "scala-sv-test-0421",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 978,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "sv-00327",
+   "id": "scala-sv-test-0817",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 975,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-01170",
+   "id": "scala-sv-test-1420",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 973,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "sv-00484",
+   "id": "scala-sv-test-1090",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 979,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00056",
+   "id": "scala-sv-test-0056",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 972,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "sv-00419",
+   "id": "scala-sv-test-0419",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 985,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 1,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00291",
+   "id": "scala-sv-test-0291",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1027,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "sv-00784",
+   "id": "scala-sv-test-0784",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 1007,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00450",
+   "id": "scala-sv-test-1324",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 975,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 0,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "sv-01008",
+   "id": "scala-sv-test-1989",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 976,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00003",
+   "id": "scala-sv-test-0003",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 972,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "flip_neighbours",
+   "gold": 0,
+   "group": "sv-00961",
+   "id": "scala-sv-test-1663",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 983,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "",
+   "gold": 1,
+   "group": "sv-00048",
+   "id": "scala-sv-test-0048",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    2489,
+    106
+   ],
+   "prediction": 1,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 995,
+   "raw_output": "ja",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  },
+  {
+   "benchmark": "scala",
+   "condition": "baseline",
+   "correct": 1,
+   "corruption_type": "delete",
+   "gold": 0,
+   "group": "sv-00785",
+   "id": "scala-sv-test-1162",
+   "invalid": false,
+   "language": "sv",
+   "output_ids": [
+    14338,
+    106
+   ],
+   "prediction": 0,
+   "prompt_template": "scala_euroeval_wording_12shot_greedy_strict_v1",
+   "prompt_tokens": 960,
+   "raw_output": "nej",
+   "split": "dev",
+   "tier": 2,
+   "truncated": false
+  }
+ ],
+ "seconds": 15.10916929999803,
+ "summary": {
+  "accuracy": 0.9375,
+  "invalid_rate": 0.0,
+  "macro_f1": 0.9372549019607843,
+  "mcc": 0.8819171036881969,
+  "n": 16
+ },
+ "utc": "2026-11-19T12:45:12.166923+00:00"
+}

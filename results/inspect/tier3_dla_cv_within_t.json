@@ -1,0 +1,276 @@
+{
+ "accounting": {
+  "forward_calls": 90,
+  "forward_seconds": 282.911,
+  "generated_tokens": 0,
+  "input_tokens": 96183,
+  "sequences": 2736
+ },
+ "fold_A_phenomena": [
+  "ARG. STR.",
+  "ART. NOUN AGR. INDEF.",
+  "ART. NOUN AGR. PL.",
+  "ART. NOUN AGR. SG.",
+  "EMBEDDED V2 AdvP.",
+  "EMBEDDED V3 CL.",
+  "EMBEDDED V3 OBJ.",
+  "RESUMPTION 1",
+  "RESUMPTION 2",
+  "V3 CL.",
+  "V3 COMPLEX NP",
+  "V3 OBJ.",
+  "V3 PP"
+ ],
+ "mode": "within",
+ "results": [
+  {
+   "K": 32,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.004115634842922813,
+     "n": 76,
+     "n_better": 50
+    },
+    "1": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.010506240945113333,
+     "n": 76,
+     "n_better": 50
+    }
+   },
+   "layers": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.0,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.007310937894018073,
+   "s": 0.25
+  },
+  {
+   "K": 32,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.008233678968329178,
+     "n": 76,
+     "n_better": 51
+    },
+    "1": {
+     "d_acc_blimp": 0.019230769230769232,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.01813466611661409,
+     "n": 76,
+     "n_better": 50
+    }
+   },
+   "layers": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.009615384615384616,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.013184172542471635,
+   "s": 0.5
+  },
+  {
+   "K": 64,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.006620799240313079,
+     "n": 76,
+     "n_better": 47
+    },
+    "1": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.014584748368514212,
+     "n": 76,
+     "n_better": 54
+    }
+   },
+   "layers": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.0,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.010602773804413646,
+   "s": 0.25
+  },
+  {
+   "K": 64,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.0132726368151213,
+     "n": 76,
+     "n_better": 48
+    },
+    "1": {
+     "d_acc_blimp": 0.038461538461538464,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.025905424042751913,
+     "n": 76,
+     "n_better": 54
+    }
+   },
+   "layers": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.019230769230769232,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.019589030428936605,
+   "s": 0.5
+  },
+  {
+   "K": 32,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.004668612229196649,
+     "n": 76,
+     "n_better": 47
+    },
+    "1": {
+     "d_acc_blimp": 0.019230769230769232,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.011956252549823961,
+     "n": 76,
+     "n_better": 49
+    }
+   },
+   "layers": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.009615384615384616,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.008312432389510304,
+   "s": 0.25
+  },
+  {
+   "K": 32,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.0,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.00931318810111598,
+     "n": 76,
+     "n_better": 46
+    },
+    "1": {
+     "d_acc_blimp": 0.038461538461538464,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.020933568477630615,
+     "n": 76,
+     "n_better": 48
+    }
+   },
+   "layers": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.019230769230769232,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.015123378289373298,
+   "s": 0.5
+  },
+  {
+   "K": 64,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.019230769230769232,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.007557828175394158,
+     "n": 76,
+     "n_better": 46
+    },
+    "1": {
+     "d_acc_blimp": 0.019230769230769232,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.0161353726136057,
+     "n": 76,
+     "n_better": 52
+    }
+   },
+   "layers": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.019230769230769232,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.011846600394499928,
+   "s": 0.25
+  },
+  {
+   "K": 64,
+   "folds": {
+    "0": {
+     "d_acc_blimp": 0.019230769230769232,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.015072762966156006,
+     "n": 76,
+     "n_better": 46
+    },
+    "1": {
+     "d_acc_blimp": 0.038461538461538464,
+     "d_acc_idioms": 0.0,
+     "d_margin": 0.028807963195600007,
+     "n": 76,
+     "n_better": 53
+    }
+   },
+   "layers": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "mean_d_acc_blimp": 0.028846153846153848,
+   "mean_d_acc_idioms": 0.0,
+   "mean_d_margin": 0.021940363080878007,
+   "s": 0.5
+  }
+ ],
+ "stat": "t"
+}

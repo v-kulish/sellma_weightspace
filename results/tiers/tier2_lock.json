@@ -1,0 +1,237 @@
+{
+ "candidate": "t2r1_dla40-47_K64_s0.5",
+ "edit_artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5.pt",
+ "edit_dev": {
+  "non_swedish_pp": -0.5952380952380958,
+  "per_task_pp": {
+   "belebele_dan_Latn": 0.0,
+   "belebele_eng_Latn": 0.0,
+   "belebele_fin_Latn": 0.0,
+   "belebele_isl_Latn": 0.0,
+   "belebele_nob_Latn": -5.000000000000004,
+   "belebele_swe_Latn": 0.0,
+   "belebele_zho_Hans": 0.0,
+   "scala_da": 0.0,
+   "scala_en": 0.0,
+   "scala_nb": 0.0,
+   "scala_sv": 0.0,
+   "swe_blimp_sv": 17.307692307692303,
+   "swedish_idioms_sv": 0.0
+  },
+  "swe_blimp_margin": 0.5435899129280677,
+  "swe_blimp_pp": 17.307692307692303,
+  "swedish_secondary_pp": 0.0
+ },
+ "edit_identity": "08d61aaceff37e93",
+ "edit_intended": [
+  {
+   "intended_fro": 6.034591197967529,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.027697667171199123
+  },
+  {
+   "intended_fro": 5.927680969238281,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.027210315189457587
+  },
+  {
+   "intended_fro": 2.202054977416992,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02992422620498488
+  },
+  {
+   "intended_fro": 2.1335408687591553,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.029627812270591622
+  },
+  {
+   "intended_fro": 6.148530006408691,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02894858306424458
+  },
+  {
+   "intended_fro": 5.613789081573486,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.0264010705842834
+  },
+  {
+   "intended_fro": 5.448925971984863,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02544727619274839
+  },
+  {
+   "intended_fro": 5.276039123535156,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.025173246462449422
+  }
+ ],
+ "n_candidates_evaluated": 8,
+ "random_artifact": "artifacts/tier2/t2r1_dla40-47_K64_s0.5__random43.pt",
+ "random_dev": {
+  "non_swedish_pp": 0.0,
+  "per_task_pp": {
+   "belebele_dan_Latn": 0.0,
+   "belebele_eng_Latn": 0.0,
+   "belebele_fin_Latn": 0.0,
+   "belebele_isl_Latn": 0.0,
+   "belebele_nob_Latn": 0.0,
+   "belebele_swe_Latn": 0.0,
+   "belebele_zho_Hans": 0.0,
+   "scala_da": 0.0,
+   "scala_en": 0.0,
+   "scala_nb": 0.0,
+   "scala_sv": 0.0,
+   "swe_blimp_sv": 5.769230769230771,
+   "swedish_idioms_sv": -4.1666666666666625
+  },
+  "swe_blimp_margin": 0.00746114437396711,
+  "swe_blimp_pp": 5.769230769230771,
+  "swedish_secondary_pp": -1.6666666666666652
+ },
+ "random_eval_accounting": {
+  "forward_calls": 284,
+  "forward_seconds": 171.06,
+  "generated_tokens": 128,
+  "input_tokens": 47615,
+  "sequences": 508
+ },
+ "random_identity": "deef4989cea376d1",
+ "random_intended": [
+  {
+   "intended_fro": 6.034592151641846,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.027697671548389383
+  },
+  {
+   "intended_fro": 5.927681922912598,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02721031956718623
+  },
+  {
+   "intended_fro": 2.2020552158355713,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.029924229444909207
+  },
+  {
+   "intended_fro": 2.1335411071777344,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.029627815581435585
+  },
+  {
+   "intended_fro": 6.148530960083008,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.028948587554345487
+  },
+  {
+   "intended_fro": 5.6137895584106445,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.026401072826799335
+  },
+  {
+   "intended_fro": 5.4489264488220215,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.02544727841964722
+  },
+  {
+   "intended_fro": 5.276040077209473,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "rank": 64,
+   "relative_fro": 0.025173251012658025
+  }
+ ],
+ "random_realized": [
+  {
+   "changed_entries": 58982348,
+   "changed_fraction": 0.9999991655349731,
+   "entries": 58982400,
+   "max_abs": 0.005173873156309128,
+   "module": "model.language_model.layers.40.mlp.down_proj",
+   "realized_fro": 6.034592151641846,
+   "relative_fro": 0.027697671204805374
+  },
+  {
+   "changed_entries": 58982324,
+   "changed_fraction": 0.9999987483024597,
+   "entries": 58982400,
+   "max_abs": 0.005128450226038694,
+   "module": "model.language_model.layers.41.mlp.down_proj",
+   "realized_fro": 5.927681922912598,
+   "relative_fro": 0.02721031941473484
+  },
+  {
+   "changed_entries": 58982350,
+   "changed_fraction": 0.9999992251396179,
+   "entries": 58982400,
+   "max_abs": 0.001706484705209732,
+   "module": "model.language_model.layers.42.mlp.down_proj",
+   "realized_fro": 2.2020552158355713,
+   "relative_fro": 0.02992422878742218
+  },
+  {
+   "changed_entries": 58982331,
+   "changed_fraction": 0.9999988675117493,
+   "entries": 58982400,
+   "max_abs": 0.0018491570372134447,
+   "module": "model.language_model.layers.43.mlp.down_proj",
+   "realized_fro": 2.1335411071777344,
+   "relative_fro": 0.029627814888954163
+  },
+  {
+   "changed_entries": 58982339,
+   "changed_fraction": 0.999998927116394,
+   "entries": 58982400,
+   "max_abs": 0.005108325742185116,
+   "module": "model.language_model.layers.44.mlp.down_proj",
+   "realized_fro": 6.14853048324585,
+   "relative_fro": 0.02894858457148075
+  },
+  {
+   "changed_entries": 58982340,
+   "changed_fraction": 0.9999989867210388,
+   "entries": 58982400,
+   "max_abs": 0.004558540880680084,
+   "module": "model.language_model.layers.45.mlp.down_proj",
+   "realized_fro": 5.6137895584106445,
+   "relative_fro": 0.02640107274055481
+  },
+  {
+   "changed_entries": 58982330,
+   "changed_fraction": 0.9999988079071045,
+   "entries": 58982400,
+   "max_abs": 0.0047135669738054276,
+   "module": "model.language_model.layers.46.mlp.down_proj",
+   "realized_fro": 5.4489264488220215,
+   "relative_fro": 0.02544727921485901
+  },
+  {
+   "changed_entries": 58982329,
+   "changed_fraction": 0.9999988079071045,
+   "entries": 58982400,
+   "max_abs": 0.005478855222463608,
+   "module": "model.language_model.layers.47.mlp.down_proj",
+   "realized_fro": 5.276040077209473,
+   "relative_fro": 0.02517325058579445
+  }
+ ],
+ "rounds": [
+  "tier2_round1.json",
+  "tier2_round2.json"
+ ],
+ "tier": 2,
+ "utc": "2026-11-19T13:19:10.745141+00:00"
+}

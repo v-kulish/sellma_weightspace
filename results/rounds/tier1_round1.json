@@ -1,0 +1,916 @@
+{
+ "baseline": {
+  "belebele_dan_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 13.243763542175293,
+   "n": 10
+  },
+  "belebele_eng_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 13.594293689727783,
+   "n": 10
+  },
+  "belebele_fin_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 12.999158668518067,
+   "n": 10
+  },
+  "belebele_isl_Latn": {
+   "accuracy": 0.8,
+   "mean_gold_margin": 9.487916660308837,
+   "n": 10
+  },
+  "belebele_nob_Latn": {
+   "accuracy": 1.0,
+   "mean_gold_margin": 13.908444213867188,
+   "n": 10
+  },
+  "belebele_swe_Latn": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 12.847967338562011,
+   "n": 10
+  },
+  "belebele_zho_Hans": {
+   "accuracy": 0.9,
+   "mean_gold_margin": 14.366756629943847,
+   "n": 10
+  },
+  "scala_da": {
+   "accuracy": 0.875,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.873015873015873,
+   "mcc": 0.7745966692414834,
+   "n": 8
+  },
+  "scala_en": {
+   "accuracy": 0.625,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.6190476190476191,
+   "mcc": 0.2581988897471611,
+   "n": 8
+  },
+  "scala_nb": {
+   "accuracy": 0.875,
+   "invalid_rate": 0.0,
+   "macro_f1": 0.873015873015873,
+   "mcc": 0.7745966692414834,
+   "n": 8
+  },
+  "scala_sv": {
+   "accuracy": 1.0,
+   "invalid_rate": 0.0,
+   "macro_f1": 1.0,
+   "mcc": 1.0,
+   "n": 8
+  },
+  "swe_blimp_sv": {
+   "equal_length_accuracy": 0.625,
+   "equal_length_n": 16,
+   "macro_accuracy": 0.5384615384615384,
+   "mean_margin": 0.21549472442040077,
+   "micro_accuracy": 0.5384615384615384,
+   "n": 26,
+   "per_phenomenon": {
+    "ADJ. NOUN AGR. DEF.": 1.0,
+    "ADJ. NOUN AGR. GEN.": 0.0,
+    "ADJ. NOUN AGR. INDEF.": 1.0,
+    "ADJ. NOUN AGR. NUM. PL.": 1.0,
+    "ADJ. NOUN AGR. NUM. SG.": 1.0,
+    "ARG. STR.": 1.0,
+    "ART. NOUN AGR. GEN.": 1.0,
+    "ART. NOUN AGR. INDEF.": 1.0,
+    "ART. NOUN AGR. PL.": 0.0,
+    "ART. NOUN AGR. SG.": 0.0,
+    "DOUBLE DEF.": 1.0,
+    "ELLIPSIS1": 1.0,
+    "ELLIPSIS2": 1.0,
+    "EMBEDDED V2 AdvP.": 0.0,
+    "EMBEDDED V3 CL.": 0.0,
+    "EMBEDDED V3 OBJ.": 1.0,
+    "NO RESUMPTION": 1.0,
+    "PARTICLE OBJ. ORDER": 0.0,
+    "RESUMPTION 1": 0.0,
+    "RESUMPTION 2": 0.0,
+    "V2 REL. CL.": 0.0,
+    "V3": 0.0,
+    "V3 CL.": 1.0,
+    "V3 COMPLEX NP": 1.0,
+    "V3 OBJ.": 0.0,
+    "V3 PP": 0.0
+   },
+   "raw_macro_accuracy": 0.46153846153846156,
+   "raw_mean_margin": 0.06074450566218449,
+   "ties": 0,
+   "total_logp_accuracy": 0.6923076923076923
+  },
+  "swedish_idioms_sv": {
+   "equal_length_accuracy": 0.8,
+   "equal_length_n": 5,
+   "macro_accuracy": 0.5,
+   "mean_margin": 1.0133127172787983,
+   "micro_accuracy": 0.9166666666666666,
+   "n": 12,
+   "per_phenomenon": {
+    "challenge": 0.0,
+    "standard": 1.0
+   },
+   "raw_macro_accuracy": 0.3181818181818182,
+   "raw_mean_margin": 0.006833871205647786,
+   "ties": 0,
+   "total_logp_accuracy": 0.8333333333333334
+  }
+ },
+ "build_accounting": {
+  "forward_calls": 0,
+  "forward_seconds": 0.0,
+  "generated_tokens": 0,
+  "input_tokens": 0,
+  "sequences": 0
+ },
+ "build_seconds": 346.5216186730031,
+ "candidates": {
+  "t1r1_dla44-47_k32_s0.5": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 86.00999999999999,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r1_dla44-47_k32_s0.5.pt",
+   "decision": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 23.076923076923084,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.42187338608961844,
+    "swe_blimp_pp": 23.076923076923084,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "per layer 44-47: 32 neurons with highest mean direct-effect pair score x1.5, 32 lowest x0.5",
+   "edit_stats": [
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2431640625,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 6.1057024002075195,
+     "relative_fro": 0.028746942058205605
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.330078125,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "realized_fro": 5.572678565979004,
+     "relative_fro": 0.026207732036709785
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.2314453125,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "realized_fro": 5.4952239990234375,
+     "relative_fro": 0.02566349506378174
+    },
+    {
+     "changed_entries": 245760,
+     "changed_fraction": 0.004166666883975267,
+     "entries": 58982400,
+     "max_abs": 0.337890625,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "realized_fro": 5.300141334533691,
+     "relative_fro": 0.02528824470937252
+    }
+   ],
+   "identity": "6041f4158d93a712",
+   "intended": [
+    {
+     "intended_fro": 6.105701923370361,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.02874693936761706
+    },
+    {
+     "intended_fro": 5.572678565979004,
+     "module": "model.language_model.layers.45.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.026207732072950872
+    },
+    {
+     "intended_fro": 5.495223522186279,
+     "module": "model.language_model.layers.46.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025663492480706863
+    },
+    {
+     "intended_fro": 5.300140857696533,
+     "module": "model.language_model.layers.47.mlp.down_proj",
+     "rank": 64,
+     "relative_fro": 0.025288241609378932
+    }
+   ],
+   "seconds": 86.96798897400004,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.064827728271485,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.75615119934082,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.773613357543946,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 9.27618932723999,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 1.0,
+     "mean_gold_margin": 13.81167641878128,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.424724292755126,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.868862915039063,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.8125,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.7692307692307693,
+     "mean_margin": 0.6373681105100192,
+     "micro_accuracy": 0.7692307692307693,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 1.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 1.0,
+      "ART. NOUN AGR. SG.": 1.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 1.0,
+      "EMBEDDED V3 CL.": 1.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 0.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 1.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.5,
+     "raw_mean_margin": 0.13286990385789138,
+     "ties": 0,
+     "total_logp_accuracy": 0.8076923076923077
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 1.0,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.9545454545454546,
+     "mean_margin": 1.3578725258509319,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 1.0,
+      "standard": 0.9090909090909091
+     },
+     "raw_macro_accuracy": 0.3181818181818182,
+     "raw_mean_margin": 0.08459003766377766,
+     "ties": 0,
+     "total_logp_accuracy": 0.9166666666666666
+    }
+   }
+  },
+  "t1r1_gram24_a0.5": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 85.733,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r1_gram24_a0.5.pt",
+   "decision": {
+    "non_swedish_pp": -1.1904761904761902,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": -9.999999999999998,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 3.8461538461538436,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": -0.010614028343787552,
+    "swe_blimp_pp": 3.8461538461538436,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "projection scaling (1+0.5) along mean good-minus-bad down_proj output contrast, layer 24",
+   "edit_stats": [
+    {
+     "changed_entries": 58981934,
+     "changed_fraction": 0.9999921321868896,
+     "entries": 58982400,
+     "max_abs": 0.021205991506576538,
+     "module": "model.language_model.layers.24.mlp.down_proj",
+     "realized_fro": 1.4468994140625,
+     "relative_fro": 0.020403169095516205
+    }
+   ],
+   "identity": "4fb317cad47cf56e",
+   "intended": [
+    {
+     "intended_fro": 1.4468994140625,
+     "module": "model.language_model.layers.24.mlp.down_proj",
+     "rank": 1,
+     "relative_fro": 0.020403168274820502
+    }
+   ],
+   "seconds": 86.39713986599963,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.063492012023925,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.357328414916992,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.673039436340332,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 9.48362855911255,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.293167638778687,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.694317245483399,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 14.289006233215332,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.6875,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.5769230769230769,
+     "mean_margin": 0.20488069607661322,
+     "micro_accuracy": 0.5769230769230769,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 0.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.0,
+      "ART. NOUN AGR. SG.": 0.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 0.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 0.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 1.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.46153846153846156,
+     "raw_mean_margin": 0.048453294313870944,
+     "ties": 0,
+     "total_logp_accuracy": 0.7307692307692307
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.5,
+     "mean_margin": 1.0078331232070923,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 0.0,
+      "standard": 1.0
+     },
+     "raw_macro_accuracy": 0.3181818181818182,
+     "raw_mean_margin": 0.017085154851277668,
+     "ties": 0,
+     "total_logp_accuracy": 0.8333333333333334
+    }
+   }
+  },
+  "t1r1_lang40-42-44_a0.3": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 85.94200000000001,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r1_lang40-42-44_a0.3.pt",
+   "decision": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 0.0,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": -0.001678411777202904,
+    "swe_blimp_pp": 0.0,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "projection scaling (1+0.3) along sv-minus-da/nb direction, layers 40,42,44",
+   "edit_stats": [
+    {
+     "changed_entries": 58979319,
+     "changed_fraction": 0.9999477863311768,
+     "entries": 58982400,
+     "max_abs": 0.06377771496772766,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "realized_fro": 1.1580296754837036,
+     "relative_fro": 0.005315144080668688
+    },
+    {
+     "changed_entries": 58978341,
+     "changed_fraction": 0.999931275844574,
+     "entries": 58982400,
+     "max_abs": 0.03219607472419739,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 0.353630393743515,
+     "relative_fro": 0.004805563949048519
+    },
+    {
+     "changed_entries": 58981493,
+     "changed_fraction": 0.9999846816062927,
+     "entries": 58982400,
+     "max_abs": 0.011988162994384766,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "realized_fro": 1.2679314613342285,
+     "relative_fro": 0.005969690158963203
+    }
+   ],
+   "identity": "6f2e534c90d55586",
+   "intended": [
+    {
+     "intended_fro": 1.1580296754837036,
+     "module": "model.language_model.layers.40.mlp.down_proj",
+     "rank": 1,
+     "relative_fro": 0.005315143888573965
+    },
+    {
+     "intended_fro": 0.3536303639411926,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 1,
+     "relative_fro": 0.004805563490490226
+    },
+    {
+     "intended_fro": 1.2679314613342285,
+     "module": "model.language_model.layers.44.mlp.down_proj",
+     "rank": 1,
+     "relative_fro": 0.00596969018447418
+    }
+   ],
+   "seconds": 86.7139041019982,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.13898515701294,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.508923816680909,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.940162754058838,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 9.445007610321046,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 1.0,
+     "mean_gold_margin": 13.788509416580201,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.758997821807862,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 14.305916595458985,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.625,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.5384615384615384,
+     "mean_margin": 0.21381631264319786,
+     "micro_accuracy": 0.5384615384615384,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 0.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.0,
+      "ART. NOUN AGR. SG.": 0.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 0.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 0.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.46153846153846156,
+     "raw_mean_margin": 0.05861443739670973,
+     "ties": 0,
+     "total_logp_accuracy": 0.6923076923076923
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.5,
+     "mean_margin": 1.0458263754844666,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 0.0,
+      "standard": 1.0
+     },
+     "raw_macro_accuracy": 0.3181818181818182,
+     "raw_mean_margin": 0.01565853754679362,
+     "ties": 0,
+     "total_logp_accuracy": 0.8333333333333334
+    }
+   }
+  },
+  "t1r1_lang42_a0.5": {
+   "accounting": {
+    "forward_calls": 144,
+    "forward_seconds": 85.656,
+    "generated_tokens": 64,
+    "input_tokens": 24312,
+    "sequences": 254
+   },
+   "artifact": "artifacts/tier1/t1r1_lang42_a0.5.pt",
+   "decision": {
+    "non_swedish_pp": 0.0,
+    "per_task_pp": {
+     "belebele_dan_Latn": 0.0,
+     "belebele_eng_Latn": 0.0,
+     "belebele_fin_Latn": 0.0,
+     "belebele_isl_Latn": 0.0,
+     "belebele_nob_Latn": 0.0,
+     "belebele_swe_Latn": 0.0,
+     "belebele_zho_Hans": 0.0,
+     "scala_da": 0.0,
+     "scala_en": 0.0,
+     "scala_nb": 0.0,
+     "scala_sv": 0.0,
+     "swe_blimp_sv": 0.0,
+     "swedish_idioms_sv": 0.0
+    },
+    "swe_blimp_margin": 0.00977365787212664,
+    "swe_blimp_pp": 0.0,
+    "swedish_secondary_pp": 0.0
+   },
+   "description": "projection scaling (1+0.5) along Swedish-minus-Danish/Norwegian output direction, layer 42 down_proj",
+   "edit_stats": [
+    {
+     "changed_entries": 58980036,
+     "changed_fraction": 0.9999599456787109,
+     "entries": 58982400,
+     "max_abs": 0.05366012454032898,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "realized_fro": 0.5893839597702026,
+     "relative_fro": 0.008009272627532482
+    }
+   ],
+   "identity": "8d5cf5f9f568da7b",
+   "intended": [
+    {
+     "intended_fro": 0.5893839597702026,
+     "module": "model.language_model.layers.42.mlp.down_proj",
+     "rank": 1,
+     "relative_fro": 0.008009272754144071
+    }
+   ],
+   "seconds": 86.35376083700248,
+   "summaries": {
+    "belebele_dan_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.257094764709473,
+     "n": 10
+    },
+    "belebele_eng_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.602208614349365,
+     "n": 10
+    },
+    "belebele_fin_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 13.000462341308594,
+     "n": 10
+    },
+    "belebele_isl_Latn": {
+     "accuracy": 0.8,
+     "mean_gold_margin": 9.48812370300293,
+     "n": 10
+    },
+    "belebele_nob_Latn": {
+     "accuracy": 1.0,
+     "mean_gold_margin": 13.918442153930664,
+     "n": 10
+    },
+    "belebele_swe_Latn": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 12.85597629547119,
+     "n": 10
+    },
+    "belebele_zho_Hans": {
+     "accuracy": 0.9,
+     "mean_gold_margin": 14.363079833984376,
+     "n": 10
+    },
+    "scala_da": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_en": {
+     "accuracy": 0.625,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.6190476190476191,
+     "mcc": 0.2581988897471611,
+     "n": 8
+    },
+    "scala_nb": {
+     "accuracy": 0.875,
+     "invalid_rate": 0.0,
+     "macro_f1": 0.873015873015873,
+     "mcc": 0.7745966692414834,
+     "n": 8
+    },
+    "scala_sv": {
+     "accuracy": 1.0,
+     "invalid_rate": 0.0,
+     "macro_f1": 1.0,
+     "mcc": 1.0,
+     "n": 8
+    },
+    "swe_blimp_sv": {
+     "equal_length_accuracy": 0.625,
+     "equal_length_n": 16,
+     "macro_accuracy": 0.5384615384615384,
+     "mean_margin": 0.2252683822925274,
+     "micro_accuracy": 0.5384615384615384,
+     "n": 26,
+     "per_phenomenon": {
+      "ADJ. NOUN AGR. DEF.": 1.0,
+      "ADJ. NOUN AGR. GEN.": 0.0,
+      "ADJ. NOUN AGR. INDEF.": 1.0,
+      "ADJ. NOUN AGR. NUM. PL.": 1.0,
+      "ADJ. NOUN AGR. NUM. SG.": 1.0,
+      "ARG. STR.": 1.0,
+      "ART. NOUN AGR. GEN.": 1.0,
+      "ART. NOUN AGR. INDEF.": 1.0,
+      "ART. NOUN AGR. PL.": 0.0,
+      "ART. NOUN AGR. SG.": 0.0,
+      "DOUBLE DEF.": 1.0,
+      "ELLIPSIS1": 1.0,
+      "ELLIPSIS2": 1.0,
+      "EMBEDDED V2 AdvP.": 0.0,
+      "EMBEDDED V3 CL.": 0.0,
+      "EMBEDDED V3 OBJ.": 1.0,
+      "NO RESUMPTION": 1.0,
+      "PARTICLE OBJ. ORDER": 0.0,
+      "RESUMPTION 1": 0.0,
+      "RESUMPTION 2": 0.0,
+      "V2 REL. CL.": 0.0,
+      "V3": 0.0,
+      "V3 CL.": 1.0,
+      "V3 COMPLEX NP": 1.0,
+      "V3 OBJ.": 0.0,
+      "V3 PP": 0.0
+     },
+     "raw_macro_accuracy": 0.46153846153846156,
+     "raw_mean_margin": 0.05749368667602539,
+     "ties": 0,
+     "total_logp_accuracy": 0.6923076923076923
+    },
+    "swedish_idioms_sv": {
+     "equal_length_accuracy": 0.8,
+     "equal_length_n": 5,
+     "macro_accuracy": 0.5,
+     "mean_margin": 1.0408369898796082,
+     "micro_accuracy": 0.9166666666666666,
+     "n": 12,
+     "per_phenomenon": {
+      "challenge": 0.0,
+      "standard": 1.0
+     },
+     "raw_macro_accuracy": 0.3181818181818182,
+     "raw_mean_margin": 0.008890469868977865,
+     "ties": 0,
+     "total_logp_accuracy": 0.8333333333333334
+    }
+   }
+  }
+ },
+ "eval_accounting": {
+  "forward_calls": 576,
+  "forward_seconds": 343.341,
+  "generated_tokens": 256,
+  "input_tokens": 97248,
+  "sequences": 1016
+ },
+ "per_task": "| candidate | blimp | idioms | scala_sv | scala_da | scala_nb | scala_en | bel_swe_Latn | bel_dan_Latn | bel_nob_Latn | bel_fin_Latn | bel_isl_Latn | bel_eng_Latn | bel_zho_Hans |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| baseline (abs) | 53.8 | 91.7 | 100.0 | 87.5 | 87.5 | 62.5 | 90.0 | 90.0 | 100.0 | 90.0 | 80.0 | 90.0 | 90.0 |\n| t1r1_lang42_a0.5 (Δpp) | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t1r1_lang40-42-44_a0.3 (Δpp) | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t1r1_dla44-47_k32_s0.5 (Δpp) | +23.1 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 |\n| t1r1_gram24_a0.5 (Δpp) | +3.8 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | +0.0 | -10.0 | +0.0 | +0.0 | +0.0 | +0.0 |",
+ "round": 1,
+ "table": "| candidate | Swe-BLiMP Δpp | Swe-BLiMP Δmargin | Swedish secondary Δpp | non-Swedish Δpp | eligible | rel. norm |\n|---|---|---|---|---|---|---|\n| t1r1_lang42_a0.5 | +0.00 | +0.0098 | +0.00 | +0.00 | no | 0.0080 |\n| t1r1_lang40-42-44_a0.3 | +0.00 | -0.0017 | +0.00 | +0.00 | no | 0.0053, 0.0048, 0.0060 |\n| t1r1_dla44-47_k32_s0.5 | +23.08 | +0.4219 | +0.00 | +0.00 | yes | 0.0287, 0.0262, 0.0257, 0.0253 |\n| t1r1_gram24_a0.5 | +3.85 | -0.0106 | +0.00 | -1.19 | yes | 0.0204 |",
+ "tier": 1,
+ "utc": "2026-11-19T12:15:18.616603+00:00"
+}

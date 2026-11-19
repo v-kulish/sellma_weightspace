@@ -18,10 +18,12 @@ def parse(t):
     return dt.datetime.fromisoformat(t.replace('Z', '+00:00'))
 
 
-def usage_between(start, end, transcript=None):
+def usage_between(start, end, transcript=None, include_prev_call=True):
+    """include_prev_call: also count the last API call before `start` (the call that writes the start marker,
+    which carries the session's opening reasoning)."""
     files = [transcript] if transcript else sorted(glob.glob(DEFAULT_GLOB), key=os.path.getmtime)[-1:]
     s, e = parse(start), parse(end)
-    by_id = {}
+    by_id, prev = {}, (None, None, None)
     for f in files:
         for line in open(f, encoding='utf-8'):
             try:
@@ -33,9 +35,17 @@ def usage_between(start, end, transcript=None):
             t = parse(d['timestamp'])
             msg = d.get('message', {})
             u = msg.get('usage')
-            if not u or not (s <= t <= e):
+            if not u:
                 continue
-            by_id[msg.get('id') or d.get('uuid')] = u
+            key = msg.get('id') or d.get('uuid')
+            if t < s:
+                if prev[0] is None or t >= prev[0]:
+                    prev = (t, key, u)
+                continue
+            if t <= e:
+                by_id[key] = u
+    if include_prev_call and prev[1] is not None:
+        by_id[prev[1]] = prev[2]
     tot = dict(api_calls=len(by_id), input_uncached=0, cache_creation_input=0, cache_read_input=0, output=0,
                thinking=0)
     for u in by_id.values():

@@ -7,7 +7,7 @@
  "eos": 1,
  "execution": "eager, no torch.compile",
  "gpu": "NVIDIA GB10",
- "load_seconds": 5.312459459993988,
+ "load_seconds": 5.105639872999745,
  "mlp_shapes": {
   "down_proj": [
    3840,
@@ -32,5 +32,5 @@
  "tf32": false,
  "torch": "2.14.0+cu130",
  "transformers": "5.23.0",
- "utc": "2026-11-19T11:11:08.260312+00:00"
+ "utc": "2026-11-19T14:54:34.132481+00:00"
 }

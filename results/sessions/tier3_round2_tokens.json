@@ -1,0 +1,46 @@
+{
+ "agent": {
+  "api_calls": 5,
+  "cache_creation_input": 7472,
+  "cache_read_input": 1815441,
+  "input_uncached": 10,
+  "output": 3470,
+  "output_non_thinking": 2453,
+  "thinking": 1017,
+  "transcript": "bc06c9cb-45e1-4eb0-b985-c153463ae3c9.jsonl",
+  "window_utc": [
+   "2026-11-19T14:30:11.029957Z",
+   "2026-11-19T14:53:47.270076+00:00"
+  ]
+ },
+ "model_forward": {
+  "candidate construction (build)": {
+   "forward_calls": 0,
+   "forward_seconds": 0.0,
+   "generated_tokens": 0,
+   "input_tokens": 0,
+   "sequences": 0
+  },
+  "dev evaluation of candidates": {
+   "forward_calls": 1120,
+   "forward_seconds": 687.316,
+   "generated_tokens": 512,
+   "input_tokens": 188164,
+   "sequences": 2032
+  },
+  "inspection - CV within phenomena, t-ranking": {
+   "forward_calls": 90,
+   "forward_seconds": 282.911,
+   "generated_tokens": 0,
+   "input_tokens": 96183,
+   "sequences": 2736
+  },
+  "lock - random control dev evaluation": {
+   "forward_calls": 560,
+   "forward_seconds": 351.05,
+   "generated_tokens": 256,
+   "input_tokens": 94082,
+   "sequences": 1016
+  }
+ }
+}
