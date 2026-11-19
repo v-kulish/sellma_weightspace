@@ -91,14 +91,3 @@ The article analysis, hypothesis, research and experiment design are the author'
 
 No AI judge evaluated any output. Details are in [`AI_USAGE.md`](AI_USAGE.md).
 
-## Publishing
-
-No remote is configured. After review, create an empty GitHub repository and run:
-
-```bash
-git remote add origin https://github.com/YOUR_ACCOUNT/YOUR_REPOSITORY.git
-```
-
-```bash
-git push -u origin main
-```
