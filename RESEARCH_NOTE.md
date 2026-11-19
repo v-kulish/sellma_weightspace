@@ -1,6 +1,6 @@
 # Weight-space programming for Swedish: a tiered, controlled test
 
-Vadym Kulish · Candidate assignment for SE.LLMA · Full report: [`report.pdf`](report.pdf)
+Vadym Kulish · Candidate assignment for SE.LLMA · Full report: [`REPORT.pdf`](REPORT.pdf)
 
 **Result.** Agent-designed MLP edits to Gemma 4 12B IT shifted held-out likelihood margins toward grammatical Swedish, but held-out Swe-BLiMP accuracy rose only +0.6 to +1.3 pp. Every interval crossed zero and no edit clearly beat a matched random edit. Other languages were unaffected. The hypothesis is not supported. Changing the scoring prompt of the unchanged model moved the same benchmark by +16.9 pp.
 

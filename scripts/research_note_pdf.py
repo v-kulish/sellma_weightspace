@@ -1,7 +1,8 @@
-"""Render research_note.md to research_note.pdf (A4) with headless Chrome.
+"""Render RESEARCH_NOTE.md to RESEARCH_NOTE.pdf (A4) with headless Chrome.
 
 Handles the Markdown subset used in the note: headings, paragraphs, bullet and numbered lists,
-pipe tables, **bold**, *italic*, `code` and [links](url).
+pipe tables, **bold**, *italic*, `code` and [links](url). Relative links are resolved against the
+public repository (--base-url), so links in the PDF open the files on GitHub.
 
 Usage: python scripts/research_note_pdf.py [--font-pt 10.0]
 """
@@ -98,10 +99,12 @@ tbody tr:last-child td { border-bottom: 0.8pt solid #333; }
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--font-pt', type=float, default=10.0)
-    ap.add_argument('--src', default='research_note.md')
-    ap.add_argument('--dst', default='research_note.pdf')
+    ap.add_argument('--src', default='RESEARCH_NOTE.md')
+    ap.add_argument('--dst', default='RESEARCH_NOTE.pdf')
+    ap.add_argument('--base-url', default='https://github.com/v-kulish/sellma_weightspace/blob/main/')
     a = ap.parse_args()
     body = to_html((ROOT / a.src).read_text())
+    body = re.sub(r'href="(?!https?:|#|mailto:)([^"]+)"', lambda m: f'href="{a.base_url}{m.group(1)}"', body)
     doc = f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS % {"pt": a.font_pt}}</style></head><body>{body}</body></html>'
     chrome = shutil.which('google-chrome') or shutil.which('chromium') or shutil.which('chromium-browser')
     with tempfile.TemporaryDirectory() as d:

@@ -1,6 +1,6 @@
 # Results summary
 
-Configuration, outcomes and examples for the main experiment. Interpretation is in [`research_note.md`](research_note.md) and the full report [`report.pdf`](report.pdf). All numbers can be regenerated on CPU from the saved item records (`python -m src.analyze`).
+Configuration, outcomes and examples for the main experiment. Interpretation is in [`RESEARCH_NOTE.md`](RESEARCH_NOTE.md) and the full report [`REPORT.pdf`](REPORT.pdf). All numbers can be regenerated on CPU from the saved item records (`python -m src.analyze`).
 
 ## Configuration
 

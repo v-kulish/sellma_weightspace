@@ -9,7 +9,7 @@ __pycache__/
 artifacts/**/*.pt
 .tools/
 
-# LaTeX source of report.pdf (kept outside the repository)
+# LaTeX source of REPORT.pdf (kept outside the repository)
 overleaf/
 
 # editor / OS files

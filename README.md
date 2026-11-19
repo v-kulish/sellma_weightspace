@@ -10,8 +10,8 @@ Can a coding agent that reads activations and weights edit Gemma 4 12B IT's MLP 
 
 | file | contents |
 |---|---|
-| [`report.pdf`](report.pdf) | full report (ACL format) |
-| [`research_note.md`](research_note.md), [`research_note.pdf`](research_note.pdf) | two-page research note (PDF via `scripts/research_note_pdf.py`, headless Chrome) |
+| [`REPORT.pdf`](REPORT.pdf) | full report (ACL format) |
+| [`RESEARCH_NOTE.md`](RESEARCH_NOTE.md), [`RESEARCH_NOTE.pdf`](RESEARCH_NOTE.pdf) | two-page research note (PDF via `scripts/research_note_pdf.py`, headless Chrome) |
 | [`RESULTS.md`](RESULTS.md) | configuration, model and data revisions, seeds, outcomes, examples, compute |
 | [`reports/baseline/BASELINE.md`](reports/baseline/BASELINE.md) | unchanged-model results on all benchmarks |
 | [`reports/adjustments/`](reports/adjustments/) | pre-registered editing protocol and the agent's reasoning report for each round, with token accounting |
