@@ -22,15 +22,15 @@ Can a coding agent that reads activations and weights edit Gemma 4 12B IT's MLP 
 
 ## Method in brief
 
-- **Model.** `google/gemma-4-12B-it` @ `43c9d014b231474fa7212dbb48a762566c2b255d`, float32 weights and computation, SDPA attention, TF32 off.
-- **Benchmarks.** Swe-BLiMP (primary), Swedish Idioms, ScaLA sv/da/nb/en, and Belebele in seven languages. Each reserves nested dev tiers held out from its test set (split seed 42):
+- **Model.** [`google/gemma-4-12B-it`](https://huggingface.co/google/gemma-4-12B-it) @ `43c9d014b231474fa7212dbb48a762566c2b255d`, float32 weights and computation, SDPA attention, TF32 off.
+- **Benchmarks.** Swe-BLiMP (primary), Swedish Idioms, ScaLA sv/da/nb/en, and Belebele in seven languages. Each reserves nested dev tiers held out from its test set (split seed 42). Pinned revisions, checksums and licenses are in `manifests/sources.json` and [`THIRD_PARTY.md`](THIRD_PARTY.md).
 
-| benchmark | dev tiers 1/2/3 | test | metric |
-|---|---|---|---|
-| Swe-BLiMP v1 | 26/52/104 pairs (1/2/4 per phenomenon) | 2,458 pairs (38 related pairs quarantined) | macro pair accuracy |
-| Swedish Idioms | 12/24/48 pairs | 430 pairs | pair accuracy |
-| ScaLA sv/da/nb/en | 8/16/32 rows per language | 256 rows per language | accuracy, MCC |
-| Belebele ×7 languages | 10/20/40 questions (whole passages) | 201 questions / 113 passages | accuracy |
+| benchmark | source | dev tiers 1/2/3 | test | metric |
+|---|---|---|---|---|
+| Swe-BLiMP v1 | [data](https://github.com/itsup/swe_blimp), [paper](https://aclanthology.org/2026.lrec-1.540/) | 26/52/104 pairs (1/2/4 per phenomenon) | 2,458 pairs (38 related pairs quarantined) | macro pair accuracy |
+| Swedish Idioms | [data](https://huggingface.co/datasets/liu-nlp/swedish-idioms), [paper](https://aclanthology.org/2026.tacl-1.57/) | 12/24/48 pairs | 430 pairs | pair accuracy |
+| ScaLA sv/da/nb/en | [data](https://huggingface.co/datasets/alexandrainst/scala), [paper](https://aclanthology.org/2023.nodalida-1.20/), [EuroEval prompts](https://github.com/EuroEval/EuroEval) | 8/16/32 rows per language | 256 rows per language | accuracy, MCC |
+| Belebele ×7 languages | [data](https://huggingface.co/datasets/facebook/belebele), [paper](https://aclanthology.org/2024.acl-long.44/) | 10/20/40 questions (whole passages) | 201 questions / 113 passages | accuracy |
 
 - **Scoring.** Minimal pairs are scored by the mean token log-probability of each sentence, as the model's reply to the user turn `Skriv en mening på svenska.` with thinking disabled. Raw scoring after `<bos>` alone is reported as a secondary protocol.
 - **Editing.** Each tier restarts from the original weights. Claude Opus 5.5 inspects dev behaviour, activations and weights, then evaluates at most 4 rounds × 4 candidate edits on the tier's full dev suite. It locks one edit by a fixed rule (`reports/adjustments/PROTOCOL.md`).
