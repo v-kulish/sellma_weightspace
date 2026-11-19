@@ -1,0 +1,124 @@
+{
+ "batch_single_max_diff": 0.0002460479736328125,
+ "belebele_seconds_per_q": 0.5913616416997683,
+ "chat_tail": " på plats\nD. Överkomliga priser<turn|>\n<|turn>model\n<|channel>thought\n<channel|>",
+ "choice_shortcut_max_diff": 3.814697265625e-06,
+ "edit_effect_max": 0.0254364013671875,
+ "edit_stats": [
+  {
+   "changed_entries": 58980616,
+   "changed_fraction": 0.9999697804450989,
+   "entries": 58982400,
+   "max_abs": 0.002274908125400543,
+   "module": "model.language_model.layers.23.mlp.down_proj",
+   "realized_fro": 0.8595407009124756,
+   "relative_fro": 0.004127515014261007
+  }
+ ],
+ "label_ids": [
+  [
+   236776
+  ],
+  [
+   236799
+  ],
+  [
+   236780
+  ],
+  [
+   236796
+  ]
+ ],
+ "mutated_params_during_edit": [
+  "model.language_model.layers.23.mlp.down_proj.weight"
+ ],
+ "peak_gb": 56.16151296,
+ "prefix_cache_identical_outputs": true,
+ "prefix_cache_outputs": [
+  [
+   "ja",
+   "ja"
+  ],
+  [
+   "nej",
+   "nej"
+  ],
+  [
+   "ja",
+   "ja"
+  ],
+  [
+   "nej",
+   "nej"
+  ],
+  [
+   "ja",
+   "ja"
+  ],
+  [
+   "nej",
+   "nej"
+  ],
+  [
+   "ja",
+   "ja"
+  ],
+  [
+   "nej",
+   "nej"
+  ]
+ ],
+ "random_norm": [
+  [
+   {
+    "intended_fro": 0.8595407605171204,
+    "module": "model.language_model.layers.23.mlp.down_proj",
+    "rank": 1,
+    "relative_fro": 0.004127515280566721
+   }
+  ],
+  [
+   {
+    "intended_fro": 0.8595407605171204,
+    "module": "model.language_model.layers.23.mlp.down_proj",
+    "rank": 1,
+    "relative_fro": 0.004127515280566721
+   }
+  ]
+ ],
+ "repeat_max_diff": 0.0,
+ "restored_max_diff": 0.0,
+ "restored_params_equal": true,
+ "scala_prompt_tokens": [
+  978,
+  978,
+  978,
+  975,
+  973,
+  979,
+  972,
+  985
+ ],
+ "scala_seconds": {
+  "cache": 8.679121442000906,
+  "n": 8,
+  "plain": 18.431628389000252
+ },
+ "swe_104_seconds": 7.610565534996567,
+ "synthetic": {
+  "Det regnar.": -14.7389,
+  "Hunden sova i sin korg.": -10.2944,
+  "Hunden sover i sin korg.": -9.4685,
+  "Jag har aldrig sett en sådan stor älg förut, sa hon.": -12.7129,
+  "Kan du hjälpa mig med det här problemet i morgon bitti?": -11.3235,
+  "The cat sat mat the on.": -11.0657,
+  "The cat sat on the mat.": -5.6488
+ },
+ "synthetic_logits_check": {
+  "count": 2,
+  "sum": -0.000362396240234375
+ },
+ "utc": "2026-11-19T10:58:29.812130+00:00",
+ "weight_vs_hook_max_diff": 4.76837158203125e-05,
+ "zero_edit_max_diff": 0.0
+}

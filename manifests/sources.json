@@ -1,0 +1,83 @@
+{
+ "belebele": {
+  "files": [
+   "data/belebele/dan_Latn.jsonl",
+   "data/belebele/eng_Latn.jsonl",
+   "data/belebele/fin_Latn.jsonl",
+   "data/belebele/isl_Latn.jsonl",
+   "data/belebele/nob_Latn.jsonl",
+   "data/belebele/swe_Latn.jsonl",
+   "data/belebele/zho_Hans.jsonl"
+  ],
+  "id": "facebook/belebele",
+  "license": "cc-by-sa-4.0",
+  "revision": "7899cdfa4e1e0d733fd77c848e2c273cb1d32be2",
+  "sha256": {
+   "data/belebele/dan_Latn.jsonl": "f7a8b85183f1723b1dec202ba9398876069c6b39c9c4513e73235a5f249d52d5",
+   "data/belebele/eng_Latn.jsonl": "15af884c2b5994fdc71199e79d553a1864b08ce1b31894aa87f6be925a064a31",
+   "data/belebele/fin_Latn.jsonl": "63b229c5ac5a07064c0ce162ceb13bb416862169998a0781bf818fc99ce5b40f",
+   "data/belebele/isl_Latn.jsonl": "bb93bd348b06a17ba2df2756e195d911651d5aade593fe1b63dc1010456d43dd",
+   "data/belebele/nob_Latn.jsonl": "fa477a519acb33cedc06b07515bb0b8f80f5330eabd92cefa4a835f04930eaee",
+   "data/belebele/swe_Latn.jsonl": "c3e5e3f0e7d8ea6506c533c5812f39e5f0cd1a908ff9297a247e7977ac89eb6c",
+   "data/belebele/zho_Hans.jsonl": "f3b7915eaa27e44225979ffd38708c5beee63d28bea27a91253e5fe68e2fa147"
+  }
+ },
+ "model": {
+  "file": "models/gemma-4-12B-it/model.safetensors",
+  "id": "google/gemma-4-12B-it",
+  "license": "apache-2.0",
+  "revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+  "sha256_expected": "5a84cb313260ac447237b890387116dfa8682e49a6b44bc585ae8353abbff18d"
+ },
+ "scala": {
+  "files": [
+   "data/scala/da_test.parquet",
+   "data/scala/da_train.parquet",
+   "data/scala/en_test.parquet",
+   "data/scala/en_train.parquet",
+   "data/scala/nb_test.parquet",
+   "data/scala/nb_train.parquet",
+   "data/scala/sv_test.parquet",
+   "data/scala/sv_train.parquet"
+  ],
+  "id": "alexandrainst/scala",
+  "license": "cc-by-sa-4.0",
+  "note": "EuroEval-hosted ScaLA dataset IDs returned HTTP 401 at fetch time; original public alexandrainst/scala splits used.",
+  "prompt_source": {
+   "file": "src/euroeval/prompt_templates/linguistic_acceptability.py",
+   "local_copy": "data/euroeval_prompts/linguistic_acceptability.py",
+   "repo": "https://github.com/EuroEval/EuroEval",
+   "revision": "efb93af3a364dd58e166fb1cb45aa44fb3234297",
+   "sha256": "bf2cc91d411a9d0647156151c9a2933a8dcbdbc1c35e59726c72124b3a9179f7"
+  },
+  "revision": "890966a73ecdad5dc3d59777a162e5843e2d9e02",
+  "sha256": {
+   "data/scala/da_test.parquet": "a15e0f7600854c152a3d40b5b1b4c9819a88d4a89e20dd6780f211d24814ec25",
+   "data/scala/da_train.parquet": "f583cd5989d448455e7f466d79d7cf0778ebd69b65546d8603e1c43c25407561",
+   "data/scala/en_test.parquet": "bba66475f0f1b507317c13664f0fc19fc7a4a20cab61ebb3bf800ce741b59177",
+   "data/scala/en_train.parquet": "b3ae34d8d12bb4cd02ad0db78adfdd7dfc1bd11d3a498f0819e6be8fb4ed4d50",
+   "data/scala/nb_test.parquet": "012bd42f53c48316e624bcd2628dce2f7ce7574452274dc08e80b1920932cf04",
+   "data/scala/nb_train.parquet": "209c2e92785b93d929f3a6cdf17a78fe5cc90c0050adc41c87ddcce52c811e9f",
+   "data/scala/sv_test.parquet": "b2cf9a77e3ed06db5fc44859e4e91a2d642765199715d805829e5e7dc6a78a1c",
+   "data/scala/sv_train.parquet": "5d846db14011be88e44461ff8fce62d4a41df9476a7b2dc85a1106d56b404ee4"
+  }
+ },
+ "swe_blimp": {
+  "file": "data/swe_blimp/swe_blimp_v1.csv",
+  "license": "none stated in repository; text not redistributed",
+  "revision": "4770e273fb781fc8a15ca866e05330b43a63ad2c",
+  "sha256": {
+   "data/swe_blimp/swe_blimp_v1.csv": "c0eb7dc4492ac46d6eb59e9e35f3805f73b17cf0919ad6d9ae9b2e1846b4f287"
+  },
+  "url": "https://github.com/itsup/swe_blimp"
+ },
+ "swedish_idioms": {
+  "file": "data/idioms.parquet",
+  "id": "liu-nlp/swedish-idioms",
+  "license": "apache-2.0",
+  "revision": "3d33f55db6c45a82a6a237f3cbee6490af08327d",
+  "sha256": {
+   "data/idioms.parquet": "9ba03eddbc1fc17ac110fcfe90c4eaa80f485de0df953113a762268f97276bb5"
+  }
+ }
+}

@@ -1,0 +1,4824 @@
+{
+ "counts": {
+  "dev": 48,
+  "test": 430
+ },
+ "created_utc": "2026-11-19T10:55:46.763646+00:00",
+ "group_rule": "shared normalized sentence; <=1-word substitution on both sides (whole dataset); quarantine as Swe-BLiMP",
+ "items": [
+  {
+   "bad_hash": "a4f86e5a68365be43635b908da855b0f6132f49ca3d0dbe708cd34bec3ba9f7f",
+   "good_hash": "e44b716348f48da92b1f978afc7af9b2c99962a0ccab1cb82e986ccd85425550",
+   "group": "g0000",
+   "id": "idiom-0000",
+   "phenomenon": "challenge",
+   "row": 0,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1812bde1ef705d21bcd7fad7ada7844e818d1c155540921b4dd569827dcb0800",
+   "good_hash": "80bd7b9107fdcfba9b77ef9c09cf49bfb20eb21922b3f710775aedaecc521079",
+   "group": "g0001",
+   "id": "idiom-0001",
+   "phenomenon": "challenge",
+   "row": 1,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0f9acf7d890e6ac5563c5f5c74124cd8bcda33a3cf41c829e7700a17cdd6ad1f",
+   "good_hash": "2cc97e089dd780ee2837932668c4ec3cd520e2ae70e5ebef496de332c424de0d",
+   "group": "g0002",
+   "id": "idiom-0002",
+   "phenomenon": "challenge",
+   "row": 2,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "42b7fb13eba572dbd22f0fed97d5c937ade5c724f34bc25cdd4b43bccf8cfc52",
+   "good_hash": "6a2109ef4b4e7d18143556ef0b4baca733f5285e699bfe7320f1437110fc5221",
+   "group": "g0003",
+   "id": "idiom-0003",
+   "phenomenon": "challenge",
+   "row": 3,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "76569d046b6b4c026f5dec813f322c6e5c860ba6fb86a618c5ff1db7dadb231b",
+   "good_hash": "a1e18fa9667caed4a7238549f154b6b3718d872812ce251f34c8d52fbd9fb6a5",
+   "group": "g0004",
+   "id": "idiom-0004",
+   "phenomenon": "challenge",
+   "row": 4,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0c0bc5a83766c190d33147f5a10902e2ab43491eb0968974560e9109e40e9fbc",
+   "good_hash": "8e0f4ba9ffafa78ab225e7139aef795ee541b31fbce6e54af89975a42e148838",
+   "group": "g0005",
+   "id": "idiom-0005",
+   "phenomenon": "challenge",
+   "row": 5,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7078f1d067968626784413fcff23a787f288316c2b96069fded8d03371dce6b3",
+   "good_hash": "dc7932c27b831601bb940252701749d8b85de3a369d05c06be5a13849f8f6e7d",
+   "group": "g0006",
+   "id": "idiom-0006",
+   "phenomenon": "challenge",
+   "row": 6,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "51e0c280f79e9fb3e8a4c7753938d43258b05f6bd2ad6f5cd1ad43ea11daaf9a",
+   "good_hash": "1fd4a38265f868a2d25edb42c73b39e8b8f179ba2a3d7a4bf5972d53bfb7e9d4",
+   "group": "g0007",
+   "id": "idiom-0007",
+   "phenomenon": "challenge",
+   "row": 7,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a837dd816b310ce3a94fa642c770e603e012e22b724b41c268a5343fcdbe7c8b",
+   "good_hash": "d53e6dfb1295b0bc3943426534443432468b17b8159b87c7f341a09f2d4e07bd",
+   "group": "g0008",
+   "id": "idiom-0008",
+   "phenomenon": "standard",
+   "row": 8,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "517486d0015375ef07ce1bb8c2e8a9602881d3da2e07e8111b6450f28228cd86",
+   "good_hash": "b06bfe8fb02c265712a9656401be82909f54c3536a2f2cf3af7f31db05309f47",
+   "group": "g0009",
+   "id": "idiom-0009",
+   "phenomenon": "standard",
+   "row": 9,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dd8d9d42c48cd9685ed3ad814d10d02c8f0db5295248617f40c8a14664201202",
+   "good_hash": "3aae88c33c79942db86e90b529e0320c14dad7c07d85f2a75933bddcd9100ba3",
+   "group": "g0010",
+   "id": "idiom-0010",
+   "phenomenon": "challenge",
+   "row": 10,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b20646cc705bee4497f402027363abeba67869c8694882e3edeb373599ab109b",
+   "good_hash": "130f34b68012014d4967c42d2197fb1d4b108093c6fecd81c65317842a394b43",
+   "group": "g0011",
+   "id": "idiom-0011",
+   "phenomenon": "challenge",
+   "row": 11,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0fd26146a4479b7578eab56887c7c49a95ffb5ca79ca1564f0ff2e6e0b1a279f",
+   "good_hash": "01949819a9ecd185e40ed8162797809e9b41cc240f0a2156dfbaf41cd22a10a2",
+   "group": "g0012",
+   "id": "idiom-0012",
+   "phenomenon": "challenge",
+   "row": 12,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2527f7340f81e5bc47cc5a7b2345a8f1bfe3d281cf3c8fa29d2670f8f119a21d",
+   "good_hash": "cd385da02aff6d7f5b208bce647f48bacfe0ac0a08fac8a9e1a84044cc685490",
+   "group": "g0013",
+   "id": "idiom-0013",
+   "phenomenon": "standard",
+   "row": 13,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1518d3e9850eabe6c1e508b287e2675a82ae00e91974d9c3e6ebb886ab28d4cd",
+   "good_hash": "f074ee984992fbbc17300caa6b9af3eefa7cbbe44036afb3b950249ac1c3f913",
+   "group": "g0014",
+   "id": "idiom-0014",
+   "phenomenon": "standard",
+   "row": 14,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "388bca1993a503bd8c043186778f00637ff42e3d39eb04beedf21142a1761487",
+   "good_hash": "6ec374ead32015c775a7ec63f57ed86f24ff66f235a83f401215af435202008d",
+   "group": "g0015",
+   "id": "idiom-0015",
+   "phenomenon": "standard",
+   "row": 15,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "22ef82f58a2172e4939c49a821508a0abb9ee7a7ec12a3331da236d54f6ef901",
+   "good_hash": "01b35d68cf9ab2ff60c72362054a797bdaff638d8c9598c400433b16f99fece0",
+   "group": "g0016",
+   "id": "idiom-0016",
+   "phenomenon": "challenge",
+   "row": 16,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b64163c9e5fcef9f0bc2a80ae5c384cd4ed6607e8661da38774a48a29e24a228",
+   "good_hash": "b30f824fe9718861bff9f888ef4bf245f10434de87d7a80d0602a33345401ad9",
+   "group": "g0017",
+   "id": "idiom-0017",
+   "phenomenon": "standard",
+   "row": 17,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a231c94de9838630f6d01411429ab3e5d019620102987aa6cff69b1843d2ad91",
+   "good_hash": "29798ed8affd21b7961b52f88fbb2f06af0f68e22ec20e0552c9c0998fd35724",
+   "group": "g0018",
+   "id": "idiom-0018",
+   "phenomenon": "standard",
+   "row": 18,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7ab852b5d0f5066e0ea06b310c81e37365bccbde51e07e9b96d3f9d2ff459518",
+   "good_hash": "b4837c392d8127a9901b750b779cd4e235763e86a28358d16a3b3f88c7b44ea8",
+   "group": "g0019",
+   "id": "idiom-0019",
+   "phenomenon": "challenge",
+   "row": 19,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e3d9b80c2bcada4659074c7f7253a2bfc0f71ef051dba7b0ac38a57a0cc3986f",
+   "good_hash": "4499f9b0293b1ad47c06bfad436afa038986e8eebabcd7c30eafb0c45a2f9438",
+   "group": "g0020",
+   "id": "idiom-0020",
+   "phenomenon": "challenge",
+   "row": 20,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9365aa3a858e8b631cf842d483922c67ba8eb61ccaf0173138289c1e895f0b3e",
+   "good_hash": "746d9fa61b58fd44a3fc98b63353903930be235877f4cd94c715a953086c8dfb",
+   "group": "g0021",
+   "id": "idiom-0021",
+   "phenomenon": "challenge",
+   "row": 21,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "ceb3a26a81cd035aac3a57528e90267463b6eaa30628488a033538bfc30234be",
+   "good_hash": "b75204c0f74b6b508f8a1f0cd56dc028398238611c2a2e86e9eef5968b5ed681",
+   "group": "g0022",
+   "id": "idiom-0022",
+   "phenomenon": "standard",
+   "row": 22,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "00881c6fae35384f541cc1ed4f47362c05c0d3637e8eb68feb1cc62dde8f9c61",
+   "good_hash": "80c76dceb1b0df1df906a267562821d54326f37b899e3576eec66f4183093b02",
+   "group": "g0023",
+   "id": "idiom-0023",
+   "phenomenon": "challenge",
+   "row": 23,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4740bd1c5dd7a292e67fdd1330c311ffef71c0e637337bd9c3667403f2634156",
+   "good_hash": "0a3a86a27fbd352cc2da6787010678f25749d8f48c2c57f44d26d4c25a9fb8c5",
+   "group": "g0024",
+   "id": "idiom-0024",
+   "phenomenon": "standard",
+   "row": 24,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fcd10e1839acf42e5cc6dda6fc133949b7c062720b5af58a1d73ecc644f2f7e3",
+   "good_hash": "6887a91567dd803f9842e9a610889cb99c5b48261c2b9053bc66a86d9d06d49b",
+   "group": "g0025",
+   "id": "idiom-0025",
+   "phenomenon": "challenge",
+   "row": 25,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7b3dfbc026cf25e6fd9c51c4c67fe87690bb6565e51a310705ba919d0654965d",
+   "good_hash": "498304c63add716f408177867196c3e9e31e5b333662a52087688e8f92326f3e",
+   "group": "g0026",
+   "id": "idiom-0026",
+   "phenomenon": "standard",
+   "row": 26,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "53551b91869e7a81c52049a1c3d32fb23541afd6a30098b18f63ab0f2fd544ed",
+   "good_hash": "360352a853f654561ffbe73bdeebb11b697c6931a9d6308db94676d30d4793ea",
+   "group": "g0027",
+   "id": "idiom-0027",
+   "phenomenon": "standard",
+   "row": 27,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a119a658e7bcf23b7084b98365676909693a9e912d586bb7726bdccbf65967b2",
+   "good_hash": "cb92e9bc6ebd9ed62de3dbec59359afd28eb98e73512def42c304a75e14e508a",
+   "group": "g0028",
+   "id": "idiom-0028",
+   "phenomenon": "challenge",
+   "row": 28,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e2377c47be16747a494603302f3649d94a22fd8adaa4d4a141eed010ab4a8cf2",
+   "good_hash": "928fbb208eb0f33ed731a80c445e25eda4d3a59eb477ed745b133ffd412b5e10",
+   "group": "g0029",
+   "id": "idiom-0029",
+   "phenomenon": "standard",
+   "row": 29,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fe0980359c9eb76033516021fb4cc51ca51bacb63c6b837611913eb64089a3ac",
+   "good_hash": "867ef848277a98eb476e017ecf048b64f45781ab42e3139b7fd469be53f267de",
+   "group": "g0030",
+   "id": "idiom-0030",
+   "phenomenon": "challenge",
+   "row": 30,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3c2674c23af13717ed6317341b6ede4561d6aba5b4510f6d0c85cbe3f6aa3d32",
+   "good_hash": "8a8297bb5a22db7298da09c6edee78a418940fc6474b15f703338b8678101469",
+   "group": "g0031",
+   "id": "idiom-0031",
+   "phenomenon": "standard",
+   "row": 31,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "691687e0cddc7ec02d1a7affb7abccc669d1246525a4f50cee4db9594af47f0c",
+   "good_hash": "c91ca438ecdd64c5cdd9ea1fa910399037c7200ba8f77c15b655cbde4aa153a9",
+   "group": "g0032",
+   "id": "idiom-0032",
+   "phenomenon": "standard",
+   "row": 32,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8f1d0dc88afeaede9af259acfb107a356123ce2089c86516a490df96b6accab3",
+   "good_hash": "2cb7ec93d3651af2e38c1f2181f299027fd54df44ad63954c6fec01a2fa59f1e",
+   "group": "g0033",
+   "id": "idiom-0033",
+   "phenomenon": "standard",
+   "row": 33,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "025ca07a9a9c60f2a5af1b3fa96613cce874922bfb7c4244aaada9dd1cd10996",
+   "good_hash": "2fc7f813732f87fd9fe4f06d327f16304331460216d0421d83284f3e664b8d89",
+   "group": "g0034",
+   "id": "idiom-0034",
+   "phenomenon": "challenge",
+   "row": 34,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0c60ba6fc2ddb77b3d8125925f04936c43810b912211d0b31846c422af6fab18",
+   "good_hash": "7d685d0c5b08b9cf5e26bd9ed55f85cf849f218669c52b3dc649c75e17d48683",
+   "group": "g0035",
+   "id": "idiom-0035",
+   "phenomenon": "standard",
+   "row": 35,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "631c2cd5b2bd47031f2dce1c6b84348115178101667362ebc52f88a18fdb4241",
+   "good_hash": "cf64a9b37b0a92cdab383374fb6651ec5c7bd88190d736c982049e794f72ef30",
+   "group": "g0036",
+   "id": "idiom-0036",
+   "phenomenon": "standard",
+   "row": 36,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ebd7b4240d5dfc3a77a7299564b9f416e6e0898805e609c018df9e1ff0346738",
+   "good_hash": "837a5e122bfd523ba555e05cc972d32213ad0b3b4a22bfc06d57f9adb835f35e",
+   "group": "g0037",
+   "id": "idiom-0037",
+   "phenomenon": "challenge",
+   "row": 37,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a263e4928f224a7c40855cd0928f4c0ff936e753d25b8d47ff8f4dd1241d76f5",
+   "good_hash": "90ffcb8eb929a78972362e34d8b97e4235acd97b631fe3263db90a49a576bc05",
+   "group": "g0038",
+   "id": "idiom-0038",
+   "phenomenon": "challenge",
+   "row": 38,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cf7f1c669b736d544af9e8c4f2dedc0fb3996cc6f16d8e77e4b51fecc502c84a",
+   "good_hash": "24e395c587d988438ea6ad010be81720379a74e9a8ac324432e4a8a3b000adb4",
+   "group": "g0039",
+   "id": "idiom-0039",
+   "phenomenon": "challenge",
+   "row": 39,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a2648726e1cf601bf244ac6bb3a5429666752fc252d5dd277c6724ac3b926c20",
+   "good_hash": "e9cdf5eb6cb33f59766aa6496d37f4a08b424b81db943321166a5f9a28fe18de",
+   "group": "g0040",
+   "id": "idiom-0040",
+   "phenomenon": "standard",
+   "row": 40,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d987e888a38c434f0c724ab739c579d59435e5369972be88cc54cc58636711d8",
+   "good_hash": "61d71f93609f13e80cf96491fb21ad1c03a63abcef6f2185f974f303653069f0",
+   "group": "g0041",
+   "id": "idiom-0041",
+   "phenomenon": "challenge",
+   "row": 41,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "4c7bdb09d71da65a5ad778c41d3bb914fc6c07fdfd0962815a39caf4e191fe1c",
+   "good_hash": "d40868f4fec99f4516a663191a9133f326ea2aee02ab55533cab9d69349131df",
+   "group": "g0042",
+   "id": "idiom-0042",
+   "phenomenon": "standard",
+   "row": 42,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b43d8353d01e41543443beeeca059d3cc4fd2a98a06e474d0656f206f36e649f",
+   "good_hash": "d4ee8fb3aa7b27a59184bb4ef55c4b7c5e10a2c7b261257505ee2a48827ac26e",
+   "group": "g0043",
+   "id": "idiom-0043",
+   "phenomenon": "standard",
+   "row": 43,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a59489f59b0d167e38aa3693042cd2fa9ef10f5eb71e8f60f94d18423c4dcff6",
+   "good_hash": "432882b3ecc5e2cb10294a6d2cd5d089fcb0c0efc9243513d731521975e14880",
+   "group": "g0044",
+   "id": "idiom-0044",
+   "phenomenon": "challenge",
+   "row": 44,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7a0a8872b65ce67152cb87e8d1a61194c87c8a48d532e6958bceb7a8cd2f5908",
+   "good_hash": "6922548bc24e905ef2d229d27f1a2f499342847e86254aee3e0d42561363ec35",
+   "group": "g0045",
+   "id": "idiom-0045",
+   "phenomenon": "standard",
+   "row": 45,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "26765e49e23f9096400718dd3c8cbbb9e84c6017a0362e59b61b26a0c1a00a52",
+   "good_hash": "9c9749906ae72a14223f7b7b9ef129ba2d03ab997e58777a9944cc1b1a425c54",
+   "group": "g0046",
+   "id": "idiom-0046",
+   "phenomenon": "challenge",
+   "row": 46,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "508bda8fb16590872f91ea3f4a992276cc896c38fb254a1d166929966d7b436d",
+   "good_hash": "6d564c470ca9298fed588c81446fcd8d876c64083d811ada8b654e89d802574e",
+   "group": "g0047",
+   "id": "idiom-0047",
+   "phenomenon": "standard",
+   "row": 47,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "04af9a2f441b4336023caa22d24d9ff3237cabd1eae99e39179426bf5b6efbc3",
+   "good_hash": "aaf6a456faeb8e78f029592607d6b2299172ab0affa60f25549cf755e7d8e74d",
+   "group": "g0048",
+   "id": "idiom-0048",
+   "phenomenon": "standard",
+   "row": 48,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b17f76f57c4001ce78f0e857783a3caeaaed5e56a5f99737ef37bd1c2e40b95a",
+   "good_hash": "394cf72d7e67dd0256a60129b5a6731f9df987d4fda22fedb765aadc8e5752da",
+   "group": "g0049",
+   "id": "idiom-0049",
+   "phenomenon": "standard",
+   "row": 49,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cc1f3cc67669da78a913480ee9f9249491167c68f614e1c10122e0d02ed6f7dd",
+   "good_hash": "bd4e4db80b1f579865c8881293368a1723750b7c5560442c94b2d6ddee228de8",
+   "group": "g0050",
+   "id": "idiom-0050",
+   "phenomenon": "challenge",
+   "row": 50,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "691681b4f80f39101b467fcb225a4c3730d85990a1fd186e1cc94121cfd659dc",
+   "good_hash": "6aeade54ce5846dcc5253a926af63b80b08244a0e2402c6a6537eac888a58cfe",
+   "group": "g0051",
+   "id": "idiom-0051",
+   "phenomenon": "standard",
+   "row": 51,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b6617cf616a6f08e6073081b2db2b7d17f3e73f944071d46f1255e4042987ab8",
+   "good_hash": "8c6f93c6ab00419566c46f3597efaf9a3ad37417c6652fca883a19a6f74c11e0",
+   "group": "g0052",
+   "id": "idiom-0052",
+   "phenomenon": "challenge",
+   "row": 52,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8e627375e9f1d61114e4e254a4236f63f411a8898ad723cb241b2eecea71a626",
+   "good_hash": "15333ce7a71f9d97657fa78ce07d7573b07221787c4d008cdc259f4df29920fd",
+   "group": "g0053",
+   "id": "idiom-0053",
+   "phenomenon": "challenge",
+   "row": 53,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "39e285eca10068d22107e2d0044e87318d79cffc6fbb0688a0869856bd6ab2cd",
+   "good_hash": "19654be3a30277fff703f2eb3056b066970973935037297908740304d1e6eae6",
+   "group": "g0054",
+   "id": "idiom-0054",
+   "phenomenon": "challenge",
+   "row": 54,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f378ab666dda5ce02863337e4eb9d0aaec2944e8c43c7c884953cb7ba71a5601",
+   "good_hash": "25684dcf641840b32950a2660bf6c5990648df8337a37e5f9f86cbe4762d86a7",
+   "group": "g0055",
+   "id": "idiom-0055",
+   "phenomenon": "challenge",
+   "row": 55,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "15d3e6d6f78fe80c2ad82ca6c091aea6949892f1cfc88e085bc4e7b8a5a1bacb",
+   "good_hash": "5e944f1225244c375005660284e587ce5a40b28f35cee5b663fd68190fdb494d",
+   "group": "g0056",
+   "id": "idiom-0056",
+   "phenomenon": "challenge",
+   "row": 56,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "997d2229dbd81952ba04bc32ae9b934ecd6cd2cedc47795ad083651545557b63",
+   "good_hash": "591539e393d1a88175483b2371c907b23e7af9a0374499f1ba8da61c3ee7effc",
+   "group": "g0057",
+   "id": "idiom-0057",
+   "phenomenon": "challenge",
+   "row": 57,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4bf4879028769bd289dc09e60c7e1c1424465ede73b662860b9f7a61cf9813cd",
+   "good_hash": "d8a430f1e4eac670c1d0b564159a970720b9a30f890ea86acd50b9996025523d",
+   "group": "g0058",
+   "id": "idiom-0058",
+   "phenomenon": "challenge",
+   "row": 58,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "23f1f6c9c12763027615376450d8b79c7b3b5b911ed195aaad66d884a823fec0",
+   "good_hash": "58ba32c3a42533753649369ad3393b32df1c80cea3a446447cb557db25ade6ac",
+   "group": "g0059",
+   "id": "idiom-0059",
+   "phenomenon": "standard",
+   "row": 59,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "6ed9d5e02dbd4105f254994cc6a2d2f22d4de67e998ef4ad66937a9d5ad2c9b9",
+   "good_hash": "1bcb16e68446747d09bb2f0ee9e4f35b5f52d8c1d10f2f4eaa7e8763c02ba30e",
+   "group": "g0060",
+   "id": "idiom-0060",
+   "phenomenon": "standard",
+   "row": 60,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dc71e3ef2d7c8748c2eb4308004da3fde7fc9f2deeb7529c3f87b70dbe54aef4",
+   "good_hash": "86080981ce6ef7e2cad205148bdc9f4a8575819844e2c2ed06ba4027dc83b034",
+   "group": "g0061",
+   "id": "idiom-0061",
+   "phenomenon": "standard",
+   "row": 61,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5c7bf0395ab9ab6c835b9bc6f64efa97d914090e7c90acf368ec73fa2d1e02b3",
+   "good_hash": "cff0514d0a28f23b1e41639b20983872fb9877a826fd95ed006a2a80b4bfe4fa",
+   "group": "g0062",
+   "id": "idiom-0062",
+   "phenomenon": "standard",
+   "row": 62,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6b8f147ebd5ee2c1a7fec866395588bdf42f733be3d0ce96786874b0216ec812",
+   "good_hash": "7defd92abd662c67f5916c83089f5a538eb7aa9175e4609572a150bcf79a7fda",
+   "group": "g0063",
+   "id": "idiom-0063",
+   "phenomenon": "challenge",
+   "row": 63,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9541552448e55df439e8cb12b3fcb59fbc2a4f6728105833eb4a39d96f6a9b7c",
+   "good_hash": "006934221c49509dc0732413edee490e3684938e6f4d1c666f84f13f15305d18",
+   "group": "g0064",
+   "id": "idiom-0064",
+   "phenomenon": "standard",
+   "row": 64,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "07d8d525d06152859088e18af63ac1530a6d26464087c6da2adfc3610e9a9b54",
+   "good_hash": "6b14374a0702cf42dd3122113df4641f31c6a8c9609ff4084cb584c1ed488197",
+   "group": "g0065",
+   "id": "idiom-0065",
+   "phenomenon": "standard",
+   "row": 65,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5452b7858d1caeb9e1c7803f30d8b2f679160b1e177ea6eb2a109d06cf77813c",
+   "good_hash": "e02b55232373745d92c2d25dfc003beefc7ccef3010b4f91bea348538e77d0f8",
+   "group": "g0066",
+   "id": "idiom-0066",
+   "phenomenon": "standard",
+   "row": 66,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d7a55eb21c9723213a6fb09149666a2bb33755e422acb40a70859f8f63f087eb",
+   "good_hash": "315037f1450e1e1c3a45119f9115ec2811d5ba32405d8196c3b5231b766c17ad",
+   "group": "g0067",
+   "id": "idiom-0067",
+   "phenomenon": "challenge",
+   "row": 67,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "21875abdd786063aa7b7f4d1744c18d0983916152352fe10ff8c24da962970df",
+   "good_hash": "7d5168eb319966582ca9af7282eda9a29d6ed6935eda0fa17811aeff1e61d99d",
+   "group": "g0068",
+   "id": "idiom-0068",
+   "phenomenon": "challenge",
+   "row": 68,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "80ec4d1635ee909094f290e4064f1fd784227a3924f43b2b43b2b06a4f4b22ca",
+   "good_hash": "f6d4ce600ddcee4cdb20fd3aadf7cfabefce378452e1172eef3826536ec7593c",
+   "group": "g0069",
+   "id": "idiom-0069",
+   "phenomenon": "standard",
+   "row": 69,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9cb02451795d9b953601a4f008b5cc046fc1bb332b7b930bb895ba718817c146",
+   "good_hash": "fcf41bbb491309402834299f4b62820126fc747285513b0612e0130aa692659a",
+   "group": "g0070",
+   "id": "idiom-0070",
+   "phenomenon": "standard",
+   "row": 70,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8b53519e0164380ab219b3a6e0df775dcc6b7b0b207d2f8ca87080322aa7a7f4",
+   "good_hash": "1d98c45bc0cca5a0069b8980790cff0c7a6cb2bb2c41af075acd790895ffa853",
+   "group": "g0071",
+   "id": "idiom-0071",
+   "phenomenon": "standard",
+   "row": 71,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "27c4572e58a985ad04527720a3f02b7c003e0d89b76103c70e33e6c9befec356",
+   "good_hash": "bfd49bd9ad4c2079612c8ff67de9dfd070baa58c8d60f9e5ab6129d20b946d58",
+   "group": "g0072",
+   "id": "idiom-0072",
+   "phenomenon": "standard",
+   "row": 72,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "68a5bdbaa53b8a2d80db78ebffb62fc25f26c5e07fca7c285583e87291a6702b",
+   "good_hash": "5561d7bb0430aa960cb5c0707c5f77062e5c362f485a614bf190937033ff06f1",
+   "group": "g0073",
+   "id": "idiom-0073",
+   "phenomenon": "challenge",
+   "row": 73,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4156e1ae64eca48a665d1a1eb58c65357a65e2bbc1ff9dc4fba522c44b6e6e67",
+   "good_hash": "d2c7354d5430270ce0dd10aa81bc9169e1a632fb493239e8ad408f6852d8e60e",
+   "group": "g0074",
+   "id": "idiom-0074",
+   "phenomenon": "standard",
+   "row": 74,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "092de73fafb6580f2afc1cbcc7bdfa90cd2323ecaea13eba8f429b0cf9cc8ba9",
+   "good_hash": "99a99bd3a4cd13a652e3b0015ba4e6fdec0364db32531217d376568a8400d131",
+   "group": "g0075",
+   "id": "idiom-0075",
+   "phenomenon": "standard",
+   "row": 75,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e9b7fcfadd3f3648258fd24d00bd667a63aa4893b7d47eeafff6566d207ef3db",
+   "good_hash": "066fa7a3280c89558e45dd1b87fb368cb99ded7355d2dd9cd876d5ab433b2c4a",
+   "group": "g0076",
+   "id": "idiom-0076",
+   "phenomenon": "standard",
+   "row": 76,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4e2ea98453ddb872bb1fbc8d1ac5533374f5203d73119b7baee15f4dd0c5b6c7",
+   "good_hash": "a3a4b59eaab3ef57a786651f9000ae10eb11d0a5a4143bd9bb6e2b638f721fff",
+   "group": "g0077",
+   "id": "idiom-0077",
+   "phenomenon": "challenge",
+   "row": 77,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5d8eeb1c169f4e8eae78e19043884bbee673c798d83430345b7492c4bc91c097",
+   "good_hash": "40bee4a6c15622c8eb3c16639b1452c6db02b49fce219ecf95ef6841569b45cf",
+   "group": "g0078",
+   "id": "idiom-0078",
+   "phenomenon": "standard",
+   "row": 78,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5564579afd8bab34dccbc8601b29cf7d9bb8d8a6b63dcc73d42a0d36ccf137af",
+   "good_hash": "1d17667678cf14fafc1834e5947ccdf98407df83e4aabb48de96164444b254d6",
+   "group": "g0079",
+   "id": "idiom-0079",
+   "phenomenon": "standard",
+   "row": 79,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c476f14bdc3ac5fc5c0bd11146094bc2eadf3285a5c24e264f7354726532d6c5",
+   "good_hash": "db84a763fcf551a9f2458e25c449b09ef2013b1dad54de3aff55ba39fc636c88",
+   "group": "g0080",
+   "id": "idiom-0080",
+   "phenomenon": "standard",
+   "row": 80,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6ba9bc5cb93c9ab36825edac4ddea432cf8878cfb53aca26c560a68164ba21d4",
+   "good_hash": "0fba218c8b8f5000a02cb81c61de67077c82219609ca825f327f098f5f749b01",
+   "group": "g0081",
+   "id": "idiom-0081",
+   "phenomenon": "challenge",
+   "row": 81,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0c658e7e3e061eb8d12510eacc955518d06cbbc6f2535c2b7da67e02afa47107",
+   "good_hash": "af15da51b3390131c118b2e255078dc894a863332697ea803401720f09e9e2b4",
+   "group": "g0082",
+   "id": "idiom-0082",
+   "phenomenon": "standard",
+   "row": 82,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b3163fa28470752d437ab3b067c51cdd4b518c6c11ad944fbf490ca53f8600eb",
+   "good_hash": "74d2560f35d56df89dcee207bb76e0a100d427dbe1b52aa69b23cdb996dbd1f7",
+   "group": "g0083",
+   "id": "idiom-0083",
+   "phenomenon": "standard",
+   "row": 83,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fc040afead11357ebbb10b6485560772ba14f676f64ee3103b662f9b66ab5177",
+   "good_hash": "eb3d3128790c6d4ce496088c2ff5a2408534136cc4dfd27144e32fe80dc5c792",
+   "group": "g0084",
+   "id": "idiom-0084",
+   "phenomenon": "standard",
+   "row": 84,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "73716e47c28c0173be1d156871cdfc6149c3a40d2ee977d73e1540e72562a069",
+   "good_hash": "142967e2eddb73fae61bbfc8221916af94162e04e799951d053df2e73fccfafe",
+   "group": "g0085",
+   "id": "idiom-0085",
+   "phenomenon": "standard",
+   "row": 85,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6d91052240d1d9df7ccc37707b7669818f452d9e4806374a00eda52b4e5c26d6",
+   "good_hash": "1f246ef14c972b22fb6e412d5539289b0fdc6f6fd21505034c918692dc082c16",
+   "group": "g0086",
+   "id": "idiom-0086",
+   "phenomenon": "challenge",
+   "row": 86,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0cb51ca72791f77fbd7ff81659e9932a8f794b6489875f04557fc2fb6132dbf6",
+   "good_hash": "912722034bc24838a7235db673aa507dd85cb3dae1b0bbc60036cc34a3327857",
+   "group": "g0087",
+   "id": "idiom-0087",
+   "phenomenon": "challenge",
+   "row": 87,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c48c285001444e42f7846526614b27c2758c455dc37d5e6c590890345abfa0b1",
+   "good_hash": "6181a167352b681956538d5b03bdd182f4d75683ab104aa23c0e0311be7de67e",
+   "group": "g0088",
+   "id": "idiom-0088",
+   "phenomenon": "standard",
+   "row": 88,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "25fd16a63d6a003fd700d701c6e87ba8255e729953ce9700b23d22c0268ecd91",
+   "good_hash": "5bf7df3907cd291480fbe3195e59ce0ad2d0c5ace8b4c36234d6c2f7d7fe4d5d",
+   "group": "g0089",
+   "id": "idiom-0089",
+   "phenomenon": "challenge",
+   "row": 89,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d91c152b296aee452de2aa060a5f4be04e9ff412a61cbcad5d486e74a10e7699",
+   "good_hash": "f7890605c004402633ef83b3d02a8d52c58f0f31dda564d97e0cfc745e92e354",
+   "group": "g0090",
+   "id": "idiom-0090",
+   "phenomenon": "standard",
+   "row": 90,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9f550cb7324bba754f5f43a7ecf7d1ffaa1cf1b7d1fc8516587064e564d26e95",
+   "good_hash": "c64e275e59048a704d35aa504262fadca5f4c1582d0a684929b78e2d9047ad5e",
+   "group": "g0091",
+   "id": "idiom-0091",
+   "phenomenon": "standard",
+   "row": 91,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a227911844c1d3085cf5a9c54f14049a9fe4f3cb4399c660ca0a8c87c0f59067",
+   "good_hash": "8ac7a62fc35949223b43a55b7090321e7194b39d84ab8d3180be08a879d74ef7",
+   "group": "g0092",
+   "id": "idiom-0092",
+   "phenomenon": "challenge",
+   "row": 92,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "baefac37854ecdd968ac681cb9a8187786ce99c620650de7d4cf2fbed3365bc8",
+   "good_hash": "de8ee020d537d2d76c75b5d73a2a1fe97c171facec3ddcd8ece0f54734426b57",
+   "group": "g0093",
+   "id": "idiom-0093",
+   "phenomenon": "challenge",
+   "row": 93,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "6c913b527fd69b5d2a86a57fca34886018679a6587c0de7c74b667ec24155ccf",
+   "good_hash": "725cd66be005eb1eeb353a768e1278deb57ede265224c3a624f7cda2ea5c5806",
+   "group": "g0094",
+   "id": "idiom-0094",
+   "phenomenon": "standard",
+   "row": 94,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6eca8a64fe372a07bfd0f73ddfed6399d47b3d31024df931ee23efec609fb8f6",
+   "good_hash": "f3ce29da255e3b5db23780708f9d6d0a1922a1cfcf7f76bb84ffd3f7853b821a",
+   "group": "g0095",
+   "id": "idiom-0095",
+   "phenomenon": "standard",
+   "row": 95,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "5c02037bec00e24d06b0b1b3072357aa07a2bfe452739843fe17d0a6e9c7a721",
+   "good_hash": "93183c4a73d501573d5d2cc97610705547b619bb04e92dabbf0b62e1220a1b6f",
+   "group": "g0096",
+   "id": "idiom-0096",
+   "phenomenon": "standard",
+   "row": 96,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "521278f7af43a9673d2e961fd91e846f35c266b16de9da549cd923ee450af317",
+   "good_hash": "f1235a534b1b91ad52f697f3441b541626c40689ab483a8aa97dd13b4f64e181",
+   "group": "g0097",
+   "id": "idiom-0097",
+   "phenomenon": "standard",
+   "row": 97,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dbcc4def7168dc1755bc54b3fef26c3f744117bf4a64b4c0da450ef0754f9ab1",
+   "good_hash": "0667bca1752c6e48ad2220d3409547c8b790cfaa6b24d9ccf4ff7973f76e7feb",
+   "group": "g0098",
+   "id": "idiom-0098",
+   "phenomenon": "standard",
+   "row": 98,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "85513b12a85624627c4ac1e5199560c152d16553e8f24c15715c4721bf2bb78c",
+   "good_hash": "5fa3d9342384bfb01dce2a5d46c72a53aec34f9e5708eb7a4b54d0a4c87d7010",
+   "group": "g0099",
+   "id": "idiom-0099",
+   "phenomenon": "standard",
+   "row": 99,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "321f7b344ec916d4f7c8ddb903ee368a972598a0faef65f117f7839572f8f1a7",
+   "good_hash": "ab47ccf8c6a3ac2036fadd0406c70322e0f348ed96f80c9fbc72942b904e90e3",
+   "group": "g0100",
+   "id": "idiom-0100",
+   "phenomenon": "standard",
+   "row": 100,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e2a40445007afee290a28c56be9d9a1b0023b3e464b7cefe76877d8b67e43772",
+   "good_hash": "1e76b96f53cdaa7a341c1a2b7fe17c533c12de923bd30c96025f9a673bec45e8",
+   "group": "g0101",
+   "id": "idiom-0101",
+   "phenomenon": "challenge",
+   "row": 101,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6e1cc910e40a41108ac94d6500a497cf1edc785a32b36cd3f28e597f5e67ffb1",
+   "good_hash": "046703841e71e217c1152ab38aa79069dd402341967ab3cccb5f95a71c3a49d9",
+   "group": "g0102",
+   "id": "idiom-0102",
+   "phenomenon": "standard",
+   "row": 102,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bd8a95d66388cf5a9123b0cf2cbddb1f4eef54a56413e4feb5670a9cc5237613",
+   "good_hash": "587d3fb4dc4588b7ff493b340342e4ae781fd2ea01e8f61aae0ae9314fe44c57",
+   "group": "g0103",
+   "id": "idiom-0103",
+   "phenomenon": "challenge",
+   "row": 103,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a4a21ca65c1e14e4f1cce51e7deff99f20e6c24cb1b7b0652779e42cb950d1dd",
+   "good_hash": "a72e8ce2ddc5cc0e15dca2efa1fcbf371992b2a6a5aabfa9265dd914dbe4aa57",
+   "group": "g0104",
+   "id": "idiom-0104",
+   "phenomenon": "standard",
+   "row": 104,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "19e699e4febea6d9d2a6935fb6b07c2ab5f1d6059d5ccfc72edfda1eda6fb77a",
+   "good_hash": "7bda3415360324f257cac37fd54c67f51088f2846cc707ce82276cc5b4c9183b",
+   "group": "g0105",
+   "id": "idiom-0105",
+   "phenomenon": "challenge",
+   "row": 105,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "894bd061f70e883d6e66784bbe3cee1f34c1f2345284be7e557936de4e226557",
+   "good_hash": "c184d37cc0b55ae7184f28725c508646bf7c50ba4bfc448e019c828fb640b301",
+   "group": "g0106",
+   "id": "idiom-0106",
+   "phenomenon": "challenge",
+   "row": 106,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "8bb4212153377b7fec524eeeffc74a28673256e9e69862a3ffc59fa90ce14fd4",
+   "good_hash": "247333932ca1db291184decb81c08a87476a7f41505e58ecf225309c4329300b",
+   "group": "g0107",
+   "id": "idiom-0107",
+   "phenomenon": "challenge",
+   "row": 107,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ff01cc22dd1d49abfa9cacef30f24dcfdc1500ff835d43be7dc458ebb89f2dc4",
+   "good_hash": "9f4611065dde3b1b626ead52d1db7002887c75a75b0e26176d0caeb30eb42d0b",
+   "group": "g0108",
+   "id": "idiom-0108",
+   "phenomenon": "standard",
+   "row": 108,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b1d4e8c77f502d59e30dffe8d6f637b59f945b60586221f5d9e7682b5233d9e5",
+   "good_hash": "77de6e8f0c24dc709d516e3780dede70779873e1a36d16eaacb2eb54811111dc",
+   "group": "g0109",
+   "id": "idiom-0109",
+   "phenomenon": "standard",
+   "row": 109,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0ce024fbb28e8f3bc4d03e7169c0c1f5d512c22a19a2e4bdfee68942eae5d510",
+   "good_hash": "321f7b186af7600c35791951e29932d274949f03d41437ef8806578006300cc1",
+   "group": "g0110",
+   "id": "idiom-0110",
+   "phenomenon": "standard",
+   "row": 110,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9d896d4d4d2731e3a286d8afa7fc5f7bb021b89bd804856b222b051124546734",
+   "good_hash": "e50ab7146cf98b14c4ad680b3699ca31995b6df3746eb982ff4948c4da31d6f6",
+   "group": "g0111",
+   "id": "idiom-0111",
+   "phenomenon": "challenge",
+   "row": 111,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b07ff18ba9db1b88ed13489d08962c5755202bc08b7f8c9be969dfec2776e201",
+   "good_hash": "46bbce909242029139040a853c1d9b90147c3d8e00c140bce5b74e87e2dbb166",
+   "group": "g0112",
+   "id": "idiom-0112",
+   "phenomenon": "challenge",
+   "row": 112,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a4e230e24c8f45d2e3bef2184fdc84f10d12a4fdd4b9342bb213789d36a54d52",
+   "good_hash": "e4f727c7fd5788d0201ed149ac86779c028e1aa12e3f0766ff72686adbc0bf49",
+   "group": "g0113",
+   "id": "idiom-0113",
+   "phenomenon": "standard",
+   "row": 113,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e383f924dc3d125bfcbb4cb62bc4411f0b0cbee58d7fb8d4d0e4f66ded7b0f4d",
+   "good_hash": "8edb4b21d23caf1d298e9f5ac5e4f4cd88ff4fb70d823e3043913bbc6d9c4ff5",
+   "group": "g0114",
+   "id": "idiom-0114",
+   "phenomenon": "standard",
+   "row": 114,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "592f6bf75fccf775b83f5dfab94fc9c134424d76b65f5050dbf6807c73eba9ee",
+   "good_hash": "50b20a98959274f853a5c2bc743591d03a5d3a31fa310d0c139b40c6ee88f114",
+   "group": "g0115",
+   "id": "idiom-0115",
+   "phenomenon": "standard",
+   "row": 115,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "acc26b8fe66b844d24cf79ef053d2673bd979c590e4dee04382147978f40b239",
+   "good_hash": "d4ac6254792b5acff38f92f22490657692b2986613405925067490adb713901b",
+   "group": "g0116",
+   "id": "idiom-0116",
+   "phenomenon": "standard",
+   "row": 116,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "30467d61a922cb558ab5fa79f9460bcc2506811a85f8ebc4233c2feee28fa1f5",
+   "good_hash": "8238891a82f41afb30e402302f6faa0bd7ea8f194e9468e457c1fd523802fe1a",
+   "group": "g0117",
+   "id": "idiom-0117",
+   "phenomenon": "challenge",
+   "row": 117,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9af149b6b1b6be2354ce8ae7a3ff3174fee14d47a523224d33564814686b9926",
+   "good_hash": "7ac118b0cea18b5ea8b253e45fc26cbce43bbaf2b563dba81ed45c996ef6f376",
+   "group": "g0118",
+   "id": "idiom-0118",
+   "phenomenon": "standard",
+   "row": 118,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "31e1ff58a75f1e62e5577e2f6898efb23c590e0d24e64a54867c749a24373bf7",
+   "good_hash": "6628231fe3eb97f363506a5c8ce31ae09f8b812e54089277b3690f7afb7267d6",
+   "group": "g0119",
+   "id": "idiom-0119",
+   "phenomenon": "standard",
+   "row": 119,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "af35733612af269e88579c7b942905d6261e6dc09269e6e5f5892328d74954aa",
+   "good_hash": "da222bfe95854ee620ceae750c5a993a0ae685f402ec363ad8b06263076816d2",
+   "group": "g0120",
+   "id": "idiom-0120",
+   "phenomenon": "challenge",
+   "row": 120,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "82b94ed7d690869873c2e7932b479f81d4de2890cc4c509c9045b55a05d0e167",
+   "good_hash": "d0912510936ab2083e6b55bf1d12361fc696660d14afb2bfc5ee0740dd360ebb",
+   "group": "g0121",
+   "id": "idiom-0121",
+   "phenomenon": "challenge",
+   "row": 121,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1a9195311168f4187fc6de28f6b1b31bf86833dbb46c9c2ca61790346392e30f",
+   "good_hash": "06f954ed89d787ff37f13a3eef6ade360ed50bf31daa24435b2a9da2d650fc65",
+   "group": "g0122",
+   "id": "idiom-0122",
+   "phenomenon": "standard",
+   "row": 122,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ca56dbff7afb027ebd53ab9b5ba02f877620baa9352f427fade6ba33febb452c",
+   "good_hash": "2145f126ce76b6bf04295c583440b6c5e0f9cef3b5eef165fb076942879ac08e",
+   "group": "g0123",
+   "id": "idiom-0123",
+   "phenomenon": "standard",
+   "row": 123,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9fe979bd30005f097e3cc39cdcde99de92ff93e96cabe60034ee1118ad04bf77",
+   "good_hash": "8cfd9bdce1b0d34f64d844be1dc98d43022f84b0dec37962895691093c578bca",
+   "group": "g0124",
+   "id": "idiom-0124",
+   "phenomenon": "standard",
+   "row": 124,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "81c96d6ce447959e895dbdb6259db02a8859456b7aca5b3c4898ffec1897beec",
+   "good_hash": "d0dd5e817dafda18a754e143088e54a49a604ff79e2d53e375a2cd5209d68c27",
+   "group": "g0125",
+   "id": "idiom-0125",
+   "phenomenon": "challenge",
+   "row": 125,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d8ebc3c9b4ac3ad017cf5c364bf1def0deffa4c989db27a59f937065bfdfc47d",
+   "good_hash": "cff1c7c3bee08f036985edfd77dd50c760960e1bc67f88bf8851be9b9177665c",
+   "group": "g0126",
+   "id": "idiom-0126",
+   "phenomenon": "standard",
+   "row": 126,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2e9c896e7e79b3dcc3194e84210c22d218ac5a4ea735f89361bd9f73a04a94cd",
+   "good_hash": "2a665ff4ea73e774ab954ebf7e21bdebda06b395241093891653830506ddbd7b",
+   "group": "g0127",
+   "id": "idiom-0127",
+   "phenomenon": "standard",
+   "row": 127,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "687328c54837471cbd5b40d83a909bfd770f0f82dca8613c4f18569c89704ce5",
+   "good_hash": "0c1a99111b2c156bf8c92ed5779435ed47a50560a7a71b9c9b68603da369d47b",
+   "group": "g0128",
+   "id": "idiom-0128",
+   "phenomenon": "standard",
+   "row": 128,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "29b990011f0ec99913a84b9c87e155f02b7eb0fc221af1449779dee355cc476c",
+   "good_hash": "a38581d5986316b42ad23b85579687236bdf6b273dce48a1cb493397b3873110",
+   "group": "g0129",
+   "id": "idiom-0129",
+   "phenomenon": "standard",
+   "row": 129,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "4de9328de5ec13698a2a91f21566f5de07d542963024bc0cbaa4d048b26af701",
+   "good_hash": "f24853f1283bd2a75059042c4a0da595a23b601aea5b9e6c8bb2815c7b200cc8",
+   "group": "g0130",
+   "id": "idiom-0130",
+   "phenomenon": "standard",
+   "row": 130,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e4146bd73735928064fc2564ad570ebfa08a5600a6bf220687691c2fb8b20c4b",
+   "good_hash": "b09ac927e5a4af30cc981d3b3ed22ff95c5e2bcebaeb1b7c452bb7d22071c8ec",
+   "group": "g0131",
+   "id": "idiom-0131",
+   "phenomenon": "standard",
+   "row": 131,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "436e47c788aed41d678712696469f8ba9202dd7d2baa36fab332ab9ed2a7ab3c",
+   "good_hash": "a69f5c918dfcf5148333076d967718e240d63b2db6d08ca51e3e1c066292fceb",
+   "group": "g0132",
+   "id": "idiom-0132",
+   "phenomenon": "challenge",
+   "row": 132,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "5429e29dfb8d482dac4f01f9922bc14c7c5d182fae2b1d10a68ad54dd5e94a03",
+   "good_hash": "9cfcab1e7a5d29e4acd546a585745190fba994cd5ee51ef7f14f1c2b53da480e",
+   "group": "g0133",
+   "id": "idiom-0133",
+   "phenomenon": "standard",
+   "row": 133,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2f2320c5deb95533e20f8fa3f2dc86a22cf4df5e7c6a2a83c17ec282e24ca496",
+   "good_hash": "33bcc14f5c71ea6fd3074505c07b35cbc87bbcdf9365dde453ab6bbc53b3567a",
+   "group": "g0134",
+   "id": "idiom-0134",
+   "phenomenon": "standard",
+   "row": 134,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5920437b9c853e62e35a90a2b791229b5774cbe9a9752284b0bad4246afd4bfa",
+   "good_hash": "18e96f9ce1cfbf9d58b302ed68ae39efba466a0ef34f35dd14fcaf3a98e63139",
+   "group": "g0135",
+   "id": "idiom-0135",
+   "phenomenon": "standard",
+   "row": 135,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7dddd9ab8ba04dbeb6c04adeb39b2b06110e4373f34e92355a8a9803ebcaa75c",
+   "good_hash": "ce2f734af3bc7b5cb5caf9c4c73951b5fcbf488699a722f0ee1a19c24a69cfff",
+   "group": "g0136",
+   "id": "idiom-0136",
+   "phenomenon": "standard",
+   "row": 136,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b08d56082fe82f05020b0036832eedd7ee543a39c264992534c7aa16b0d820be",
+   "good_hash": "16e71c19772ea24b26365975f06ac61cab23747592401c34a19130fa4fa31228",
+   "group": "g0137",
+   "id": "idiom-0137",
+   "phenomenon": "standard",
+   "row": 137,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "44f205ab06d7d89972ff3ccb3b6f1be47eeaf56bfc9f36c66e5d6b83517c0cd2",
+   "good_hash": "fd0f0e6a41a2d86dfb2b9b9e32a7bed699dc39d37fa9b7a92c7e57842ece00ab",
+   "group": "g0138",
+   "id": "idiom-0138",
+   "phenomenon": "standard",
+   "row": 138,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5aaf94617bd0340d5112480b73549458d8e7cc79c064c1810672fe6a615354bc",
+   "good_hash": "25e43605b2bf8800f440181ba28be98993ad9a7d8b7b3d0e540b002590343b2e",
+   "group": "g0139",
+   "id": "idiom-0139",
+   "phenomenon": "standard",
+   "row": 139,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "c8ac25ac40fde1ef53f556d59aeb7a4712c4b5dcee1d5c8a52db0a3c2ace2b6e",
+   "good_hash": "13797aa9732b81b083222e1a5a2c18f54e476e7f589e0fd1c98950bdc519c476",
+   "group": "g0140",
+   "id": "idiom-0140",
+   "phenomenon": "standard",
+   "row": 140,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a4db2e4cbc2116424f381221addd7b6bac31d4a85d4e21502e4d28e8b4521b62",
+   "good_hash": "23ab9d64b96464e42c57f7e284144c5c4027706715766f53accddb9366e991a8",
+   "group": "g0141",
+   "id": "idiom-0141",
+   "phenomenon": "standard",
+   "row": 141,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "fa6914f13e54437a36a9b4683a9018d808e7a6d7dc71893317c6116261982608",
+   "good_hash": "2e048345b8c53bb055ac8807fd0012ee2026022b58c416b5636bb8b1c549bc0f",
+   "group": "g0142",
+   "id": "idiom-0142",
+   "phenomenon": "standard",
+   "row": 142,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fb467a72eb7093a811f7e4b60150f97a67c1e4b47f235c46fdbed841fcb5ead3",
+   "good_hash": "1f48b1c9e2a6ac6e3882f446ec1b49a8e25a120a8567781e6ededa01e23b1e23",
+   "group": "g0143",
+   "id": "idiom-0143",
+   "phenomenon": "standard",
+   "row": 143,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "d8411927d8b6d4bf399ed29589c3bf22a1ccf36848cdf44b643f0248766c4953",
+   "good_hash": "ea0d716cc4aa7ed7b48ceaf08dd812a3b3d82d42efac87163612a69f2724799f",
+   "group": "g0144",
+   "id": "idiom-0144",
+   "phenomenon": "standard",
+   "row": 144,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ad064ac777bb2379a7570ceeac6a019825b8f885a65630e28f98558bd88da0a2",
+   "good_hash": "faa230812cae57da82cb2671a44c99496e06befc67271fe3a56ce0ec7ebf1cb7",
+   "group": "g0145",
+   "id": "idiom-0145",
+   "phenomenon": "challenge",
+   "row": 145,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fc5d3833c741333a7aed6d45a30e59d8c1af943ebaeb7e5d59d058fe67b89a90",
+   "good_hash": "0cbb4a2cdd04dc17bdde7608674b6c56f6c614f6b46a1a938bac6191617bd5fa",
+   "group": "g0146",
+   "id": "idiom-0146",
+   "phenomenon": "challenge",
+   "row": 146,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7f52a2c0189ec7944c22facbe2881929d6c9efc59acf10038e761a18fc6eff19",
+   "good_hash": "48f9d21296cba50cde5f5d6cbb841efbbdd103378b17f1b749ed5c870a669e18",
+   "group": "g0147",
+   "id": "idiom-0147",
+   "phenomenon": "standard",
+   "row": 147,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4c9e6e858126192ca105990d65de442ae61fcf010156b2e00c969a49fb601f2c",
+   "good_hash": "2a498f68f8fe4a54e08144e76ae797bc5b869fbdf6083e82bfdf605c6dfe5d65",
+   "group": "g0148",
+   "id": "idiom-0148",
+   "phenomenon": "standard",
+   "row": 148,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a542c5822eddbe4326623e8a40983e0b643a6f0c95a592761dc74cdcb929fef0",
+   "good_hash": "b737812eaf61e83b912ce3d281234f9dfe65fe2d054273f1cecbe5fcc473f7b3",
+   "group": "g0149",
+   "id": "idiom-0149",
+   "phenomenon": "standard",
+   "row": 149,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7156d04a5dce69023db1a93a6c14737f01b171cb61858e63575526496c0b0c4e",
+   "good_hash": "0383409d3e803a43c4bb61cf42c6d88896902146f3dd812e3a3f9f0710e5c5ee",
+   "group": "g0150",
+   "id": "idiom-0150",
+   "phenomenon": "challenge",
+   "row": 150,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b27cc729b6f8a2b51044ae1d01c2a651c0d8699ba9b48852dd27d612ec41c396",
+   "good_hash": "7e0051b04245069fde562a93d1f18055bd87e6482651ffc9b8f31e3eb2e9d9f6",
+   "group": "g0151",
+   "id": "idiom-0151",
+   "phenomenon": "standard",
+   "row": 151,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "862937c7bae0c9720abcc92d14a1ef190301faeb3da9c6ea394bf93a2a489ed6",
+   "good_hash": "e00838bb58c836c98a8eee5a0d16ef8f678a58e26cd36116ab808d1d26ac006a",
+   "group": "g0152",
+   "id": "idiom-0152",
+   "phenomenon": "challenge",
+   "row": 152,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d57e6fa4ce2dad9efad7537b11a358305157495789c79cee6a0a37829d6c13d9",
+   "good_hash": "341460a09aa1b5bee16738137d5364c00d221fb5c92beb1009ea8ee17a4ac345",
+   "group": "g0153",
+   "id": "idiom-0153",
+   "phenomenon": "standard",
+   "row": 153,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "337640ffb0a2d983690443644bcf03a0aafc0382151514e2e7f6ce67e25a32fe",
+   "good_hash": "5a1742bace709d8ecae7d45364e53207c32d07643cc2aeb6337b57d10e2ff116",
+   "group": "g0154",
+   "id": "idiom-0154",
+   "phenomenon": "standard",
+   "row": 154,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2137de471bc9d02c8b050693275a51a44debf48fd471a19a147a4c6070b05e77",
+   "good_hash": "3f6f39139dee171e9281de70e6be06f2114b0b982339f251e6b49ed7205ddc06",
+   "group": "g0155",
+   "id": "idiom-0155",
+   "phenomenon": "standard",
+   "row": 155,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "33467768e29f91d03a517195174625fa25389e6a7c36babaa8750891a20e4f43",
+   "good_hash": "f4b9c6f9b7dc847fbfe9c6bd9b8857acc245c58dcac14d452713016f7b98d8c2",
+   "group": "g0156",
+   "id": "idiom-0156",
+   "phenomenon": "standard",
+   "row": 156,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "01d4b611440320834e3086883304f495cc538bcc44712c9b6e87a36daedf6d9f",
+   "good_hash": "0c4e6f18652c927c8c1e47579d9fa60b45b1ba5cce60e5ed4c66b5bdb8143e61",
+   "group": "g0157",
+   "id": "idiom-0157",
+   "phenomenon": "standard",
+   "row": 157,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f46a193282f7288daf40989c53390e0d692af23463917768cbdf61821a346d05",
+   "good_hash": "09c601fc1dbf17d9aae2f2506dae9492313f301f0be86e7389dcd6ac06cb1ea6",
+   "group": "g0158",
+   "id": "idiom-0158",
+   "phenomenon": "standard",
+   "row": 158,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "4782f521db442b67caede7ec4f36bc2b69f4c29c77e4b3673b460363497d41af",
+   "good_hash": "bc68bba3709a418af4ae55982940d98ea7f3bf4d738d48325596e910939a4d98",
+   "group": "g0159",
+   "id": "idiom-0159",
+   "phenomenon": "standard",
+   "row": 159,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bdbc90d6aa595f91e904c75027dc91135f3fc46c5ef4c52dba2d536f9b18ae03",
+   "good_hash": "0c395f717c83bdcba74bbb08d574c4c5bd90d99ac4c0cb0b46fe0bbacc9f6f23",
+   "group": "g0160",
+   "id": "idiom-0160",
+   "phenomenon": "standard",
+   "row": 160,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d9f92bd3007e0534677fcf9158fc066183a0d90001c48287109af133f0ef21e5",
+   "good_hash": "d11301facfb8fff97387d93bd8055920fa10be1d3a005868e6a6441edd062ae8",
+   "group": "g0161",
+   "id": "idiom-0161",
+   "phenomenon": "standard",
+   "row": 161,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1b5ff50b0de0f795e0db22b305567a58fab0e107d1d99c2ccb807f137167419a",
+   "good_hash": "979e9d1d51ca75b31998352c6caf369c7d1e29364e10c14dbfd2cbd3a371c4b9",
+   "group": "g0162",
+   "id": "idiom-0162",
+   "phenomenon": "challenge",
+   "row": 162,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "e955af28d4d4665406b8bd795f057fdbe421376e11dcb44f50895725e5bc9f0f",
+   "good_hash": "55c694d9d3ee8984414c37402db743f77b3d2073d32aa29a29cf15afe3f624bc",
+   "group": "g0163",
+   "id": "idiom-0163",
+   "phenomenon": "standard",
+   "row": 163,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "c30f5019bc022647703389d935c0203c45d1f6a6ccd1ece5feff85ff3f142a79",
+   "good_hash": "7c553cc917df6ff14bf7b3ded0dc3670b1471b896ae4cb5bbb638333d60e9986",
+   "group": "g0164",
+   "id": "idiom-0164",
+   "phenomenon": "standard",
+   "row": 164,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "e2c99a229b4ef1a4ec180d9ccbffb0d4bb652fb331673c9d90e6be508a5a5010",
+   "good_hash": "72528b8da587887fb9d15d87718ffabe86ebeafa51fd400bf4b3269fca290ee6",
+   "group": "g0165",
+   "id": "idiom-0165",
+   "phenomenon": "standard",
+   "row": 165,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7e7b6a0f50b330873acadf2d90cc0d8f8aff9b859331b52b5feadff529fbc4fb",
+   "good_hash": "b88a2b9c0628ce71845bdd08ccae255fbe556b7df826cd4db879f4a8a252ad47",
+   "group": "g0166",
+   "id": "idiom-0166",
+   "phenomenon": "challenge",
+   "row": 166,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2ec83dcb4b92e4e3d8a28cd57831110fbb795b0d4539baf4c9a9e23e80602f77",
+   "good_hash": "adb2ea94168b6cc72dc0dbf3dc18aa20822e43ea9824e12b83703e152a63fac4",
+   "group": "g0167",
+   "id": "idiom-0167",
+   "phenomenon": "standard",
+   "row": 167,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "11538f2a391cc00ffd482976b31916e0fcf06900ac7c34d1248449fbecc61924",
+   "good_hash": "0c8e4b180383a42434fd4951bd58461295c26bde016723e9f2c4b39a0c21154f",
+   "group": "g0168",
+   "id": "idiom-0168",
+   "phenomenon": "standard",
+   "row": 168,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "59efc51822eabe5f829a06fa27edd2fbc62353b769f74f80934e43ddedab66ac",
+   "good_hash": "661fefb14c42e58f0bfabebd17f63aa6fa6b5b6a880f5dd9e7b65bb08fd75c6f",
+   "group": "g0169",
+   "id": "idiom-0169",
+   "phenomenon": "standard",
+   "row": 169,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "b2a882034f0d6b22d8aff4c2568c6e725578c6db7b470f9eb0c384e90d556322",
+   "good_hash": "7622ac579f899400d295bfe0aa54c45a706f5d699c8c39b9d892d0f8ac162843",
+   "group": "g0170",
+   "id": "idiom-0170",
+   "phenomenon": "standard",
+   "row": 170,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "9ab8ff8b99109fafbcf6f7db97c3aa18470b056f5a3d5a4ddd2248d6a57f8b04",
+   "good_hash": "2bbb88b5737301b3ab1ed9df299078cdcd3ee63cd662be57f4931b56796d89a2",
+   "group": "g0171",
+   "id": "idiom-0171",
+   "phenomenon": "challenge",
+   "row": 171,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f3a093effe5e06e9161de409361f22eaf83c5928facc5d8e0df9c3cedb5cc1c5",
+   "good_hash": "7c4d2e0f32b25503002d651e3aa7a91a8d27f04699068fbd58a2ddb909bc82a8",
+   "group": "g0172",
+   "id": "idiom-0172",
+   "phenomenon": "standard",
+   "row": 172,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "af04ef3047cc6231931ccb9fe5d79f2c116ad8617bf3589df155ec0cd353f229",
+   "good_hash": "5b648163b2e23c6034550d157a8701d5a59697c1d72f18ff5ccd0d1a0980c607",
+   "group": "g0173",
+   "id": "idiom-0173",
+   "phenomenon": "standard",
+   "row": 173,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "871572c6b81a7ee15a5760e9903885fdd72094702a3d464f5bdf66dd271c3629",
+   "good_hash": "682f551aa6fded310bc6e4cfaf3d2b9e7f4539683fec28d12d7aac7085cc412c",
+   "group": "g0174",
+   "id": "idiom-0174",
+   "phenomenon": "standard",
+   "row": 174,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "04958907471ebd290c5bf7015a7c7208db319d21af0a1ceba05bc976fb318299",
+   "good_hash": "6cc6b8e2ed26ae8d6ed232a2adbed42567a672a5cb743bdb285bb39f10f37492",
+   "group": "g0175",
+   "id": "idiom-0175",
+   "phenomenon": "standard",
+   "row": 175,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e4bd7e505821edf561f0a9be28490549669357c2debee65dfffc919bea446aef",
+   "good_hash": "d4c81eaeaa8c297b91b33a5abffb11f5402b0829361bae9f99dd81fea03981fe",
+   "group": "g0176",
+   "id": "idiom-0176",
+   "phenomenon": "standard",
+   "row": 176,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c3bacf7bce37626018f4e243029e244a066b53addee51ee0a6ac0d8e336eafef",
+   "good_hash": "549050c3abcdbc3b0def5d188394cf62f80db610137f360e2b0f7968d08e7dd0",
+   "group": "g0177",
+   "id": "idiom-0177",
+   "phenomenon": "challenge",
+   "row": 177,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "942d1edbf942a02e0e8d4821c0febe6c00de703d53d809da5031253184a31a9d",
+   "good_hash": "71a0db5cc9610712608212fef24403e38d79cd5aa0b69bf0869db782c20507eb",
+   "group": "g0178",
+   "id": "idiom-0178",
+   "phenomenon": "standard",
+   "row": 178,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3cf9dcedfb80ba2b49cd8e28e537f820617ba03396975d88165f3fcdb3d7d797",
+   "good_hash": "ad154d4dd841ae8b2dc12392ed7d76f255ad0530d266a27e80734488f920742d",
+   "group": "g0179",
+   "id": "idiom-0179",
+   "phenomenon": "standard",
+   "row": 179,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "fde1ccad919ffe7a0f6fae26d4e92444b8ec8a857f5ef45b225f065b813339c7",
+   "good_hash": "3e03bd9976ae44de0e5d4a6f57493822592a216377232965ad3f997254fed295",
+   "group": "g0180",
+   "id": "idiom-0180",
+   "phenomenon": "challenge",
+   "row": 180,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3fe2239fec44de1cb572bbbe19d161bcbe224a45111a102ad91a6803b6b1d3ec",
+   "good_hash": "0199f513ee90253c8d81069336f534d00268483c9a788ad6fafadc020d88deb7",
+   "group": "g0181",
+   "id": "idiom-0181",
+   "phenomenon": "standard",
+   "row": 181,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6490d4b44ef1ed32e1a1cd72ed5d1356f7f8dbf8503e52f3185e871e5567eb85",
+   "good_hash": "a5182030cccf935ab4a88fd166873ec4fafd7d2de7a74803f9c9eb7a75ffce68",
+   "group": "g0182",
+   "id": "idiom-0182",
+   "phenomenon": "standard",
+   "row": 182,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "54e16122d6b7eb471ff88b38abcb0a14ea19063b8a422abfcaef727e375c4afb",
+   "good_hash": "a0c726f3ade6e6388cc7bb7ff9ee1c313d4dda9d521f641d581ca65ade9a056c",
+   "group": "g0183",
+   "id": "idiom-0183",
+   "phenomenon": "standard",
+   "row": 183,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "73b0034c8a2515cde284c25a29aa12524948c5d140ce51779f10daee94ba78d7",
+   "good_hash": "06b3edc601d471a1943d916dde184def2f835b2c27305ed44a43b7c83ebd1188",
+   "group": "g0184",
+   "id": "idiom-0184",
+   "phenomenon": "standard",
+   "row": 184,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "65c4c8863058a3d16a99a4b11f4568176453caf5e75fb337c74d8f72c6d36a8b",
+   "good_hash": "79d03fbbd32d8baf5ef5665d9902f3e513faf7d09d9cabb9bccb8e5ac7c22165",
+   "group": "g0185",
+   "id": "idiom-0185",
+   "phenomenon": "standard",
+   "row": 185,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "31f54d7388217b263076d6ee89463745432df0d98493bc763a8e36eb5ee8b314",
+   "good_hash": "f0fd6c092a4b3b7dc1e2a6c1a85eb7ab8080185043146109d1ca464cc186707f",
+   "group": "g0186",
+   "id": "idiom-0186",
+   "phenomenon": "standard",
+   "row": 186,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "caceb96dc027f04bac143b3d6a67461d344042bb7a3aed099b46551ba51afe5d",
+   "good_hash": "dba5f4bec4f07398b3e4ec87c5e5afa95b697c568f11d36216d9878306362b51",
+   "group": "g0187",
+   "id": "idiom-0187",
+   "phenomenon": "standard",
+   "row": 187,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "acc97777d21939be4bd37e91e86066ce536227b12c1a5870f2df4394da045988",
+   "good_hash": "b61be4202431b73d6d832b252a6d226d0fbede8c1ec796c3a5d4d6aaa56bb071",
+   "group": "g0188",
+   "id": "idiom-0188",
+   "phenomenon": "challenge",
+   "row": 188,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a345796ab9cd686026b90fb20668d0aca6f2a5cfdbfb6a0f8c84e17a221fa8ae",
+   "good_hash": "d52eb3fcf523d1d05184fb3a87987dce641a9c906f7855d53dd1a7c76d88a114",
+   "group": "g0189",
+   "id": "idiom-0189",
+   "phenomenon": "standard",
+   "row": 189,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c2892298ec89b4d96d955d56a47b40a0d8f51547463eb81889a9bd751e80a7d0",
+   "good_hash": "75c4507dc4217dddfe771490bbe84486ea477a30cbb538238ed2cff2be6b95f8",
+   "group": "g0190",
+   "id": "idiom-0190",
+   "phenomenon": "standard",
+   "row": 190,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "d33f4893015e7dcd80ec817b3c181edd32ce374908ed2e87e9c3786c752c1a70",
+   "good_hash": "48a95c829a29a3832b53b25c2a667cc429441868b501230674191a3d7f338295",
+   "group": "g0191",
+   "id": "idiom-0191",
+   "phenomenon": "standard",
+   "row": 191,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c7451c6c2a2781110ee4a75c6856327d6322a1507397db520901339cb36e85be",
+   "good_hash": "a823fbc1406260a694080d14e61492e809c6354523de0b6f8f5c9765caab50e3",
+   "group": "g0192",
+   "id": "idiom-0192",
+   "phenomenon": "standard",
+   "row": 192,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "41164d30c67a0cc8d360f6cdf3b1ab640f94a3a9c241be0afec12a67ad1687b2",
+   "good_hash": "f5a55c28f1a85c0a243321103b8ea6d9429226d314dc2c7cb76c21af78fa3bc5",
+   "group": "g0193",
+   "id": "idiom-0193",
+   "phenomenon": "challenge",
+   "row": 193,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4d1433343989312fad2273fafaa713edde7d9076517443d585edf757e9380e72",
+   "good_hash": "b89b4ac57a6d88d1f960b6785119596c88f4b27d81d03469279c20340ee7e7eb",
+   "group": "g0194",
+   "id": "idiom-0194",
+   "phenomenon": "challenge",
+   "row": 194,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "90808ed2a5e551923ef909476836bd2496393d864fde50981f09c079f6c7d290",
+   "good_hash": "af57068b74434b1348cc0578ae70df8268ac08e73751b57fd0871e9a37827a50",
+   "group": "g0195",
+   "id": "idiom-0195",
+   "phenomenon": "standard",
+   "row": 195,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fc16d331d97d454ee1af82582317c9c51969d721dbafec5d202cb3de810a263e",
+   "good_hash": "e7977a10520e4e9354059f0c9723660d6538731df88103d3a2aa532cfc924c64",
+   "group": "g0196",
+   "id": "idiom-0196",
+   "phenomenon": "standard",
+   "row": 196,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "0425fc90051824c3a6c406da94ea24728b0379b1b718125e48a298f7b7981856",
+   "good_hash": "19245f6ce2bded6f973bf99bc7978dac025fb5e46a4e9bd6f10c2f2f56bbb0bb",
+   "group": "g0197",
+   "id": "idiom-0197",
+   "phenomenon": "standard",
+   "row": 197,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "11ad10ce30764ef9eb6fb90a6f2cf28a2e684efa2fc52fab3b19259222a9dcd9",
+   "good_hash": "27a0dcdeb82220585886dd68f5c5a803ce289079cc4bca4faf0cf2fa72b7b915",
+   "group": "g0198",
+   "id": "idiom-0198",
+   "phenomenon": "standard",
+   "row": 198,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6b30f4ca4c84ae440a69ec20fd96b9ed7be9d8676d306c3137627bf2149f9a2f",
+   "good_hash": "37a1ea82275bfec3318f9a7fcf5a9696647444312f2f596592d6bfe3daf34288",
+   "group": "g0199",
+   "id": "idiom-0199",
+   "phenomenon": "standard",
+   "row": 199,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "b4b80bb65d007a17c182e6c921314a96e2f4028758decb4a253739be7f262347",
+   "good_hash": "6b25b75653b3c6bdbd02916be3c62bfc525c70bdab12e9b96ec2f75886b1ad36",
+   "group": "g0200",
+   "id": "idiom-0200",
+   "phenomenon": "standard",
+   "row": 200,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b67d80d5396f426d387dc656c115a5321484a4d72eca6cc6a83d78560dd58fd3",
+   "good_hash": "4c8b300b91b5c675ff0f9556a3d7d392b3fa8d42cba28af4add383bcc731ed25",
+   "group": "g0201",
+   "id": "idiom-0201",
+   "phenomenon": "standard",
+   "row": 201,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3a39facaa073e616756809a48a6d10722c73b868e3c3e992ba395890e1bd0cca",
+   "good_hash": "0831438035a3dbf91b29dbdda4005f51d793750cd3bb44ae57346103744b297c",
+   "group": "g0202",
+   "id": "idiom-0202",
+   "phenomenon": "standard",
+   "row": 202,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7ebd230103108db8729d5076bea6033fa452e297781aac28c26b87a6bf38d6aa",
+   "good_hash": "86404dae84511a79c4ca9a32f75ad09bd7493f10cd996554c3cbd9ed56770b1d",
+   "group": "g0203",
+   "id": "idiom-0203",
+   "phenomenon": "standard",
+   "row": 203,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e9615be821e9d64671ad6d591d9d589d5c68ff40ea1b5b497ba53991e0e361d5",
+   "good_hash": "67c23aa5ccbce93b60c687d101d069152ecd08c947a84472bf02b82157d9c9c5",
+   "group": "g0204",
+   "id": "idiom-0204",
+   "phenomenon": "challenge",
+   "row": 204,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8bd1321cebd8557218b014c40a85a01675aff80ae9640148bf44dd87d1a4d1d2",
+   "good_hash": "c87065b05237b77d79c1788f33034db5d765460569e05808927c83a343cfb850",
+   "group": "g0205",
+   "id": "idiom-0205",
+   "phenomenon": "standard",
+   "row": 205,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1842c8fbe3b7b8b6bc8c7ba71a63fd618ed8c4127e400329b5e709f8e33517e9",
+   "good_hash": "9b54ad10a0213cad96e78449fc90f6db1205759fa52c812aebc92a53460add88",
+   "group": "g0206",
+   "id": "idiom-0206",
+   "phenomenon": "standard",
+   "row": 206,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dc588af2416e0ceb8881636925d65b77e688be09dfa6ef0fec3ed41aa64c69c5",
+   "good_hash": "17333d79982d8c81726abfc0eafc05b18b47f87424487a9946bbb3edd8c315cf",
+   "group": "g0207",
+   "id": "idiom-0207",
+   "phenomenon": "standard",
+   "row": 207,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "514efe3a1229ccaa45682578e99e54a27dc001658b281ac43f3c8d0bdaaac18a",
+   "good_hash": "296f87d063289349ff25a42587f80fe58170654d2e79e7379f9b8f408872fb29",
+   "group": "g0208",
+   "id": "idiom-0208",
+   "phenomenon": "standard",
+   "row": 208,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d2c0a8a1a0d87a6211f31bea0d07c9cea5df2d6a84543dfc444c816fc6423faa",
+   "good_hash": "a6497e60552fc8d4302e56e0897c81c61b52b15cb9f9f501806fa83cb8af4fbf",
+   "group": "g0209",
+   "id": "idiom-0209",
+   "phenomenon": "standard",
+   "row": 209,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7379937cae8b780c66388ed67cecf751288058b5ae6ba65b65eae7668fbda50b",
+   "good_hash": "864129fdaa0b3c7c430c31a7ddfc374dfab7eb14a62dc3547682be7f0ff56c51",
+   "group": "g0210",
+   "id": "idiom-0210",
+   "phenomenon": "challenge",
+   "row": 210,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fbf5dcb304955587e5c020a9af5eea69c7c59a97b51c9e6a6d0b02fa0f596074",
+   "good_hash": "14ecfb9a0626ad9699c9b377486186544365f8e0f4e12b27bd48c934f6fcca3d",
+   "group": "g0211",
+   "id": "idiom-0211",
+   "phenomenon": "standard",
+   "row": 211,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "0bed2ffa5799ee0dc3a4d7d22a42cef9c56f5d6d94991180e1e8a8ed3af57147",
+   "good_hash": "3fc276662d23e2b115ef993045b66ca06ca7fda852950ea24ae08613204b6e80",
+   "group": "g0212",
+   "id": "idiom-0212",
+   "phenomenon": "standard",
+   "row": 212,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "98d88253ee80bd8af168e9eb75da4137e8018bbe99e613cd96bfa15abf2be978",
+   "good_hash": "a937ec60e4599830b8bdcdacad7ca34799e7cb3a2cf2f5adf245d12572a6d48c",
+   "group": "g0213",
+   "id": "idiom-0213",
+   "phenomenon": "standard",
+   "row": 213,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ba4f3994dc8cb022c1f36a00416b8c2d0345ec91c5aeee2c7aa394f0962c4648",
+   "good_hash": "440fba2c77377f7eda79282cfdbf7b1f20c0ada21c07e59224710f0ed1e77d8c",
+   "group": "g0214",
+   "id": "idiom-0214",
+   "phenomenon": "standard",
+   "row": 214,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bb0e8f9de0270983edfa36f4778f340c08adb701393a6d9ccb727fb1888b158e",
+   "good_hash": "1028d526c78ca2cabbbdbae4cdbf7b18fab8c6fe7d451d6ff5285fb7718ee342",
+   "group": "g0215",
+   "id": "idiom-0215",
+   "phenomenon": "standard",
+   "row": 215,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "830189f07d39778d42170816e5ba1e15c2c75a10c83c12b0c3ff13ebb91cbafc",
+   "good_hash": "f5164f30dac817446e9bc46c9ec045c11d0ed3ce1f32d88cc5cda81cfe1ebf98",
+   "group": "g0216",
+   "id": "idiom-0216",
+   "phenomenon": "standard",
+   "row": 216,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e3ff3475c6165516a765192d50fdde7c98fa012f8d483d9add6294d410f0db81",
+   "good_hash": "58b4a0fa52b1c4c4ebbe38f3ac975e62868d339f903d62c209b7e8f571cae2e6",
+   "group": "g0217",
+   "id": "idiom-0217",
+   "phenomenon": "challenge",
+   "row": 217,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cb03842678184a2b637bdd13035a4dd440c79041c9b179390b3f3be9930f57a1",
+   "good_hash": "1967f0b33273bbca9e4b14e13b5d882a2178166e72414dbf23123580e1ff93e7",
+   "group": "g0218",
+   "id": "idiom-0218",
+   "phenomenon": "standard",
+   "row": 218,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1fd382da6969477d5072edf361eda07c4390f6eea6c33ee52c3ba90faca02fb9",
+   "good_hash": "f69b2c64c91e569224023764d6ec9116c3010fbb612d6d8caf0a9f98a3bd17d1",
+   "group": "g0219",
+   "id": "idiom-0219",
+   "phenomenon": "standard",
+   "row": 219,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "02539b146bcc312048c252ef4a01b2d77fefff2d5ee28695af30ab9d5097ab98",
+   "good_hash": "b6a1ad06bc28c6fd5bdc216b4c7d3df39f9f00c8e10445771cec90dc2b413174",
+   "group": "g0220",
+   "id": "idiom-0220",
+   "phenomenon": "standard",
+   "row": 220,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9a348ce6b5b1b32294e2332ad2689ccfbe121d7a1abcc424987b696bb28a88dc",
+   "good_hash": "c5fb8fa6efcde762a91d5d055338d586a2743227505d9e252e7bc6f9c27fb7a1",
+   "group": "g0221",
+   "id": "idiom-0221",
+   "phenomenon": "standard",
+   "row": 221,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "b3deb0c69a29f0002059ff1ca2d36fcba0c1c392745cf27d7cd4fbc0bde34846",
+   "good_hash": "cce1f044e029285b55930735a8894f5c292c840c3d1a10d708d7b9c904ec4ffc",
+   "group": "g0222",
+   "id": "idiom-0222",
+   "phenomenon": "standard",
+   "row": 222,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6e054d5659ed34096d6cf842434bc6c072a379dca6f73deb1a380a12d717bbf5",
+   "good_hash": "f94cda162ad43de2607099520479cf4ffd516f8ab49b7acb300f93f7c7846d14",
+   "group": "g0223",
+   "id": "idiom-0223",
+   "phenomenon": "standard",
+   "row": 223,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "19c22db33aee59ebaff0cb42358adbc5623b804a658ad6e7182aa7c9a35b1383",
+   "good_hash": "05c37fc34605bce9a82706a538c51080f2724ffd55d21ef839237322288449ee",
+   "group": "g0224",
+   "id": "idiom-0224",
+   "phenomenon": "challenge",
+   "row": 224,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3defb4408122acf034e9da5acedd8e614b17a2bffae956c3a9469c9361064f1f",
+   "good_hash": "13cd48ed21b49dfdd0c560412965f2341177a9840fd796e423951d6faf63c593",
+   "group": "g0225",
+   "id": "idiom-0225",
+   "phenomenon": "challenge",
+   "row": 225,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7e69a6c83e59271cb44b901d6907afd95c623744a2949ddfb9e725bda4a10292",
+   "good_hash": "f1a59b1c51514900b8c8d207a19f70e5581b1cbe925af8b41a2d2904ded60ae8",
+   "group": "g0226",
+   "id": "idiom-0226",
+   "phenomenon": "standard",
+   "row": 226,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "76866defd3db9b956502ac2a4b93fa6e0d211ea66222caeda25253b0451b52b5",
+   "good_hash": "76802db1cf19ad24d2d66e76cd1627610a60b363c8aa2ad20b9feb2b5df71fd3",
+   "group": "g0227",
+   "id": "idiom-0227",
+   "phenomenon": "standard",
+   "row": 227,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2837e9809d89b4659f2b4a1a19bd6789262aa6a82d5412ab6172b9e3e64162b3",
+   "good_hash": "b1975b40d61d7d782b3550cbcee0507a017066af92af6a8105d898bb9688ddff",
+   "group": "g0228",
+   "id": "idiom-0228",
+   "phenomenon": "standard",
+   "row": 228,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "6eb6d1abb207938d74feca81862f792d7ffe28c51470b678c68157c5d011846f",
+   "good_hash": "75dbc626b373007ff5ce5a18c2ddea38b95ee32c8bd1bc334eee369b4430feed",
+   "group": "g0229",
+   "id": "idiom-0229",
+   "phenomenon": "challenge",
+   "row": 229,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e61586efdb277e4804aed8feafba0884b1cee4a4c27520ac6aba02a6d419a11b",
+   "good_hash": "e5a6b31a5ab524c04112b2ef6dee09d5a0df02d336bf68761fc256b7f83cf6ac",
+   "group": "g0230",
+   "id": "idiom-0230",
+   "phenomenon": "standard",
+   "row": 230,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e7cb917c300cbcfdcbce7e7894bf71a956e9a7bf485a60afb0163ca72d8a7149",
+   "good_hash": "ac538a50b25d0ce75c8f308bec806785267a9e947127e42b1208e674743e8a28",
+   "group": "g0231",
+   "id": "idiom-0231",
+   "phenomenon": "standard",
+   "row": 231,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "74daaf29b14f225c3b07d23d6b6d6cd4e13fb8469ca5d935a0c44f8e6818844d",
+   "good_hash": "993c11ae3e0a20c19e24630c283cc98c919391add402d28f0488db74edeb1902",
+   "group": "g0232",
+   "id": "idiom-0232",
+   "phenomenon": "standard",
+   "row": 232,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "aefa991869a83b655884ebb2f68b00f8f477ba21a2d6abace0f8e92e2d1afabe",
+   "good_hash": "4ec55c5ad80a83230c09cd784b4b64444fe061690ac4452ef00157b6e9ab3be6",
+   "group": "g0233",
+   "id": "idiom-0233",
+   "phenomenon": "standard",
+   "row": 233,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6db8ee218fc8dae58c574a5b9b3dc224cf17fd7b33f13d08945acfa2e8a3a3d8",
+   "good_hash": "576cecd35873198c8a03da66874ff52ca64043ea81f0de76ccf84aec06def9a9",
+   "group": "g0234",
+   "id": "idiom-0234",
+   "phenomenon": "standard",
+   "row": 234,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "03297b01850603d9ec9b3315afe1424c95f3d768c9bb6e6ad59b380cff87a548",
+   "good_hash": "8b512c560f797dd93b9ef2f21dfd58f8c9d1b6a1e2fa351f44181ea215d181b7",
+   "group": "g0235",
+   "id": "idiom-0235",
+   "phenomenon": "standard",
+   "row": 235,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e6393ce6ccfaa0ce15553d6529d48852aed8f7bbf15317e67e2b4fafb3a1b6ea",
+   "good_hash": "5041061cc22a275868d802e6917b1c6b4146f83db75582c39bbd3f9db11b5af0",
+   "group": "g0236",
+   "id": "idiom-0236",
+   "phenomenon": "standard",
+   "row": 236,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "625c939ffa476de8d890279e2b4c4b98317c1e9396450539a9d51c8dfc8ed2df",
+   "good_hash": "e1a33a06be982dc27500e8e88349ecdcceeb5ff24b81c74739993b5b8bfc41d2",
+   "group": "g0237",
+   "id": "idiom-0237",
+   "phenomenon": "challenge",
+   "row": 237,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fe09d663cbb2976614e032a99d5bdff4b932cc5746b970778fd8a56b548aa37c",
+   "good_hash": "fd91efdc0ab9357f2a5de905cc3c132a4885bfd78425c42ccff6d7fa1cfba0b9",
+   "group": "g0238",
+   "id": "idiom-0238",
+   "phenomenon": "challenge",
+   "row": 238,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "19c2c0be1b87cac9cbb6132eade48c1e8e1ce83ececba3b8e51c9fe91e1e78ba",
+   "good_hash": "d795c4b4e5442e4e60be02a9a84346a706d36e214347d288dc26d0f48b5d43ab",
+   "group": "g0239",
+   "id": "idiom-0239",
+   "phenomenon": "challenge",
+   "row": 239,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "225a2317adb08319bc9c9cad6d49ca866d3452de632d963b47c2488e6733c1ff",
+   "good_hash": "bc38631be777b9be93c8c747cfdaac996c08c6e12467f1c9b63cf6bde6047271",
+   "group": "g0240",
+   "id": "idiom-0240",
+   "phenomenon": "standard",
+   "row": 240,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3c1d0f37735b171d33a9afeebd05fb16806c857937938a2735457be123a4e477",
+   "good_hash": "b0ca39e8c8b2ad2183c452a7d54809f567c06e5df035fc1db523d304851195af",
+   "group": "g0241",
+   "id": "idiom-0241",
+   "phenomenon": "challenge",
+   "row": 241,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1fb93ba2f472198528e5de693e862f1c14d3a26fc6368aba66f5d8a7b1e5f7f2",
+   "good_hash": "042b5fc9c3f9e225a48078ae44477b1a8d06e4fa7b2628be0c1cb44734fc15a5",
+   "group": "g0242",
+   "id": "idiom-0242",
+   "phenomenon": "challenge",
+   "row": 242,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "f6bc647b1495b09d3fa5d507a2c253b26186a403c26bd59b9e3ed2ab9c0dee40",
+   "good_hash": "b03feffe3388fe7b6d56c12db349818237ecb4b8e9f926a922a238eebb8a5716",
+   "group": "g0243",
+   "id": "idiom-0243",
+   "phenomenon": "challenge",
+   "row": 243,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "14c3a4b61559c0492c0cffe2b3e6b75a1c2529e065046d1f685c50cf58738385",
+   "good_hash": "50d25dd8fe45dc8e723c1502c073bae38b8bc8a913bd4a523f69cc62191ae90f",
+   "group": "g0244",
+   "id": "idiom-0244",
+   "phenomenon": "standard",
+   "row": 244,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3e175b14c28d2f2716ef96ba739f0e2f9e4543f8372f3dfd71e37989a6609f4f",
+   "good_hash": "5172949aa7b89b9cd7d25428aa797768066a9b07aaef2b0fb5c878e636836c44",
+   "group": "g0245",
+   "id": "idiom-0245",
+   "phenomenon": "standard",
+   "row": 245,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "84644953eaa12d60ffba42d2be847327b499030433660b0583f87decff1459ca",
+   "good_hash": "9a39263083de67068ed47ac9b4398ba0b73bece86bc35545914d7985c8e2df56",
+   "group": "g0246",
+   "id": "idiom-0246",
+   "phenomenon": "standard",
+   "row": 246,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3fb0fcde7c5f097a868954294931db8a478590689c8d69a68654e5361359313f",
+   "good_hash": "d53e99fb5e96964063cc5f828b972302aaf49b82e06ba1d1ad168e582d622dfc",
+   "group": "g0247",
+   "id": "idiom-0247",
+   "phenomenon": "standard",
+   "row": 247,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "be616dca5c07dc5b0f7b08897ccfe23e68a54181aea727e984977ae8183bb6e5",
+   "good_hash": "4681a8cd51c0e1d77eab35fc28127f3822a06b2808d40c2d9bc5dc1f193a97c2",
+   "group": "g0248",
+   "id": "idiom-0248",
+   "phenomenon": "standard",
+   "row": 248,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0f1184e2396b60ccc1a2522f1674bfdf10a97fa081350b545db510e4f8a9a20c",
+   "good_hash": "cc0e234f76846c2c46aa1a8b2d0c70556de2ac469dc456ba8f4dd8323759e0d0",
+   "group": "g0249",
+   "id": "idiom-0249",
+   "phenomenon": "standard",
+   "row": 249,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "808908985252d38a1fe9474faf5f06c1147e3bdd3ba2ac48e56676e69a94a3d2",
+   "good_hash": "ab99ba5c302c0418807034e852cd1ec27d82ab433945ad65561502a2a89ed936",
+   "group": "g0250",
+   "id": "idiom-0250",
+   "phenomenon": "standard",
+   "row": 250,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a6cb8d71fa59fb3f12db4e04a90b0dc0a6a7efb278204071a3620a46f9be659b",
+   "good_hash": "b49a6823004f14e35d06f41655ab26b24d49c1fd8d35ac3bc15ce57a495f16a6",
+   "group": "g0251",
+   "id": "idiom-0251",
+   "phenomenon": "standard",
+   "row": 251,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "83c306c83183ef2016722b2fcab37a825fe42ee843f4bc1c98aefeb00270759b",
+   "good_hash": "412b7ccd6989933156b6e7371a92e4d36c94437a3d5757e735902e6d5e69d9e1",
+   "group": "g0252",
+   "id": "idiom-0252",
+   "phenomenon": "standard",
+   "row": 252,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "07aed36003c15e6bd428687f296fe92f478237b5f6c348aa51a97c2960e6675e",
+   "good_hash": "5bc81c6aa0e05161b0b68e070fb285dc669e5d4a1a8757740e0df0d4669fc40e",
+   "group": "g0253",
+   "id": "idiom-0253",
+   "phenomenon": "standard",
+   "row": 253,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "27d381d5a782cea5a35b0b2766fbdcddb3d8c03d35f9c4ab16ea92da6df3e37f",
+   "good_hash": "c19519af03047bc505d494273a4dd8f01ee5187be80291960b69fc82df018f9a",
+   "group": "g0254",
+   "id": "idiom-0254",
+   "phenomenon": "challenge",
+   "row": 254,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "53c44ed004e64c60442b7154dfb9f15b10f1702777cbd5e6daaed74a8cc54a49",
+   "good_hash": "932866d4a17d8e6430a9ea2e3b1b2ec17cf6cefad4f17df171d6926371502f42",
+   "group": "g0255",
+   "id": "idiom-0255",
+   "phenomenon": "standard",
+   "row": 255,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f96c481196d322b04e0280e026473c67ac8235551bd0d6027a8a6b4ebcb6b4a8",
+   "good_hash": "3b909fabebc258993c96dd16253f079362e8f246146e53c6b4a35340f7dd6331",
+   "group": "g0256",
+   "id": "idiom-0256",
+   "phenomenon": "standard",
+   "row": 256,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "53129a9071e59553b83153c11dcba64384643d0285385065736d794a446a9da9",
+   "good_hash": "5a021da40e4a43a1eacd19e41a8e9d749b4a292adc69a34334d668fe61b71ee8",
+   "group": "g0257",
+   "id": "idiom-0257",
+   "phenomenon": "standard",
+   "row": 257,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2034a63be7797417d3c9eb333846ee3bd41a42b0b658f21865e603a2f8c609a7",
+   "good_hash": "d5e25648f47f34d897374dbad00508291d2e0d157a7393cf76e88987181690d2",
+   "group": "g0258",
+   "id": "idiom-0258",
+   "phenomenon": "standard",
+   "row": 258,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7f42dfd6fbc9e427243f4cd07af054fe470ed5e2f9bcbbcc33a97aa188a43ca2",
+   "good_hash": "c661d1f39234800ee5a692800be2e8d820aa1decbcb805fbf9b34f1d72f9f727",
+   "group": "g0259",
+   "id": "idiom-0259",
+   "phenomenon": "standard",
+   "row": 259,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2a9792c6ca6e831fcd57aea47a202cbcdf680bf0cb7963a8bde938ebb28aa0b4",
+   "good_hash": "68b5cf1ee08bf918b210d4c494bd289e2c87f20d167099ce365dc01f9248cdd8",
+   "group": "g0260",
+   "id": "idiom-0260",
+   "phenomenon": "standard",
+   "row": 260,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4f65dd7bd04b4438a2a811d1b16065ee542b79fc36b7eb6c72a3fb19a2fa74dc",
+   "good_hash": "0c25edd51b8f32cb8754bd088ffe93886bcc412f86fbaa883654df70e387450f",
+   "group": "g0261",
+   "id": "idiom-0261",
+   "phenomenon": "standard",
+   "row": 261,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "35f22e303b22ef10230ee9c71c40c9e0c7bb7b3b5caa9e09ab2f7980bd40bb3a",
+   "good_hash": "417a016bdd630aacf6cacc3e1620c7a233e1a87990444f88944ff058e6997424",
+   "group": "g0262",
+   "id": "idiom-0262",
+   "phenomenon": "standard",
+   "row": 262,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "58fe35f78dc0d50c4b48933b2e4411d0ef1a17c6454472dbeb58fbaeb1297ad6",
+   "good_hash": "22303a3ebfe24611afb88891d8a78e8061a45a9e56b0372ee8358dceadbe5201",
+   "group": "g0263",
+   "id": "idiom-0263",
+   "phenomenon": "standard",
+   "row": 263,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "db257b3126e0536767c6d885cee9dbfa3e5e429a4865ba2f77f9c431622f0ed1",
+   "good_hash": "75fd27b0be0c49fb881af3189de4385f8e6f0e7d049cb332ea243a013fe0e239",
+   "group": "g0264",
+   "id": "idiom-0264",
+   "phenomenon": "challenge",
+   "row": 264,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4344fafb4881c42e7c4c57742f6579d6c57e9a02406af1afc20207d432c7b683",
+   "good_hash": "94492bdafea15db4f4d6c0fd7ec9a70020c47bc311fb499cbfc6c7eb33d31309",
+   "group": "g0265",
+   "id": "idiom-0265",
+   "phenomenon": "challenge",
+   "row": 265,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "81a8e0e5ed557dfef88f000d0cff3a3186d9aa84ba3ba762328e9ca7a8ff3a94",
+   "good_hash": "b6ad4847888620288b152ac1397ec9d53766b3bf84c4054c3166fd84245a55e4",
+   "group": "g0266",
+   "id": "idiom-0266",
+   "phenomenon": "standard",
+   "row": 266,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e55a0e6bfbc75c4c23530eee5e16bd37458583d85665ef135ea755cd7829f457",
+   "good_hash": "0d94706f21cce90b1c420bc9a5fac10235f180f83fe39eed23e5c26e658761ff",
+   "group": "g0267",
+   "id": "idiom-0267",
+   "phenomenon": "standard",
+   "row": 267,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "63ed15c1897a727f21d67ad47042d2f62b0501fe6e1fb3e73d1816ec77df7d1f",
+   "good_hash": "f5b49afa407c0858a8fa5eb281c7bad480083943d053ca59bb9eb12f49b81cda",
+   "group": "g0268",
+   "id": "idiom-0268",
+   "phenomenon": "standard",
+   "row": 268,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b0e43da3e19efdad72e5fa69e80a1020a42060c9de2d0484798d68952192195e",
+   "good_hash": "4028401db34cb74380161f3dc3393f284f3a6a52269dee35f168842351d1c46c",
+   "group": "g0269",
+   "id": "idiom-0269",
+   "phenomenon": "standard",
+   "row": 269,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f36aa1f656554b6b0551f39962ee39c218da16489f23f3eaef510063ac3125f5",
+   "good_hash": "a83d7ac1a533b0bb5766d5d7bab5e261556dcd0e12fe10377f9117c64bda966b",
+   "group": "g0270",
+   "id": "idiom-0270",
+   "phenomenon": "standard",
+   "row": 270,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0526faa6c1e679ecd994c25ff9a81bf6a928eb625946435786775f26229d2eb9",
+   "good_hash": "844cb5c8dbe69013592ff5e9d80430a3e6b1d78be60295a6a96cd8cf3e4f49d7",
+   "group": "g0271",
+   "id": "idiom-0271",
+   "phenomenon": "standard",
+   "row": 271,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bb2a012d0470f60fc6b7f6219f51bf0004e81b11274d92fb6232eb0b935c7c20",
+   "good_hash": "f9fc467c67aa76e019a667bee72384725b95aa6bb8357bb5531c55562b507f55",
+   "group": "g0272",
+   "id": "idiom-0272",
+   "phenomenon": "standard",
+   "row": 272,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2e62080a1a30eae045bb2c62fbc7887fd8ff67a23a9f67b8698bdea937744386",
+   "good_hash": "118e14ed345ef00eee6608afd44b0f3ac4f2295d58cad4b34a0bfce5ded4f4ed",
+   "group": "g0273",
+   "id": "idiom-0273",
+   "phenomenon": "standard",
+   "row": 273,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ca841f24e4fa08f35ebabca055125e630bce6a5a97254352143c3caf67a07456",
+   "good_hash": "9f8fea4d2f8b97c1aa9f9176f62166f323f07170c2658ef9d64d297d78c23214",
+   "group": "g0274",
+   "id": "idiom-0274",
+   "phenomenon": "standard",
+   "row": 274,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9310f6af453d68a72d613d0642839582c24ca88b9a013ae9198738aacc333145",
+   "good_hash": "c852aeaa0dc3da6d1c7f8f397cf511ddacbfa4685f3c1c0c7bee07551169fcaf",
+   "group": "g0275",
+   "id": "idiom-0275",
+   "phenomenon": "standard",
+   "row": 275,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0153ec240a7890ca060699c36483862eaf1d56ab25fefb0b028ed1e28e67b2c9",
+   "good_hash": "5e31ff9f9805642822a83eef31ebb4010f456c21748da1ccdd37b531ba633855",
+   "group": "g0276",
+   "id": "idiom-0276",
+   "phenomenon": "standard",
+   "row": 276,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "59d4b66478e1839dec466ce5246387f2f5bac57757806f0d9dfaa14fbd6ad880",
+   "good_hash": "2874afd79c650a8a29b43e2cc10192da52d7f908611aa55b3b522e9746c2bb88",
+   "group": "g0277",
+   "id": "idiom-0277",
+   "phenomenon": "standard",
+   "row": 277,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "af7b3a376182506af5955f119ffd23cb16059296f8843789ce3e8e1d3de9a564",
+   "good_hash": "5b25dc8e5a4325c6103a27cfebe15720252c9b531ef296b306587c7124da5727",
+   "group": "g0278",
+   "id": "idiom-0278",
+   "phenomenon": "standard",
+   "row": 278,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "52f36147f910e84a00a547f66991e26d86063a9ad95ed501236528931a7fd76d",
+   "good_hash": "d54c0698681af72b0ce62f0a9a7f0714efe23deb3152e69e4a7d1d8f6fcdf3e3",
+   "group": "g0279",
+   "id": "idiom-0279",
+   "phenomenon": "standard",
+   "row": 279,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "db66eab4aea3eb81a2b914ba199e5a0c06fdeb81cbdc0149e76a0428460c7ddb",
+   "good_hash": "77c159ce8be530ac456663bd0dc4a0b8f974006fe34ed765a569b90eca04f779",
+   "group": "g0280",
+   "id": "idiom-0280",
+   "phenomenon": "challenge",
+   "row": 280,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "db749bb21319fffcfc3c7b855f11f028565950251bc9ad2600a57d95c15859d7",
+   "good_hash": "0b5978bece315c69dcb92e006006d635a0f477de78743d46f685d5e3e137cae1",
+   "group": "g0281",
+   "id": "idiom-0281",
+   "phenomenon": "challenge",
+   "row": 281,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "60c52fd8211d2635bcca48fd34d71d799f7d6ac9f2dd9dff5ab70f6557d397d1",
+   "good_hash": "594fd63395aeec4a5255a3be65789b666a4961189d4332de69e288c428025988",
+   "group": "g0282",
+   "id": "idiom-0282",
+   "phenomenon": "standard",
+   "row": 282,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5fb13426cbd0548d822d929c425352150a7095f88698e6f0a36eec0a7d403b46",
+   "good_hash": "0fbe52b52c035781e5482a356ff0c1d64d630f19d613b46496771c6eb15c2550",
+   "group": "g0283",
+   "id": "idiom-0283",
+   "phenomenon": "challenge",
+   "row": 283,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "035746a39fc56ad257a568117aaf473af77220ad7c06e69e2170bcf0db13d88a",
+   "good_hash": "ec8be48f431ca61feae708157e4a696d30cf46a146a90579f85febc80ff7fdbd",
+   "group": "g0284",
+   "id": "idiom-0284",
+   "phenomenon": "standard",
+   "row": 284,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "b453d7ab6b33dfe7a4bc256553ffcd35c27a16c320557ff218f218faa22e17bf",
+   "good_hash": "d67005bf2dfafada7b6d2e76f251d538e3981bc47badf1643840c06d0766402d",
+   "group": "g0285",
+   "id": "idiom-0285",
+   "phenomenon": "standard",
+   "row": 285,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "03858981cd8aa03748f419017c2b87b61c050b4c6304e63344b78dcbc1f8229b",
+   "good_hash": "5abe0ab68af28537ca6522ad4cfc55eecf1437538966a6409163fa7838a6d2e9",
+   "group": "g0286",
+   "id": "idiom-0286",
+   "phenomenon": "standard",
+   "row": 286,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "054ccdb6076771d98a88bafdf1a5cf3ceb07d4babccbf09dc5f110c69990df5c",
+   "good_hash": "4a168f998ed0c9e7edfb2e4597449fb9aa881599dab333936dfb05c572546426",
+   "group": "g0287",
+   "id": "idiom-0287",
+   "phenomenon": "standard",
+   "row": 287,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b7949a3b401f87eb4808a1999b704344816f612e47057c68d0989a48b2114e8e",
+   "good_hash": "e6e5fe715b86057fd01dd5d0170e6cf112c8292c6409f414c7b0f096b1727734",
+   "group": "g0288",
+   "id": "idiom-0288",
+   "phenomenon": "standard",
+   "row": 288,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "f3cc1a486d3e4e7c76050a59e3ef00c5790f2cd08382c48769c83817477518c1",
+   "good_hash": "176cf2a7b946c7c941f2fde28aebc9c9f8f4ab22a62e93c160cf3d723bf5b8ac",
+   "group": "g0289",
+   "id": "idiom-0289",
+   "phenomenon": "standard",
+   "row": 289,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "87571d952fbedee19d4a202e15f1603cf5de4d08e15b0d3eb7cfc2ff94b27cd0",
+   "good_hash": "118760f9741742076c9bd3952ae4680419351358d85efe0e9188732b7dfe9dea",
+   "group": "g0290",
+   "id": "idiom-0290",
+   "phenomenon": "standard",
+   "row": 290,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b98de669b513b16b23dae9d9684ba0ee2b2dda1ced54c9de9bbdd99d75f5cdfd",
+   "good_hash": "d5dfdc85db11ed553572066b747a74b4823ce88ac47ced9d6855f43505020ace",
+   "group": "g0291",
+   "id": "idiom-0291",
+   "phenomenon": "challenge",
+   "row": 291,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "45d5943a368d4231d9693191ae767be54d722b3c2406065fdf6475f2ca20282e",
+   "good_hash": "e71b8a4daa57e1beff74c857111645ac1bafbed230102fc1111f42eca34e56f0",
+   "group": "g0292",
+   "id": "idiom-0292",
+   "phenomenon": "standard",
+   "row": 292,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a73c4b4d9f8328bdb6d43a36cf4c7552fb5ddef7e8f764ec722af19a35c7f6a4",
+   "good_hash": "cd99b69f1a0d657d5d3f515d9da1845022849db27c571081d5b787067a40d935",
+   "group": "g0293",
+   "id": "idiom-0293",
+   "phenomenon": "standard",
+   "row": 293,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a745523f80296ff52010cd8cbc302eb226b2ef49db36fff9438370b60f51e488",
+   "good_hash": "aea75f7f66f5fd9fa713660bb8774a1036dc0930bcd851e841090d45d7418e90",
+   "group": "g0294",
+   "id": "idiom-0294",
+   "phenomenon": "standard",
+   "row": 294,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "8f41308e34f7da7beb3a7bbde1be6fa294233979c355156fab23aa3d7f61f8bc",
+   "good_hash": "72a1fb824e4562cf6e46b28d91945ca0b243f0f473a171d56bedfc37a9088dd7",
+   "group": "g0295",
+   "id": "idiom-0295",
+   "phenomenon": "standard",
+   "row": 295,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a264fc54b3f62aa57787823723c2d2b07519acf3b343f92c9ca535e3b585a2e2",
+   "good_hash": "b7540c98e2c2e6b892296772a6a89072275875fc78cd73d834462de516b30289",
+   "group": "g0296",
+   "id": "idiom-0296",
+   "phenomenon": "standard",
+   "row": 296,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bf11c7df431fdfef55bbe1ed5b5295ab95fb7a57c324261797137a64f19da770",
+   "good_hash": "764236dec081982ca46405dd0fbcada7257f6a5a93e5f89e6f6eeb200f3ee94d",
+   "group": "g0297",
+   "id": "idiom-0297",
+   "phenomenon": "standard",
+   "row": 297,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a905187072f95611401e2f93c8230a2a2e76411ae70994887b8c55bff5cfc713",
+   "good_hash": "acb34ecbc17f43ab1dc860fc82e3b4b50fc5e2b80019b3434b353166a57c02ee",
+   "group": "g0298",
+   "id": "idiom-0298",
+   "phenomenon": "standard",
+   "row": 298,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "32f99ebea468b10dfba243262dd4f5aade91ebb3f25db47f8865db7e513c82b8",
+   "good_hash": "1b3ce3aed02c8bd8f4bbc9c09ce20fcbe8f4ff97cb1ee37d0147b2aff6413497",
+   "group": "g0299",
+   "id": "idiom-0299",
+   "phenomenon": "standard",
+   "row": 299,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "35bbc8006f610415820b73065ab145675945dd38f01b30cb2498fb6bae706225",
+   "good_hash": "c00ba48fb76346b9043303075b88116d781b4579ad16d52d42277ff6372eca54",
+   "group": "g0300",
+   "id": "idiom-0300",
+   "phenomenon": "challenge",
+   "row": 300,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7a1230977a93b364a56eb4f31045642013f0b4711dea5ed715d9995f0f11e8f5",
+   "good_hash": "2e53511ba5a879691680a1be5e0c8b46e35cb66aa876d7d45b6e86352a8dda39",
+   "group": "g0301",
+   "id": "idiom-0301",
+   "phenomenon": "standard",
+   "row": 301,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "630f14f8f4881ba78a2cdf5b489973be8622f2ea698c545554eb7de2ad35bbe9",
+   "good_hash": "25904b08a0fac7db9be32a0696fb73da0421eac6a6aa484767f6a8c4a351b045",
+   "group": "g0302",
+   "id": "idiom-0302",
+   "phenomenon": "standard",
+   "row": 302,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d2b85d3109fca5817126ca33bbb475adff8cd497f097251ca9473eb2dfa39667",
+   "good_hash": "ea2c158725f1404caf3821bb59b53a9ba2fee0c881caef6a1581c3cce10de566",
+   "group": "g0303",
+   "id": "idiom-0303",
+   "phenomenon": "standard",
+   "row": 303,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "193941a5abe8764eaac70565685aded2d97aa12804cc39b287e58e684fac42e7",
+   "good_hash": "ebb67ed8c8582ba0822cc11ac3b5208224779710055d6526d562af8852cd4e36",
+   "group": "g0304",
+   "id": "idiom-0304",
+   "phenomenon": "standard",
+   "row": 304,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e9ae09f1fa143fa233ac15fd05c5f547e86c0f38fa42827ce5b30b7162ab8f92",
+   "good_hash": "a17a25827fc26ad1e1114277221425653dfdb6fcdc65d0af2147c750616db6d4",
+   "group": "g0305",
+   "id": "idiom-0305",
+   "phenomenon": "standard",
+   "row": 305,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c752a2cbf423171dce6529a0c167e0133e3d8b4cad5550cecdff2b6a0b94074f",
+   "good_hash": "4532ba8cd532c025c22c22453f86e7ec7dd2f38ceea7c4a544d70ce91c1e6612",
+   "group": "g0306",
+   "id": "idiom-0306",
+   "phenomenon": "standard",
+   "row": 306,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "01b2fb0b0368dc235198568a9ccc93e68d1498573eb36814a37fc252c5b70f04",
+   "good_hash": "b0695f3cbe88db880c1a531f45d8dd246b89777e53a7d16e34db4c615a40c7a9",
+   "group": "g0307",
+   "id": "idiom-0307",
+   "phenomenon": "standard",
+   "row": 307,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ae85ce6d0be55c7a5b7e087f01f34ab520c5b3ba3cc866b031f187d0f338f161",
+   "good_hash": "8fbdb0097e43c2008ee3e699f29d915fc1d6b27e167ebd575f0e8d3367c3c4f6",
+   "group": "g0308",
+   "id": "idiom-0308",
+   "phenomenon": "standard",
+   "row": 308,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d7717ebb96e8669f2a1e47a686465ee776a5b234c56296d91c0b4531c38513fb",
+   "good_hash": "7d4050c04c398e9720ff1c51d0bb81393fbb6e3865a3a840c057ebd999aa39a9",
+   "group": "g0309",
+   "id": "idiom-0309",
+   "phenomenon": "standard",
+   "row": 309,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "277b20b284ab6ef65a1ef19061aeda20409f18784858862c5422e596dc622637",
+   "good_hash": "bfdd046e0d4436457452872176c5fc475594430c217f3d502037de4447785441",
+   "group": "g0310",
+   "id": "idiom-0310",
+   "phenomenon": "standard",
+   "row": 310,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dba449946dfe319c4ae82f4430976eeccf35f63aea4a86297a6d7b02b4c02629",
+   "good_hash": "182bc2d9f55ed9b8d5b720b74a92e94fce926819c8ef78bcccb28ac3f8c47c52",
+   "group": "g0311",
+   "id": "idiom-0311",
+   "phenomenon": "standard",
+   "row": 311,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "08c0d66b51b73c750a3c6f2cdd09f6f5b67113cb928c6cd5e292d5a271e1487b",
+   "good_hash": "7370cd9383a665a757da81fcc6134e17a0bc8c80173aeba0ebcffdc87d4224c6",
+   "group": "g0312",
+   "id": "idiom-0312",
+   "phenomenon": "standard",
+   "row": 312,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "dae69e3b41b6b8d9ff3cd88d9dae0a5d611a8fbe52d9286f457a1a7e383c9eed",
+   "good_hash": "136b4432967df2a39f6ef65fc3fd4715812f79ee0aebdd4efd2be6e5c60a9bca",
+   "group": "g0313",
+   "id": "idiom-0313",
+   "phenomenon": "standard",
+   "row": 313,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "9d6d5b3ddcfc74e92982016af4c49ca81f6d1d29e02539d0033276bc0df73f25",
+   "good_hash": "09bccfdc23d16f690a3497be8ab27ffb2039c50ca044262492debf893b2fcf52",
+   "group": "g0314",
+   "id": "idiom-0314",
+   "phenomenon": "standard",
+   "row": 314,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b330ba0919fd3467287a1e083bce9fd0ca86fef3dbc22207daafb8e7230a63b9",
+   "good_hash": "d80d7eb3a052fa7a6110d8fbe636a3d52d006cadd8ab9b20e9a4325c844f4f79",
+   "group": "g0315",
+   "id": "idiom-0315",
+   "phenomenon": "standard",
+   "row": 315,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "842d6df043e1e424365ff17dd1965dac2e6542110fd44fad366dae17487b0122",
+   "good_hash": "9df8ba3e1f4add9ca74b9b23b19bc8dd2143bdd6bbc591ad0049a7916ecd11a7",
+   "group": "g0316",
+   "id": "idiom-0316",
+   "phenomenon": "standard",
+   "row": 316,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6cdcce5f2070873ab640a1452bd1d891b74f2862172289fa58d39f455260ee58",
+   "good_hash": "6eceb514863bf88aceedb1e3c01a2a462619449c8eb5dce33fbf9b7453a19c66",
+   "group": "g0317",
+   "id": "idiom-0317",
+   "phenomenon": "standard",
+   "row": 317,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f2e525d5e9aa58f42f9050a7b0cb90a42dad142d0043b57cf74085301a28f672",
+   "good_hash": "6e9113a36c33572f6fd4d78211b92e9c3f9a871af987ad9bd593e5bb9eabaf1e",
+   "group": "g0318",
+   "id": "idiom-0318",
+   "phenomenon": "challenge",
+   "row": 318,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "82903012aaffd17ca940e6551fe7cc1854ea1b4285ed0684b7d440a424d055c4",
+   "good_hash": "cdb6cf0736a7877121a3a4ef22e46f9df61f3e5ca855bfc2bb809d4773cc9c3f",
+   "group": "g0319",
+   "id": "idiom-0319",
+   "phenomenon": "standard",
+   "row": 319,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d41fb137299ac01895441b9cdc0c2d56dc12e8023b3bbe430fa6cb39951ff9fd",
+   "good_hash": "4e1257447318c5998221e2c0d02206e808932a494e07feba7c8cfdbe885c7fa4",
+   "group": "g0320",
+   "id": "idiom-0320",
+   "phenomenon": "standard",
+   "row": 320,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "89b5afc430fda1c2039b78379b5127a412458739138e6ca9e116bcffd3087f54",
+   "good_hash": "5de94345116539e4868ac0a6838dece45fcddc069a9d36fcc98c05dc1e6b99ba",
+   "group": "g0321",
+   "id": "idiom-0321",
+   "phenomenon": "standard",
+   "row": 321,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a3940a60956c4332c536beb9f049ccd5bacfc8bd3d33977ef1be73394f2af8e1",
+   "good_hash": "02a0887ef2baffa2cc006a0c9b14d2eb7c33c901c783a868dad695fd9a3a459d",
+   "group": "g0322",
+   "id": "idiom-0322",
+   "phenomenon": "standard",
+   "row": 322,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4de6dfc593e8d6b4a87ce81d60ce77ad170679c617510c8fb4481f830ff42c12",
+   "good_hash": "bcd22b746bb86cca776ca81f4537bfd90c280dd8242671f6b7a9e5cd587a04db",
+   "group": "g0323",
+   "id": "idiom-0323",
+   "phenomenon": "standard",
+   "row": 323,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6050f5e9aabdf87ea280cf9f9f6e769ada6466f4c6f05f2f4bfd64ebfd971047",
+   "good_hash": "c4ecc71df93b6789eabf27c1791c26219059184c2c8d08de2bbf0591c1c95497",
+   "group": "g0324",
+   "id": "idiom-0324",
+   "phenomenon": "standard",
+   "row": 324,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8eae14518d353e36d40017ef31dfc6a6811e126158fbb6e392ab93d0f1af8a03",
+   "good_hash": "853dc017bee297a6cd63610396dd360c582d7ed165e9008384ff92d5e88974f6",
+   "group": "g0325",
+   "id": "idiom-0325",
+   "phenomenon": "standard",
+   "row": 325,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "66f379a3c9e27edd97cdba654dd4ca44004efcfdd3f3f54fa0f32f36abede794",
+   "good_hash": "96484f130c25db8d6aff834c2773ebca75ee5353c7fd3502b1677e706f7cc4a7",
+   "group": "g0326",
+   "id": "idiom-0326",
+   "phenomenon": "standard",
+   "row": 326,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "246735c171b65afead29231fa0d86e72d509c797bca7581304680789c61005d1",
+   "good_hash": "8e7d3e03db035606ea48dc4d40e40cef5289ad39b25c54406cba3fd7118a3fc1",
+   "group": "g0327",
+   "id": "idiom-0327",
+   "phenomenon": "standard",
+   "row": 327,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d88a960bbb2d12724c21d744372f254405811087468e1da7ccd4b0b3bfae4b4e",
+   "good_hash": "89929099213364f018316eebf5ee1d92cab4a7d0f3add30411d04af806f38fe3",
+   "group": "g0328",
+   "id": "idiom-0328",
+   "phenomenon": "standard",
+   "row": 328,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "5db5e30deaa0af50ecc1a8cba3d954042517af11261bd5906b0dcf4775a86a74",
+   "good_hash": "500c31b97c4efeeb16afa309dc434e5c1048fab49d412d98005bd8ea6afaa21e",
+   "group": "g0329",
+   "id": "idiom-0329",
+   "phenomenon": "standard",
+   "row": 329,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2021b7f22877307287b9d3bba2fc9ca0d12eb4c1f007d08e87548a2d289808f5",
+   "good_hash": "426ed93e73cf40e06412c79208b01b5f82edb0708d3f5ad6e3fd392a13e5de05",
+   "group": "g0330",
+   "id": "idiom-0330",
+   "phenomenon": "standard",
+   "row": 330,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cac5b4d71a727739b74035789ba8343c038eccf9ac04d71dd41aaec9be8fd88e",
+   "good_hash": "13562ee451255c7ac22fa12538ef03a1d04485f6c74c4232260fe4462700db70",
+   "group": "g0331",
+   "id": "idiom-0331",
+   "phenomenon": "standard",
+   "row": 331,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d5c7364245578d4b28c7b313e7479d6a2c6b3b049f57022e4327049c837913d3",
+   "good_hash": "f9439551284e2e00f1f8070c9a8212a08c4d9641b0d74c5ba66c2bd6671a6613",
+   "group": "g0332",
+   "id": "idiom-0332",
+   "phenomenon": "standard",
+   "row": 332,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "30ed14668333dc007f6b7fc595905ddd8ca88e830fa97fba2394e2d984bc991d",
+   "good_hash": "7b624adeb75a3d99d2bec266e6963376d5263f1b8644677e4c1a5abd73809e31",
+   "group": "g0333",
+   "id": "idiom-0333",
+   "phenomenon": "standard",
+   "row": 333,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d4d0c17648a389a3df9d0a559e0ea52b2bd070edf35da53aa1923af0b4c5a5be",
+   "good_hash": "ec3c2e9913a10db46aed1cca515177d604d4f0364f6d251993430004f68d02fd",
+   "group": "g0334",
+   "id": "idiom-0334",
+   "phenomenon": "standard",
+   "row": 334,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "90d917cf7f6795a3a53d732f3b359ea1b6787bd1da4e22ff42989d3c1b2a180a",
+   "good_hash": "e3812a860d7f9fad4016569ca532ebe72527fd20a50494a1f3b69cddcdea5693",
+   "group": "g0335",
+   "id": "idiom-0335",
+   "phenomenon": "challenge",
+   "row": 335,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "33ad50ca79a5c52a8717fe8d9390ee50f2fb245a63b94ec54d7ea78635556ea5",
+   "good_hash": "883bb8345d57ee8640bfacd61f1eeb1806a2c9dc57d06303a4675179967b5008",
+   "group": "g0336",
+   "id": "idiom-0336",
+   "phenomenon": "standard",
+   "row": 336,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e8e33611ac93ed8fb8c72f865f8d9a333356849f2bdd1d9a9bebb84f0ab2b669",
+   "good_hash": "8a4edf478460d36c8102bde0b93a26fadbcbd2ae7af666a11af85467a9a1d742",
+   "group": "g0337",
+   "id": "idiom-0337",
+   "phenomenon": "standard",
+   "row": 337,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9d6e6ee0b2c443bdf5510003780f9aa578eff5c7d460915b5393b7f19763390e",
+   "good_hash": "c9cdfb453964530fa5729a07cbaf3af72528f6a2334a03841e374037a3b65cee",
+   "group": "g0338",
+   "id": "idiom-0338",
+   "phenomenon": "standard",
+   "row": 338,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6d21663020317245bf6136821f2dfbae2e889e35ac5cc673381ceeabf38825fa",
+   "good_hash": "36589c111a2de2a3cca509fff09378901f27f400802a03df7c6e17607f5fed5c",
+   "group": "g0339",
+   "id": "idiom-0339",
+   "phenomenon": "standard",
+   "row": 339,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "143fc50168bccb0f9679725f1bf34d15ae62fa6c2e70bf4b20439a238aa53949",
+   "good_hash": "68a037586bd8f34f6d3a066f14eb5f61698e8aa0f9764a1ff56a55ef7c75f841",
+   "group": "g0340",
+   "id": "idiom-0340",
+   "phenomenon": "standard",
+   "row": 340,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1a4ff2523479f4061d9e2c6d52b9e9cf15a615fe871177e95b15ecb19c48a9b3",
+   "good_hash": "eb4e5c30fd145e5fdd2288bd745c3add2a06b8b82f51a0a808d3561380e3d07c",
+   "group": "g0341",
+   "id": "idiom-0341",
+   "phenomenon": "standard",
+   "row": 341,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "df3c83b988273d54888905263357773eaa04fedabc4f2c6114aa0cf181792361",
+   "good_hash": "2d040b8cff0f7da6ed7ebd943e191a7e4bc25518af40c19326809dc3ae471875",
+   "group": "g0342",
+   "id": "idiom-0342",
+   "phenomenon": "standard",
+   "row": 342,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1e8ab43717394964fa9738640d1189add6b4dc4f11651b85c5a5ec5bbf24b851",
+   "good_hash": "8f84ce9e80605370fa24d86cf64f32fd3aa9711b43fc839a06083c40ff7bef35",
+   "group": "g0343",
+   "id": "idiom-0343",
+   "phenomenon": "standard",
+   "row": 343,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "77db677f443dbbcb9828a1101c0a88506838f8655ae3d38f3c318769bb603c82",
+   "good_hash": "605c8137091a55380c616053ef803f9ddefb7fe501b66fb70fda32de000eb565",
+   "group": "g0344",
+   "id": "idiom-0344",
+   "phenomenon": "challenge",
+   "row": 344,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "aeae374dddd95f6f6d98996039372114be85c58e4a11745c499f9f0777690d4b",
+   "good_hash": "3e3b42f07f8546b1007391d45f9b883bd292beb12d5770897058490705ed33a3",
+   "group": "g0345",
+   "id": "idiom-0345",
+   "phenomenon": "standard",
+   "row": 345,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ac6019836a5abfb703d0f545a7ea2d02d95ed0199a2d85b17d90b0e153c94085",
+   "good_hash": "7ea4560a30a5b2dec30f8af52291d0117cfb879844f5a36eafa598bc073d70f8",
+   "group": "g0346",
+   "id": "idiom-0346",
+   "phenomenon": "standard",
+   "row": 346,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d516f99cf772af08e5d2dd73245109a338910607d7b8f6724de688d8ffa93c3e",
+   "good_hash": "de866651202d7297f49734d8d8813de00bbf2ddce9444dae0b7056e6cb282059",
+   "group": "g0347",
+   "id": "idiom-0347",
+   "phenomenon": "standard",
+   "row": 347,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "52081a8c04741e4dad9dcbb4ee2fd71689bcc0520b50125349e14e0afd0841dd",
+   "good_hash": "a604bd1cd8ba7bddee76f8a762a3aad118d1c64c88790c3f7b95750d5779ac45",
+   "group": "g0348",
+   "id": "idiom-0348",
+   "phenomenon": "standard",
+   "row": 348,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4a39d51f98f174e595511ef6d003fbae3423155e84221ecd4c354229310e06b9",
+   "good_hash": "4e3a36a55ca7873e6128d14154a0c5befc849541e49c44d7ea40c4968838ceee",
+   "group": "g0349",
+   "id": "idiom-0349",
+   "phenomenon": "challenge",
+   "row": 349,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dcff6c33dd41f7351046fd27052c56a59491bbec2de925ac8c6b93024ad4c699",
+   "good_hash": "f4bcba3a48936de7b0be0c8862233ee7408814f64b430df127527055dfdbb250",
+   "group": "g0350",
+   "id": "idiom-0350",
+   "phenomenon": "standard",
+   "row": 350,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a3e82788a836f5fa3745a50f7c12f75d256dacaf208e2eb523f066d348263393",
+   "good_hash": "7347cebba565ca39cfd5c37f671fa403eca33300535b6bcb858f11d42038b3fa",
+   "group": "g0351",
+   "id": "idiom-0351",
+   "phenomenon": "standard",
+   "row": 351,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "8c6b5f1b6e419c6a4ebd525a72238612c24e0fbfdff1dfae1193fd4506bec7a8",
+   "good_hash": "a883b611c5b43550aaa30a03e60f21a1a6968c54797d9a0996c96c5b3ecace58",
+   "group": "g0352",
+   "id": "idiom-0352",
+   "phenomenon": "standard",
+   "row": 352,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bab90c914f0b037b8d41b6b425ac9209d57af73b54d4a2512163436c1f2556dc",
+   "good_hash": "870a6b767f9bc670dc18bc084d8edd2c105c5a0765451ddd8b7650b99588a128",
+   "group": "g0353",
+   "id": "idiom-0353",
+   "phenomenon": "standard",
+   "row": 353,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "dd94a1170f27e23c8e28937ca62a71863489bbf9a283d986e9dff15ad1e85887",
+   "good_hash": "f8544e01cfc0866df678ff3f0491162509bda2565367918fa5eafc853d462a0a",
+   "group": "g0354",
+   "id": "idiom-0354",
+   "phenomenon": "standard",
+   "row": 354,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "aeb62586ba2aa76ace0ed748b51927188bc284050e1107aa51a9452b8b299f4e",
+   "good_hash": "571830252bfe63cf82b85645642831524c253b979ca479601e512583e625804c",
+   "group": "g0355",
+   "id": "idiom-0355",
+   "phenomenon": "standard",
+   "row": 355,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "29e5885dab4b5032710a194eaea588a320f77b152e2795122ea3b52a23b71c67",
+   "good_hash": "4cc178f6ec5098408ad514dada3f161670685356e7b1bfa037eb6dde476c264d",
+   "group": "g0356",
+   "id": "idiom-0356",
+   "phenomenon": "standard",
+   "row": 356,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b70184df8eb5d8e209e92859a32fde2c94be307b2522eda195460d2341136f68",
+   "good_hash": "17c8ed1462439707b61aab2c2e0ad45eea653ce35d436141c10ab72daa58f88e",
+   "group": "g0357",
+   "id": "idiom-0357",
+   "phenomenon": "standard",
+   "row": 357,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "1a8e9ef029f1972df3d15796d8e861aab0b9814e8ed26896efacbde833f6ef3f",
+   "good_hash": "7dff1b96416471d94f1f4984faf585ddd63252202677ba6deac5e34b7c11b92b",
+   "group": "g0358",
+   "id": "idiom-0358",
+   "phenomenon": "standard",
+   "row": 358,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "28d142f96ec58ea8aa0ccb9a466818c763c578d0cc8596e523e82c7e97cc3c3c",
+   "good_hash": "c8a4d7474510692fcbb31a1ab64f75c12310fedb5dfada25edf3f56ba5e5f89f",
+   "group": "g0359",
+   "id": "idiom-0359",
+   "phenomenon": "standard",
+   "row": 359,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4c48e18432383a698fd85e2ee81f77a923d8de6d889241bdd8b3c44fd13b7890",
+   "good_hash": "9c9b9b6ccbc0ea1f6fb8b2c66d5bd9d278e217969edac3b15897c88dc9bf9938",
+   "group": "g0360",
+   "id": "idiom-0360",
+   "phenomenon": "standard",
+   "row": 360,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b87bda694ceca0f1c93b8bf1caaf38fa1505d68a9898c29d157aac215a90f136",
+   "good_hash": "7e2b7f5adaa7a62159b71dcbd1c449f84644bfa2540d7c65c75d6d460bd7148a",
+   "group": "g0361",
+   "id": "idiom-0361",
+   "phenomenon": "standard",
+   "row": 361,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e3cfd666c787abde6d63fe7fcf133c2514c1f1ee044751b6610b28c74b8456b3",
+   "good_hash": "ed0f703a1d398d4429e3e9259a579a5c1983425462ee9725d0893280e34e828d",
+   "group": "g0362",
+   "id": "idiom-0362",
+   "phenomenon": "standard",
+   "row": 362,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c40bf0a56dc6f3e01a579bb55a536d360e8724cb98a421776d8338f3a38c1e56",
+   "good_hash": "046564a29c2151ff1a37c14579daa9abbad1f154f2c21ccd90e8999458a4faec",
+   "group": "g0363",
+   "id": "idiom-0363",
+   "phenomenon": "standard",
+   "row": 363,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "29565e261dcbb814e111dbe020ab86cf6930246dd1d4943ed558d6bf367a07f6",
+   "good_hash": "ed23dd22895543c0bcb253af4eae376a6cc732a6d5e4546bd5711fcca45d3e64",
+   "group": "g0364",
+   "id": "idiom-0364",
+   "phenomenon": "standard",
+   "row": 364,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "b2c4771dd0bc685fa979a8d140be6568ddff054806630b245524162e9a044225",
+   "good_hash": "3389c186c5a7d4ac16f71ad5a8ec485c31c96c184f6d050f345934f004eb2692",
+   "group": "g0365",
+   "id": "idiom-0365",
+   "phenomenon": "standard",
+   "row": 365,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "53ee094eb4cad1bac5872b279befc7785f484d39a5b59297a2b965c5acf76297",
+   "good_hash": "8cca63f1888ec49ce32d426a32e4a441fb270326704ffffa55934cdcb2bf4e10",
+   "group": "g0366",
+   "id": "idiom-0366",
+   "phenomenon": "standard",
+   "row": 366,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ef1c181548718e152220a07859ca520c8ddb9b93c7b5e39bbaed297314948232",
+   "good_hash": "cf82337e31e0acab7ebdadc79101f889419954a18c3c1e14d8fe64896df58a58",
+   "group": "g0367",
+   "id": "idiom-0367",
+   "phenomenon": "standard",
+   "row": 367,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "75e953e72b7eba60b9e12a49ecd660c61db2e9f92a2a4d8a0098c480c2ab01c2",
+   "good_hash": "9822cb1260fcaa0693645f38faeef1c52a735e67abb7be7b9056d8f92d481f10",
+   "group": "g0368",
+   "id": "idiom-0368",
+   "phenomenon": "standard",
+   "row": 368,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9d2d40e58f0dec7b6f56b236b418fbc23248d57324e6031e92b3529089101a2b",
+   "good_hash": "7eb26fcce2b5d8933046dc8b0e113c669c2b1d097f461ca384806a5c00315588",
+   "group": "g0369",
+   "id": "idiom-0369",
+   "phenomenon": "standard",
+   "row": 369,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "32bc91dcd00509f3959f570130b01e346af4b1ca76fead93ee6d55509bca605c",
+   "good_hash": "0450e789d7d36b77c9b502dc9503fce52790d26ada6a1b3c37c64afa64b94be2",
+   "group": "g0370",
+   "id": "idiom-0370",
+   "phenomenon": "standard",
+   "row": 370,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "343960e61caf9d94d6de6d14a6204a23d312d2f53259d431599e27a3ea2afce5",
+   "good_hash": "c81d035332901640cc95cc15ff10a1a2809dde7ad07587c85b14a10d2e4691d4",
+   "group": "g0371",
+   "id": "idiom-0371",
+   "phenomenon": "standard",
+   "row": 371,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b715fff6b5188720896f93e658472610b46c84396592bc2270bb269ed7ed448a",
+   "good_hash": "4fb96e9f5cd51cdeebe5d8dd27f46807dc77eb8e2033ba2d6c4862128def2250",
+   "group": "g0372",
+   "id": "idiom-0372",
+   "phenomenon": "standard",
+   "row": 372,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "237f29e55b9064a3226f97fb53ac5d96d813ed1fe1b9463288eae48bd9a205e4",
+   "good_hash": "6249fbbf2b4f3458aa08b2ef5914f2bb24875009cca3fd17ac4dc53e08c95493",
+   "group": "g0373",
+   "id": "idiom-0373",
+   "phenomenon": "standard",
+   "row": 373,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ec282580fd49239db5b0143a7340b39f9adc100ad370dc4e68af7ab49a69f832",
+   "good_hash": "a90becda2d012d3e290a953a83353f96af05fbe2adadca6c87a1c70eed219ad0",
+   "group": "g0374",
+   "id": "idiom-0374",
+   "phenomenon": "standard",
+   "row": 374,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6e9631dd7c77d979717d2598ae0218d5f4e05fc5ccb5c6bd2ccdb3deb7508769",
+   "good_hash": "6ad47bcaa571b1c789df1b59bfe6f5503674b5d6229d9585a62bf52f9b29df08",
+   "group": "g0375",
+   "id": "idiom-0375",
+   "phenomenon": "standard",
+   "row": 375,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "c70e84a9804dd00adddfa7399f4047324a7230a636bfed7debfe910869341ff7",
+   "good_hash": "bf7dfcfc4b62ca1603012afb90ebdff8eb903c6b10ed2232fe9cb833b16b563c",
+   "group": "g0376",
+   "id": "idiom-0376",
+   "phenomenon": "standard",
+   "row": 376,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a0fddc162e4154fe56bca119c2bfb63ada8cfe7cab3d5c97a805fbc2f8903da8",
+   "good_hash": "b10e55ecf3a628419d8c9b8aac06e43e8a4381cc92d6e95aed9a376c387064a0",
+   "group": "g0377",
+   "id": "idiom-0377",
+   "phenomenon": "standard",
+   "row": 377,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cf999fe88cbfe74c0f9a1252c3cbf160578f72ba2b2c455436490a650d177b11",
+   "good_hash": "30fff17b6d5fe95e4727609da1ee29546bb0384cdd66613e9c5f253e50e809d4",
+   "group": "g0378",
+   "id": "idiom-0378",
+   "phenomenon": "standard",
+   "row": 378,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "da1cd412bf871992e0c67e0df3b67aa14f6c6301e633b07ad174e6b95b0e79e9",
+   "good_hash": "ae3cb7e86c56b7872b57a25d2ce346b1d94f8941b419640252759c7d4224b5a0",
+   "group": "g0379",
+   "id": "idiom-0379",
+   "phenomenon": "standard",
+   "row": 379,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cb000b42ad2c7a52ea15cff9c496edb0dea3d645105985cceec515d85c566547",
+   "good_hash": "d1e1e149bdeab9979da25b3634f06c3e3be7ca36e26e20624aab3211c0b89327",
+   "group": "g0380",
+   "id": "idiom-0380",
+   "phenomenon": "standard",
+   "row": 380,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b0681931830fd042cfab1d8c3eb5e20fad9ab2dca7f009f06d6d3ca4287b0849",
+   "good_hash": "218c536c66b9bb1d1bae2911853c5d11bf65984c1ef0f9863a9960cbe6b05bb6",
+   "group": "g0381",
+   "id": "idiom-0381",
+   "phenomenon": "standard",
+   "row": 381,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "caad4e89be3bf189d214fb8bffe8fa12c1bebc1970ae84149ee33f527a358140",
+   "good_hash": "448c358a6904db96146af8b72295855fe060411c866723acced4e2ae3bf8ea86",
+   "group": "g0382",
+   "id": "idiom-0382",
+   "phenomenon": "challenge",
+   "row": 382,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4c24d7c7c193fc3bd1efe38e7447a761e402d6f257782c83cacedca69f4c83a1",
+   "good_hash": "179ce83171ced5965a224adfc3da86a6b63fc415de349e2d15a59bc8bf142967",
+   "group": "g0383",
+   "id": "idiom-0383",
+   "phenomenon": "standard",
+   "row": 383,
+   "split": "dev",
+   "tier": 2
+  },
+  {
+   "bad_hash": "f10ab9a276ff9e4228272eaf0cb91bd9e1f4381d55c7c19202d76cb70e667ba2",
+   "good_hash": "45f684aceea6d6221d1c55acd8e9cc64dec72d3ccf248793111ac5a58dbde4a8",
+   "group": "g0384",
+   "id": "idiom-0384",
+   "phenomenon": "standard",
+   "row": 384,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "cbe5cae5da897212f699a5ff6d3ac2e5b02da475709b2d63302a992c15c2a3a1",
+   "good_hash": "4ecb30ecf768914c22b99a2dd91d200cf79437785109e0f6c6daac4eed1ca235",
+   "group": "g0385",
+   "id": "idiom-0385",
+   "phenomenon": "standard",
+   "row": 385,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "678212046c37f50f6e3768cf26dc2f97de86e796b670a44c56610b7a3502508f",
+   "good_hash": "7d5bea010ad2cacb6fb13f137e9c9e38876c00899f6581f2df0820c11cf3cfb2",
+   "group": "g0386",
+   "id": "idiom-0386",
+   "phenomenon": "standard",
+   "row": 386,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "1a890d73fa505e674e5b0d854dfaa4c56353ae81bad97d2a82324069809a7d90",
+   "good_hash": "8f20a7e931a6e1c6d599437f3c30f8e68cebeb388c8349f3de71e4e53e398d4b",
+   "group": "g0387",
+   "id": "idiom-0387",
+   "phenomenon": "standard",
+   "row": 387,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fb7c3eb368989bad16140c5fb820e20ba2f787a76176d231abe6b329f8c24e91",
+   "good_hash": "f495c73826c32146c6ebe99f618d941f2f11e8e5a7730c41d479eef1c51a7608",
+   "group": "g0388",
+   "id": "idiom-0388",
+   "phenomenon": "standard",
+   "row": 388,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c09cfe6ac9821a5c2cf496019b058a8d886685f67307c15e60fc95bdb4cfea1e",
+   "good_hash": "d3c77e9a1004ca2df8940df5f58e377442379422a7ddb7d524bdc07522aeaadd",
+   "group": "g0389",
+   "id": "idiom-0389",
+   "phenomenon": "standard",
+   "row": 389,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "665fd4d07e2eb588ff42fded7fa373360ed296b2b97cb29e90c7686343ad90a9",
+   "good_hash": "ec7248a1d1b51dd1777f175d6ff883efb8ee907cff2eaeacb7e253e897d13c4c",
+   "group": "g0390",
+   "id": "idiom-0390",
+   "phenomenon": "standard",
+   "row": 390,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "82edf0c7c051d304fd17c0a33600d886a79e6bcd534be0c6bfc67a587b6ded9c",
+   "good_hash": "492cf829873b4ea7357abf7cd85557c2f05350b95b1a848e9de0b133ccf16ee0",
+   "group": "g0391",
+   "id": "idiom-0391",
+   "phenomenon": "standard",
+   "row": 391,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "37ada76c8f9d70527658a7bd6ab17c2835ef27137c23e73a1a694e64b999009f",
+   "good_hash": "e5e1ee39d832adf5003a8283b213477839301aed528250cdd2a28b2c88ae35ec",
+   "group": "g0392",
+   "id": "idiom-0392",
+   "phenomenon": "standard",
+   "row": 392,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "d804aecc9ebec4fdc738e77f7b424163452b9fd52d461f0a62c206e6f24db805",
+   "good_hash": "79643b9acba63816b42a2cc23bf67cd317c0908cee67e571011b56706322f236",
+   "group": "g0393",
+   "id": "idiom-0393",
+   "phenomenon": "standard",
+   "row": 393,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e1d2b58338939764541fdf4c0d5c47599c3b56c5124b728c29e0382b0e332d72",
+   "good_hash": "057380f82d45e9469c853bb78755cd4c7278eb8e33c556628076d4d1dfaca41b",
+   "group": "g0394",
+   "id": "idiom-0394",
+   "phenomenon": "standard",
+   "row": 394,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "26ff064455253dbc3b738756015a59613c9a438e2f7fa197eba15c6d7777bacd",
+   "good_hash": "f2f5a6b1a9ec04efd6137e0f5c23847d03f03fb713410d410c02dd90d04dd4b4",
+   "group": "g0395",
+   "id": "idiom-0395",
+   "phenomenon": "standard",
+   "row": 395,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3a9f659d2198d94867a941c7364249fa8d832349b8ecd1a8f50c12246966e308",
+   "good_hash": "bf031b4122f92016e1acb0e8c334fe8d8d140319d980d18b0278b7769ccc1687",
+   "group": "g0396",
+   "id": "idiom-0396",
+   "phenomenon": "standard",
+   "row": 396,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "6a9aebb3fc20fc8a1969c2461c5228afb89496360df12f2d2cc90922a1babe1c",
+   "good_hash": "b38120c4ae404482456a570f994b5acc44013ea325dc8939d0e15120483bd8d1",
+   "group": "g0397",
+   "id": "idiom-0397",
+   "phenomenon": "standard",
+   "row": 397,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "21ceb523c704f5ca552267d6061b70c10ee38b88dbdaa57ff2ca65f97c8b9cd7",
+   "good_hash": "3355e1deb9f24e4b84b852348deab57ccd1bc9417a5cbee27cd95a8596e35162",
+   "group": "g0398",
+   "id": "idiom-0398",
+   "phenomenon": "standard",
+   "row": 398,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7ea54a3acfe0709744c18b980e314c1239d2f530d78b030b055265a8075008c6",
+   "good_hash": "6f5792fac080a0c9b1b543197f08fb1e99bca352bc881be6113e301c359c7bd2",
+   "group": "g0399",
+   "id": "idiom-0399",
+   "phenomenon": "standard",
+   "row": 399,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "af44cec1e1c580441e2c5d150dce147f9588cab8344a820dd36a4f077d5e1ceb",
+   "good_hash": "639372c479df76c9a14d6c57acd14e574a2105666389e32eccd098db65656095",
+   "group": "g0400",
+   "id": "idiom-0400",
+   "phenomenon": "standard",
+   "row": 400,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6136f1c6b498d3d4cef3d9cadd34c9ba5dae87f2f43b67b3e4034b3d7f29ca35",
+   "good_hash": "9f1992839a7a2ade78c1d1535dace0b2e8cdced060e33a09ad98010d947a9dff",
+   "group": "g0401",
+   "id": "idiom-0401",
+   "phenomenon": "standard",
+   "row": 401,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "435e922acb3382608248fe1b54b2a47b6737166766af02d7f5239c5264baf48a",
+   "good_hash": "a3abe5918f4a49536c77550347874a664d9210e16209dabe0024d1b2e2dbf5a0",
+   "group": "g0402",
+   "id": "idiom-0402",
+   "phenomenon": "standard",
+   "row": 402,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "75a27d8a9259ac722861789b824d97e4a20a0abc867887364d8efd7c2b0889b4",
+   "good_hash": "f21295f009c2de3ddeeb4f1d6c6f179fd651927ba88f54e9576458acebf893a9",
+   "group": "g0403",
+   "id": "idiom-0403",
+   "phenomenon": "standard",
+   "row": 403,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "978a13a760f542c4b1b59e12265ec40c79ab63b01637698f23b429aa48090426",
+   "good_hash": "82fe67e127bcc81018b505d36389d15287e0d09f72ad4165497cb48eb8435b66",
+   "group": "g0404",
+   "id": "idiom-0404",
+   "phenomenon": "standard",
+   "row": 404,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "33ed3883e1870e7553647864e367e2db84574df9d85d01ef042a2a8523d7b05a",
+   "good_hash": "a02f70d8030bb69aa15b202b9a0e6f45799a70f83a7be735dce4d8097d7574a8",
+   "group": "g0405",
+   "id": "idiom-0405",
+   "phenomenon": "standard",
+   "row": 405,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "eafe80be4b2c587ba369310a305df119076335b26889fdb9c46bf90eab4332a2",
+   "good_hash": "85767268955120cfded579327098be20a7f0071509b22b2e3c1fb0656f7a0e88",
+   "group": "g0406",
+   "id": "idiom-0406",
+   "phenomenon": "standard",
+   "row": 406,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "ad876f0fe0ca4cc5a28bdfd6a50fabf06491dc255f2f8e405aea86de08e7d0eb",
+   "good_hash": "70107b623963bc8b7a2e70525b2ab80ba6e7f01c5d2691433c6fc2aba02d2e06",
+   "group": "g0407",
+   "id": "idiom-0407",
+   "phenomenon": "standard",
+   "row": 407,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c2bf70e32ab15556716c5d6b95a320d06bb6ba0dc2434126ea180af05100ae5d",
+   "good_hash": "57ec4f7728825e82214470cabc162c1d1ab9457c5a126207912c17ba1e50b83e",
+   "group": "g0408",
+   "id": "idiom-0408",
+   "phenomenon": "standard",
+   "row": 408,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a6fe9fb82b4bf1a4f76995c2499cf945bc52b50a331f183549c59550a231c31b",
+   "good_hash": "5bb25a21fda559ff2bbe067fc7523d3020c8913cb0783a16909219104a575808",
+   "group": "g0409",
+   "id": "idiom-0409",
+   "phenomenon": "standard",
+   "row": 409,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "975b1c2053354ebfdb8898128aab3d1679361716356343aff61eb28514b6af42",
+   "good_hash": "3302b7a39c30526daab03310261c15f2b882ccc3370f77d1305a24e0fc85d657",
+   "group": "g0410",
+   "id": "idiom-0410",
+   "phenomenon": "standard",
+   "row": 410,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2b37d66db08b587002410b36a55cec7850a4ef72b65024085aad1f362b839a1d",
+   "good_hash": "104e6bc618941556e2c5e5bc5e3381a3714089a03a390f6c773d38777c6aebe1",
+   "group": "g0411",
+   "id": "idiom-0411",
+   "phenomenon": "standard",
+   "row": 411,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "75bfd24a7bb1b761a3002795093fcbb42ca47240f506949b90c24b65ced15831",
+   "good_hash": "2ca064396f807e5db8b250e2971c178f6b475612c203fc4f11b7c551d7d6a564",
+   "group": "g0412",
+   "id": "idiom-0412",
+   "phenomenon": "standard",
+   "row": 412,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fbad1a68931c3121529aa709248ac4e67ffaedd206301025aaba58c9568bd42d",
+   "good_hash": "b4e61955d339e9727540e64ea8e7d3b71623710ff6ec8df40c7d4e4a4a1b6d58",
+   "group": "g0413",
+   "id": "idiom-0413",
+   "phenomenon": "standard",
+   "row": 413,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "361d36cf425ae3c22bece2aee258c066777eaf001a1b54f21f4e538064b92271",
+   "good_hash": "ccad2c099e5da6a4e4a23bf79adae4ab1b0f5d4be449dcef5d7f2cd9dd17983d",
+   "group": "g0414",
+   "id": "idiom-0414",
+   "phenomenon": "standard",
+   "row": 414,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9f2e5c33a8dd040995ab9074f3a8d5fa0e31b15f15b2c2801a06a46c4ebf857a",
+   "good_hash": "c514938d425cfb4340b453aae8e9c71eb33f75f5851b8d9f9fd80dbdd143a0a3",
+   "group": "g0415",
+   "id": "idiom-0415",
+   "phenomenon": "standard",
+   "row": 415,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e23e37c2370b2294405a69404def8c230ce41f0ce5384ef269f6f1bf665f25c9",
+   "good_hash": "ef1bbbb11bcc981c8d56b13998b04b4a0808794eb239e1a9c896317b4cbc0ab2",
+   "group": "g0416",
+   "id": "idiom-0416",
+   "phenomenon": "standard",
+   "row": 416,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "9fff0e081add4a88d30e6fb44f5560c0e42ecdc0179745acb44559ff098df65b",
+   "good_hash": "e43dde85a02fa5133ce5e55aeb0b0275100c16f131c86a5bdd09cf178468ed52",
+   "group": "g0417",
+   "id": "idiom-0417",
+   "phenomenon": "standard",
+   "row": 417,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b6664568f8708e3a7f828515cae0742d992322db00e5c5f83e6e6ee4f7f7083c",
+   "good_hash": "1a7eea74875bb8eca411b78c1ccb8ef2b140d7a312c5af6e28d27a9227f38576",
+   "group": "g0418",
+   "id": "idiom-0418",
+   "phenomenon": "standard",
+   "row": 418,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "05a8178c03162568511768630c2f95802a01283993585e0466f12a57aa38ca49",
+   "good_hash": "1ce034c1c7c958fd127b3d99ee2b0557ed62753ef8a3af7484ef502a13b6287b",
+   "group": "g0419",
+   "id": "idiom-0419",
+   "phenomenon": "standard",
+   "row": 419,
+   "split": "dev",
+   "tier": 3
+  },
+  {
+   "bad_hash": "568646693f9aebacfe57edd7fe36668f55a6a431ff4d7836eee716a7c5f17f84",
+   "good_hash": "bd3ccd28c9219d7976d816a0b5ed4b5b9785b4e9650e50df8c36875f1a31d228",
+   "group": "g0420",
+   "id": "idiom-0420",
+   "phenomenon": "standard",
+   "row": 420,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0d172f4e57956862c5d352b45ee7fd8d72c539f65f76ff06f21fb6e26e0c342b",
+   "good_hash": "eed104a59856a2d6bc4dd4470f5e7ec4af5f705cf6f80065590cb0efd4a01be7",
+   "group": "g0421",
+   "id": "idiom-0421",
+   "phenomenon": "standard",
+   "row": 421,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4fdfcab73fcab5c4d1d836a01faafc0ecc6e89d624866b6d94446bd7179bf3d7",
+   "good_hash": "db3459b52cc1dfd76bd4b6b899dd47cb747834f56b8b63f0d76abfae1a105212",
+   "group": "g0422",
+   "id": "idiom-0422",
+   "phenomenon": "standard",
+   "row": 422,
+   "split": "dev",
+   "tier": 1
+  },
+  {
+   "bad_hash": "98aa386d812d92b4500657ad8c4bbd5b095dce2289fd4f0025532f04a3fcd327",
+   "good_hash": "a91e8ef2f19e756b9784cc95163c5125fe9ce7accd74f0cab53a31d185c63e83",
+   "group": "g0423",
+   "id": "idiom-0423",
+   "phenomenon": "standard",
+   "row": 423,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0d60274a75c91a65c61c22b090836e763c38a68ea2de60fadac62e7e1a5b5940",
+   "good_hash": "792fda88442fe9d7462df8ee4c74b0585217989b1aa3a4b511cc5c35fc8b716c",
+   "group": "g0424",
+   "id": "idiom-0424",
+   "phenomenon": "standard",
+   "row": 424,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0c712e612880bc39eeccff16bba1c66066d49a945d45d14bdd2994382845f576",
+   "good_hash": "a4f477291a19c8033895821e84ac5f1229358937e0a1e49c629beda1cbf7d8d2",
+   "group": "g0425",
+   "id": "idiom-0425",
+   "phenomenon": "standard",
+   "row": 425,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "51d3542f9b28cd7a7be9af80200a29652cb7f72be6015a6ba584b5854817173c",
+   "good_hash": "f9948617063dc5bf7cb4564b57a9ff511710f4fd427607102c3faf45c6162c89",
+   "group": "g0426",
+   "id": "idiom-0426",
+   "phenomenon": "standard",
+   "row": 426,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f7889a0e21be436a805b67023e6b8c51ee887418c6130a5a925d891845bdf128",
+   "good_hash": "c7da78f16ecdd04ff480bf530720e35466f478e10a08be6813e6fc620687c49c",
+   "group": "g0427",
+   "id": "idiom-0427",
+   "phenomenon": "challenge",
+   "row": 427,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c12a6e819b429c49a8f174a1e22ee8283d3f0670b5630c5668ac64592db15479",
+   "good_hash": "5c83678e2f81e594445106e1ace6e83496d59c5166787d1e394fa9ab3c175bf0",
+   "group": "g0428",
+   "id": "idiom-0428",
+   "phenomenon": "standard",
+   "row": 428,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c8187140ac8842f0f7665572b2e189b9b452052f37697629373be88ab8cc2445",
+   "good_hash": "934abd54ec3606251378b4ef5f69709ee74cabb1bb4c04f97a5b2f3aa954448d",
+   "group": "g0429",
+   "id": "idiom-0429",
+   "phenomenon": "standard",
+   "row": 429,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "50d70ec6578ba7b9e30ac6a060a3abee2c9ecd4bc377243e5c43716800a58336",
+   "good_hash": "060bf28d0a8564e59b4faec3641cde52db26b7330de673b125978eec60450c61",
+   "group": "g0430",
+   "id": "idiom-0430",
+   "phenomenon": "standard",
+   "row": 430,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5613798e9e0b58ad48e8ed829aa6aaa0b8f5b8f1a83501de6eaf5bc9ad94d34e",
+   "good_hash": "9623cf5f31505f3c27952c59267a73d9690fa99ae1c51eabf7e2e147d44fc07f",
+   "group": "g0431",
+   "id": "idiom-0431",
+   "phenomenon": "standard",
+   "row": 431,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "937d2c4abf744e8cf968001efe182cae2b6388b700bdea8a5afe8f6867f97812",
+   "good_hash": "6075439ae066b0e66f01a15ccae8c49d637a62b3ec9c78505f3d7c400741f7b2",
+   "group": "g0432",
+   "id": "idiom-0432",
+   "phenomenon": "standard",
+   "row": 432,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8ac4d613ca426a17e05e3ba639968c882c5c894859c0f46bf7713be1a9f37f1d",
+   "good_hash": "3dfde8f13cb304f08fe89a910c4edc2ef6ff195873491829d1becfe7e34cfd4a",
+   "group": "g0433",
+   "id": "idiom-0433",
+   "phenomenon": "standard",
+   "row": 433,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "20719376715a2136a8f3003809ab3e200a2c351161546f952c044633a6aee415",
+   "good_hash": "837496a452e59fad1e11f699832589e01c34ad5dac8f2f661152d944b37322aa",
+   "group": "g0434",
+   "id": "idiom-0434",
+   "phenomenon": "standard",
+   "row": 434,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "212036a8706e6ad6d2885e74f26946f48541ec98610e2d4682d989f71cece7c8",
+   "good_hash": "9acf3fd8d943c60514b707f638bb1d7a695a93fed4877b4cea374f50a0ab6757",
+   "group": "g0435",
+   "id": "idiom-0435",
+   "phenomenon": "standard",
+   "row": 435,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c87ab79044ba10a5b006c9508d77eb1f4a1a83569d22dacbb98598e97d4f5583",
+   "good_hash": "02b3e08168a1ac91d20f891d6166e7ab845eec5cf8573d0552795446142f00b6",
+   "group": "g0436",
+   "id": "idiom-0436",
+   "phenomenon": "standard",
+   "row": 436,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "bc0a22222f96d4470027fb1d4cac36ff6d0b14b829d3249aa8959a3205d51525",
+   "good_hash": "beac1903c54d382aa5de591d8da3eabed84eb37a832e736dbd7a9a43852bcc1b",
+   "group": "g0437",
+   "id": "idiom-0437",
+   "phenomenon": "standard",
+   "row": 437,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "2a088567a22b0afaaac93da1694291e01b6de4b7d1440df9dac8144eef71bff5",
+   "good_hash": "b01cdb67b7884577cb4d298dca761a3f8fc4c22a522c6dea64ec841906cebcdd",
+   "group": "g0438",
+   "id": "idiom-0438",
+   "phenomenon": "standard",
+   "row": 438,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "fcb60033c853dc9f1942dc5ccbab3a6d7f002195ea3cd9fb35d53da8fd5d74e2",
+   "good_hash": "b47c8da82b936f27b75041912152c9b71bb20675feaae5533e623c28858d1681",
+   "group": "g0439",
+   "id": "idiom-0439",
+   "phenomenon": "standard",
+   "row": 439,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "836195c5d6bde2063adcbdfc9c89b33a3b54ee4fbc63de2bfad0be09308a6be4",
+   "good_hash": "1fb674f355f539926163292f56eb71a3dfb02edb5bac4b7385f906072dc311e9",
+   "group": "g0440",
+   "id": "idiom-0440",
+   "phenomenon": "challenge",
+   "row": 440,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "19d6ae0656a5f322710137e3513ae4e910677831eee0635b5899e26bd1bf5caa",
+   "good_hash": "e0f06294753e775c66cd17e97693d2cff839a9bc5129954dd69ee75db13cb2dc",
+   "group": "g0441",
+   "id": "idiom-0441",
+   "phenomenon": "standard",
+   "row": 441,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ddf77ae6b3e48ff6c674dd4c09fae1ce4821031c64c9a2a17641c0e3c43362a6",
+   "good_hash": "9ef66db4e12bc2e3f3dca3540af2ebb0db84d24265d164affc0e8ea9d02d4072",
+   "group": "g0442",
+   "id": "idiom-0442",
+   "phenomenon": "standard",
+   "row": 442,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "e3273f559bb99eb24c289656a013c0c1d249c93a6597a78fa7dfae83ea2fd65c",
+   "good_hash": "22da762b40aa834667ce037dd18c6f6fa4f6a681a0d53a2d3c570a1f50e16ea7",
+   "group": "g0443",
+   "id": "idiom-0443",
+   "phenomenon": "standard",
+   "row": 443,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3b798da36188e4368f36a5bf5b8c62992029c55e6abe0b2abefd8f7e995cf0d4",
+   "good_hash": "15adb1fd8816c68b8f32b3d0225cd496d0b51953229f31fe7028b1830d0cefd9",
+   "group": "g0444",
+   "id": "idiom-0444",
+   "phenomenon": "standard",
+   "row": 444,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "014d5466ce134197a2311ce6edb51d6439105abcc26eb3c52584488196e418a2",
+   "good_hash": "4e05fbc057ecabde54897bdf11cc13328191cc2ce6b011439768f62d421f5ae0",
+   "group": "g0445",
+   "id": "idiom-0445",
+   "phenomenon": "standard",
+   "row": 445,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a70bc282bad16269e616f39ca44cf1feb00c65ac252f7d6f67f1f935fa472fc4",
+   "good_hash": "7ed59bfe5ecbc01b4cf05ef3b2cc88f1dca69edb03d7525ad4569beadf02bfe1",
+   "group": "g0446",
+   "id": "idiom-0446",
+   "phenomenon": "standard",
+   "row": 446,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "17afcd12d743c9dcbf864df0be90f41402d66b6aeffc583e09e3e64ae1b07309",
+   "good_hash": "87e5595632ae3e6e9484b33ab7501feab6c26535f0b0168329d8c2a307ea0d2c",
+   "group": "g0447",
+   "id": "idiom-0447",
+   "phenomenon": "standard",
+   "row": 447,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3ed5f5d8b37c7c1874018992225056927c65929ba376794eea048eadadc18770",
+   "good_hash": "b1faeaed43497621cd4e3d36e3a3c2febe21a8eacdd7eb30bfc94dc293db29d5",
+   "group": "g0448",
+   "id": "idiom-0448",
+   "phenomenon": "standard",
+   "row": 448,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "0eee282cb6f7bf9c4feb54eb842f991cc5fd0973a620a908fcb38c6dbb42bde1",
+   "good_hash": "e1ce9caa85b55245b9b263c30c57da593c856c27e89fc401ef7d42aed41a5be3",
+   "group": "g0449",
+   "id": "idiom-0449",
+   "phenomenon": "standard",
+   "row": 449,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "976ec73b6febf365f788d98eab5d02f3963b4d5454eb4750ebd69b4f5f37f87e",
+   "good_hash": "b7ce3c789fa8763460143c6312cfd86084fa2d66b93bb5f918dfceade309eeef",
+   "group": "g0450",
+   "id": "idiom-0450",
+   "phenomenon": "standard",
+   "row": 450,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "6e7d2e6ea1ca052c3a5204f3977e84c70fd54b22746f4e7745e4723625087daa",
+   "good_hash": "efa48cebe4fc3167b253908a98d1b5ebda4384555672f49bed96788b63f3bd37",
+   "group": "g0451",
+   "id": "idiom-0451",
+   "phenomenon": "standard",
+   "row": 451,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "8480f5a235389370524ae883f555e515a7d126ab0e74e0725f843917c67b706e",
+   "good_hash": "131d2bea587697414d30be6d1dcb8c01e7a6b2b84fd703d5bf634c11d210658a",
+   "group": "g0452",
+   "id": "idiom-0452",
+   "phenomenon": "challenge",
+   "row": 452,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "038ab5a412b59c2dce8e271d10f4014bdd1fb195506addd44aa8ca9a78131fae",
+   "good_hash": "ff5e59febd839086d612c38e4d554e963829b58d138f3489eaaf97641ad058c2",
+   "group": "g0453",
+   "id": "idiom-0453",
+   "phenomenon": "challenge",
+   "row": 453,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "53247ebfbccd4b9435f9c8a976e196a1839a2c6c0e2a418632055f75c6ad3268",
+   "good_hash": "795c2f5b192248ebc7fffe6794c69abc0fa5032a01a14840cb99dcc12d8da4db",
+   "group": "g0454",
+   "id": "idiom-0454",
+   "phenomenon": "standard",
+   "row": 454,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a7b652af9ef05c9e490df10840a99d20ca7ec828a643052af3f246c701e48935",
+   "good_hash": "0b77dd4817a974399e0bde0a446c014200c0b2e46ba318bce27bbdb5b2079399",
+   "group": "g0455",
+   "id": "idiom-0455",
+   "phenomenon": "standard",
+   "row": 455,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "17256083e00acc8554627dd2b03be94ab168dde5f2edc030c7c134f409078642",
+   "good_hash": "132058b994466242b275496be406eebd01d1bf70c97dfe028627c06bf04afa76",
+   "group": "g0456",
+   "id": "idiom-0456",
+   "phenomenon": "standard",
+   "row": 456,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "5e639e1d6d6637086c925213e2cffa74e5abc4b66692d8485bf2d2f69834d9ff",
+   "good_hash": "440be39f6ef8673068489fdfbc4970f370d84b4cb5967ceeed94a56b34c924e6",
+   "group": "g0457",
+   "id": "idiom-0457",
+   "phenomenon": "standard",
+   "row": 457,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "47c7b73a25edadcd54744db9cd21fee92dc7f8620c04c478fb34fcf742713738",
+   "good_hash": "57c3c9f0076fd9fcc256b355c53d89163d9f3581813422341efc1a7890193ce0",
+   "group": "g0458",
+   "id": "idiom-0458",
+   "phenomenon": "standard",
+   "row": 458,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "945cc4c7281718d451a41f0745a61bc331d3b58467fba24c1f9bd6db0809cdeb",
+   "good_hash": "af494ae03af2af39ac5db7307ad684c1ff8c1b232fa265310306432297dc97b2",
+   "group": "g0459",
+   "id": "idiom-0459",
+   "phenomenon": "standard",
+   "row": 459,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4e691718a5d0a2c4d9276ce06a5ac45522308d7bc75dc9280348f1355a77a390",
+   "good_hash": "7bd66f806cdb2fdcd1b85377a4cc2cfe37a0b96667c346f6626cee997fd0d019",
+   "group": "g0460",
+   "id": "idiom-0460",
+   "phenomenon": "standard",
+   "row": 460,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "7f70ccf62db561741efc03557347a279549d6e542329087827aee6fec21addd3",
+   "good_hash": "0724cda7d3412484252fc7d88575155fa12962e29c4cf27084d7111fc95bfe3b",
+   "group": "g0461",
+   "id": "idiom-0461",
+   "phenomenon": "standard",
+   "row": 461,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "f5cf98e94004cc751f05ddb5db612d5e6acc3d67065e013b9e263d8a483b6932",
+   "good_hash": "e525c070af331bb6760ed306d0db9d490da880e2ac91642d5efde26af41cb4a0",
+   "group": "g0462",
+   "id": "idiom-0462",
+   "phenomenon": "standard",
+   "row": 462,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "69c09c0083db9abd0a7049e694deb61cef42319ea81ec35a8b8a0d190449044d",
+   "good_hash": "95d5c24dd2dcc70817010aa4a00ef72994affbc2db67c713bf953f0d321f3146",
+   "group": "g0463",
+   "id": "idiom-0463",
+   "phenomenon": "standard",
+   "row": 463,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b7d4f1a9fcdc0c1c7cdb073b501175969fdf58c2f8aceea5006ac790c80e2b48",
+   "good_hash": "6ee9f3b5cb0c13a95d3346589bb65d2b5a4d4e42cc3b0504e5ca243f99465ae3",
+   "group": "g0464",
+   "id": "idiom-0464",
+   "phenomenon": "challenge",
+   "row": 464,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4cfc41de524f120f90a7dc031784bd5508432f5da5c9d60d5e2bf2c76ea0c301",
+   "good_hash": "1ea60b6739590c29de1d12e40c8c6a6fa6b5f275c6f73f9dc99b20c68feb6cd7",
+   "group": "g0465",
+   "id": "idiom-0465",
+   "phenomenon": "standard",
+   "row": 465,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3b0873b7e6aed1f343cf949ec2725333fe9116be2ddf4c2eb32acfa7a56ea451",
+   "good_hash": "6011d9bfaea686977e5eb3e017a5f84c7ebeac4fc8fc95c68f2a87628c166b6e",
+   "group": "g0466",
+   "id": "idiom-0466",
+   "phenomenon": "standard",
+   "row": 466,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "3f9c9b99a20385718b81678ca5f18c791b31b977ec1eae4db99247e2952682c4",
+   "good_hash": "007e05d973ffecc5605d672f4d7f4b5c046b05a28fc58fcec798db4a0fcf3691",
+   "group": "g0467",
+   "id": "idiom-0467",
+   "phenomenon": "standard",
+   "row": 467,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "03ffbd8a27c9c49f9c66bf1c844a0bd6a3bd8ac30f3fb5c6de8e3820d7e38ffa",
+   "good_hash": "eca62d7a016d857198daa38a15ea181688c909bf059680d46e4ccbf16568dec1",
+   "group": "g0468",
+   "id": "idiom-0468",
+   "phenomenon": "standard",
+   "row": 468,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a1443cd465eab1adffa7cf170e3a9eb585db6c5717dbb45a59c770bba8f853cb",
+   "good_hash": "40c9ff64fb2e29cda1fa14a67244c59e18b0f6f460a2f6e7ae9c95eaa60a3c6e",
+   "group": "g0469",
+   "id": "idiom-0469",
+   "phenomenon": "standard",
+   "row": 469,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "c568ec33c5edeb76541fb0e98805865a479ead307ef788e73db06f52dfe9036a",
+   "good_hash": "0a230170df2017bc843ca8797b34a93958a2eda07e8be7d6ab1018781371b102",
+   "group": "g0470",
+   "id": "idiom-0470",
+   "phenomenon": "standard",
+   "row": 470,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "4bf45febe80bbb85dab8cb821b0ded8f11b3cf3ef05a002e37b61a5a445682c9",
+   "good_hash": "0c6b9580e7420604e43b73f9286fac3be51e2ba6ff0e6dc09eeafae88f086a10",
+   "group": "g0471",
+   "id": "idiom-0471",
+   "phenomenon": "standard",
+   "row": 471,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "b29d1ec2089d310ab783c5c755dd9375b7e3d5f516087714c193ff3cd3671c27",
+   "good_hash": "eaa78bd05318284cb14401752d41ddee13cd07f4fa75a01295657938ed6af95c",
+   "group": "g0472",
+   "id": "idiom-0472",
+   "phenomenon": "challenge",
+   "row": 472,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "50ab2f7061984e893dcb5c9a0237eeafaddfe9bc5b8c0b1b4aceb48570bdae81",
+   "good_hash": "44e6bdf21750dbf853f623673335574aecb1af52c7a0e7b5d58dd3a3271b7655",
+   "group": "g0473",
+   "id": "idiom-0473",
+   "phenomenon": "standard",
+   "row": 473,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "98aa65f63af573d7a02fc1d68be4d5b1a86bed62c433bdec48bf7c9e4f7632d8",
+   "good_hash": "8747e217e0b9c65420b6fc1fe82bee5e52187f9e0d0a01d45e3b237ddf20e6d1",
+   "group": "g0474",
+   "id": "idiom-0474",
+   "phenomenon": "standard",
+   "row": 474,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "ca05814363d61c5209ac1ca69f38742626ba5ec5f8d246cb31c96df8cc2d5caf",
+   "good_hash": "3d8eb353fa1931a4b51cae4ba92cb249e529300a61320f9ea6fc2d2b68e6c422",
+   "group": "g0475",
+   "id": "idiom-0475",
+   "phenomenon": "standard",
+   "row": 475,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "51c00815d08f07fb21c9a0a9f4dd91c82b08431c76c28cb142b4f24cf293398e",
+   "good_hash": "dfdc74d0291bb832d162afeb34f368a50ebcb448bb3f0ab2df4e70b8d2a3083b",
+   "group": "g0476",
+   "id": "idiom-0476",
+   "phenomenon": "standard",
+   "row": 476,
+   "split": "test",
+   "tier": null
+  },
+  {
+   "bad_hash": "a0ae21bbf97e103e3376ff7640fcb3190029eebc68ae21ba89b27688e001fa63",
+   "good_hash": "c6b81d45ab1747edf29710ba50fcf8c15d16be10da99734396771d83683d3d1c",
+   "group": "g0477",
+   "id": "idiom-0477",
+   "phenomenon": "standard",
+   "row": 477,
+   "split": "test",
+   "tier": null
+  }
+ ],
+ "note": "Publisher split name is \"train\"; in this project all rows are evaluation rows: dev tiers or test.",
+ "seed": 42,
+ "source": {
+  "file": "data/idioms.parquet",
+  "id": "liu-nlp/swedish-idioms",
+  "license": "apache-2.0",
+  "revision": "3d33f55db6c45a82a6a237f3cbee6490af08327d",
+  "sha256": {
+   "data/idioms.parquet": "9ba03eddbc1fc17ac110fcfe90c4eaa80f485de0df953113a762268f97276bb5"
+  }
+ },
+ "split_code_sha256": "4edb6cd7dda582c43dcca9c167a36b6f73af3708ec8c6871235296733f2a5318",
+ "tier_sizes": {
+  "belebele": {
+   "1": 10,
+   "2": 20,
+   "3": 40
+  },
+  "scala": {
+   "1": 8,
+   "2": 16,
+   "3": 32
+  },
+  "swe_blimp": {
+   "1": 26,
+   "2": 52,
+   "3": 104
+  },
+  "swedish_idioms": {
+   "1": 12,
+   "2": 24,
+   "3": 48
+  }
+ }
+}

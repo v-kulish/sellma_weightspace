@@ -1,0 +1,12 @@
+{
+ "accounting": {
+  "forward_calls": 4381,
+  "forward_seconds": 2841.428,
+  "generated_tokens": 2304,
+  "input_tokens": 782475,
+  "sequences": 14999
+ },
+ "peak_gb": 51.953911296,
+ "seconds": 2856.8675509780005,
+ "utc": "2026-11-19T11:58:45.131432+00:00"
+}

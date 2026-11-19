@@ -1,0 +1,36 @@
+{
+ "attention": "sdpa",
+ "bos": 2,
+ "class_": "Gemma4UnifiedForConditionalGeneration",
+ "cuda": "13.0",
+ "dtype": "float32 weights and compute (BF16 checkpoint values upcast exactly)",
+ "eos": 1,
+ "execution": "eager, no torch.compile",
+ "gpu": "NVIDIA GB10",
+ "load_seconds": 5.312459459993988,
+ "mlp_shapes": {
+  "down_proj": [
+   3840,
+   15360
+  ],
+  "gate_proj": [
+   15360,
+   3840
+  ],
+  "up_proj": [
+   15360,
+   3840
+  ]
+ },
+ "model_revision": "43c9d014b231474fa7212dbb48a762566c2b255d",
+ "n_layers": 48,
+ "pad": 0,
+ "parameters": 11959730176,
+ "platform": "Linux-6.17.0-1032-nvidia-aarch64-with-glibc2.39",
+ "python": "3.12.3",
+ "text_parameters": 11907350272,
+ "tf32": false,
+ "torch": "2.14.0+cu130",
+ "transformers": "5.23.0",
+ "utc": "2026-11-19T11:11:08.260312+00:00"
+}
